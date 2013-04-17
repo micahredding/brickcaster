@@ -1,0 +1,15 @@
+<h1 class="podcast-name">
+  <%= @podcast.title %>
+</h1>
+
+<%= render 'sidebar' %>
+
+<div class="podcast-body">
+  <%= @podcast.body %>
+</div>
+
+<div class="podcast-episodes">
+  <%= render 'episodes' %>
+</div>
+
+<%= link_to 'Back', podcasts_path %>

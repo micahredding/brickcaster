@@ -1,0 +1,22 @@
+<% @episodes = @podcast.episodes %>
+
+<table>
+  <tr>
+    <th>#</th>
+    <th>Title</th>
+    <th>Shownotes</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @episodes.each do |episode| %>
+  <tr>
+    <td><%= link_to episode.episode_number.to_s.rjust(2, '0'), episode %></td>
+    <td><%= link_to episode.title, episode %></td>
+    <td><%= episode.body %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />

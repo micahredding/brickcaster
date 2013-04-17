@@ -1,0 +1,29 @@
+<h1>
+  <%= @episode.title %>
+</h1>
+
+<p>
+  Episode <%= @episode.episode_number %>
+</p>
+
+<p>
+  <audio controls="controls">
+    <source src="<%= @episode.media_url %>" type="audio/mpeg">
+    <source src="<%= @episode.media_url %>" type="audio/mp3">Your browser does not support HTML5 audio.
+  </audio><br />
+  <%= link_to '(download)', @episode.media_url %>
+</p>
+
+<p>
+  <b>Shownotes:</b><br />
+  <%= @episode.body %>
+</p>
+
+<p>
+  <b>Podcast:</b>
+  <%= link_to @podcast.title, '/' + @podcast.shortname %>
+</p>
+
+
+<%= link_to 'Edit', edit_episode_path(@episode) %> |
+<%= link_to 'Back', '/' + @podcast.shortname %>
