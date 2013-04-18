@@ -5,8 +5,8 @@ PodcastNetwork::Application.routes.draw do
 
   resources :podcasts
 
-  # match ':podcast_shortname' => 'viewer#podcast'
-  # match ':podcast_shortname/:episode_number' => 'viewer#episode'
+  match ':podcast_shortname' => 'viewer#podcast'
+  match ':podcast_shortname/:episode_number' => 'viewer#episode'
 
   root :to => 'viewer#index'
 
