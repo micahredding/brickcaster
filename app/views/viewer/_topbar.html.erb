@@ -1,0 +1,8 @@
+<div class="podcast-topbar">
+  <img src="<%= @podcast.art_url %>" />
+
+  <div class="podcast-links">
+    <%= raw(BlueCloth.new(@podcast.links).to_html) %>
+    <%= link_to 'RSS', "#{podcast_path(@podcast)}.rss" %>
+  </div>
+</div>
