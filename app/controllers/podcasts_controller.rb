@@ -1,6 +1,6 @@
 class PodcastsController < ApplicationController
 
-  before_filter :authenticate_user!
+  before_filter :authenticate_admin!, :except => [:show, :index] 
 
   # GET /podcasts
   # GET /podcasts.json
@@ -16,7 +16,11 @@ class PodcastsController < ApplicationController
   # GET /podcasts/1
   # GET /podcasts/1.json
   def show
-    @podcast = Podcast.find(params[:id])
+    if params[:id]
+      @podcast = Podcast.find(params[:id])
+    elsif params[:podcast_shortname]
+      @podcast = Podcast.where(:shortname => params[:podcast_shortname]).first
+    end
 
     respond_to do |format|
       format.html # show.html.erb

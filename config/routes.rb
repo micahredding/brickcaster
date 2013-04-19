@@ -1,12 +1,12 @@
 PodcastNetwork::Application.routes.draw do
+  devise_for :admins
   devise_for :users
 
   resources :episodes
-
   resources :podcasts
 
-  match ':podcast_shortname' => 'viewer#podcast'
-  match ':podcast_shortname/:episode_number' => 'viewer#episode'
+  match ':podcast_shortname' => 'podcasts#show'
+  match ':podcast_shortname/:episode_number' => 'episodes#show'
 
   root :to => 'viewer#index'
 

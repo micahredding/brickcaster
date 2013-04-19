@@ -1,8 +1,10 @@
-<h1 class="podcast-name">
+<div class="podcast-topbar">
+  <%= render 'sidebar' %>
+</div>
+
+<h1 class="podcast-title">
   <%= @podcast.title %>
 </h1>
-
-<%= render 'topbar' %>
 
 <div class="podcast-body">
   <%= @podcast.body %>

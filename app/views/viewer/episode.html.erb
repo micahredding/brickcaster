@@ -1,12 +1,9 @@
-<div class="podcast-name">
-  <%= @podcast.title %>
-</div>
+<%= render 'sidebar' %>
 
-<h1>
+<h1 class="episode-title">
+  Episode <%= @episode.episode_number %><br />
   <%= @episode.title %>
 </h1>
-
-<%= render 'sidebar' %>
 
 <p>
   <audio controls="controls">

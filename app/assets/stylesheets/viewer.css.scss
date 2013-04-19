@@ -28,11 +28,15 @@ header {
   }
 }
 .page-title,
-.podcast-name {
+.episode-title,
+.podcast-title {
   font-size: 48px;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1em;
   font-weight: bold;
+}
+.podcast-body {
+  margin:1em 1em 2.5em 1em;
 }
 .podcast-links {  
   a {
@@ -42,17 +46,13 @@ header {
       color:#000000;
     }
 
-    display: inline-block;
-    width: 20em;
-    height:1em;
-    padding:15px;
+    display: block;
+    line-height: 1.5em;
   }
 }
-.podcast-topbar {
-  img {
-    float:left;
-    margin-right: 20px;
-  }
+.podcast-episodes {
+  margin:20px 0;
+  float:none;
 }
 .podcast-sidebar {
   float:left;
@@ -64,11 +64,6 @@ header {
       color: #999;
     }
   }
-}
-.podcast-body {
-}
-.podcast-episodes {
-  margin:20px 0;
 }
 .podcast-teaser {
   clear:both;

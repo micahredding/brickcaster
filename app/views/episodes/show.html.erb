@@ -1,10 +1,9 @@
-<h1>
+<%= render 'sidebar' %>
+
+<h1 class="episode-title">
+  Episode <%= @episode.episode_number %><br />
   <%= @episode.title %>
 </h1>
-
-<p>
-  Episode <%= @episode.episode_number %>
-</p>
 
 <p>
   <audio controls="controls">
@@ -15,15 +14,9 @@
 </p>
 
 <p>
-  <b>Shownotes:</b><br />
+  <b>Episode <%= @episode.episode_number %> Shownotes:</b><br />
   <%= @episode.body %>
 </p>
-
-<p>
-  <b>Podcast:</b>
-  <%= link_to @podcast.title, '/' + @podcast.shortname %>
-</p>
-
 
 <%= link_to 'Edit', edit_episode_path(@episode) %> |
 <%= link_to 'Back', '/' + @podcast.shortname %>
