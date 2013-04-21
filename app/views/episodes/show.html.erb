@@ -1,22 +1,21 @@
 <%= render 'sidebar' %>
 
+<div class="episode-wrapper">
+
 <h1 class="episode-title">
-  Episode <%= @episode.episode_number %><br />
+  Ep <%= @episode.episode_number %>:<br />
   <%= @episode.title %>
 </h1>
-
-<p>
-  <audio controls="controls">
-    <source src="<%= @episode.media_url %>" type="audio/mpeg">
-    <source src="<%= @episode.media_url %>" type="audio/mp3">Your browser does not support HTML5 audio.
-  </audio><br />
-  <%= link_to '(download)', @episode.media_url %>
-</p>
+<br />
+<audio controls="controls">
+  <source src="<%= @episode.media_url %>" type="audio/mpeg">
+  <source src="<%= @episode.media_url %>" type="audio/mp3">Your browser does not support HTML5 audio.
+</audio><br />
+<%= link_to '(download)', @episode.media_url %>
 
 <p>
   <b>Episode <%= @episode.episode_number %> Shownotes:</b><br />
-  <%= @episode.body %>
+  <%= raw BlueCloth.new(@episode.body).to_html %>
 </p>
 
-<%= link_to 'Edit', edit_episode_path(@episode) %> |
-<%= link_to 'Back', '/' + @podcast.shortname %>
+</div>

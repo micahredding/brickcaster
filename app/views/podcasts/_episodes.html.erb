@@ -1,8 +1,8 @@
 <% @episodes = @podcast.episodes %>
 <h4>Episodes</h4>
-<% @episodes.each do |episode| %>
-  <%= link_to episode.episode_number.to_s.rjust(2, '0') + ' ' + episode.title, episode.podcast.shortname + '/' + episode.episode_number.to_s %>
-  <%= episode.body %>
+<% if @episodes %>
+  <% @episodes.each do |episode| %>
+    <%= link_to episode.episode_number.to_s.rjust(2, '0') + '. ' + episode.title, '/' + @podcast.shortname + '/' + episode.episode_number.to_s %>
+  <% end %>
 <% end %>
-
 <br />

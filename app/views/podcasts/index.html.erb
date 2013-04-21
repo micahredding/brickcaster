@@ -1,29 +1,9 @@
-<h1>Listing podcasts</h1>
-
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Body</th>
-    <th>Links</th>
-    <th>Art url</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
 <% @podcasts.each do |podcast| %>
-  <tr>
-    <td><%= podcast.title %></td>
-    <td><%= podcast.body %></td>
-    <td><%= podcast.links %></td>
-    <td><%= podcast.art_url %></td>
-    <td><%= link_to 'Show', podcast %></td>
-    <td><%= link_to 'Edit', edit_podcast_path(podcast) %></td>
-    <td><%= link_to 'Destroy', podcast, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
+<div class="podcast-teaser">
+  <img src="<%= podcast.art_url %>" />
+  <h2 class="podcast-title"><%= link_to podcast.title, '/' + podcast.shortname %></h2>
+  <%= link_to 'Destroy', podcast, method: :delete, data: { confirm: 'Are you sure?' } %>  
+  <%= podcast.body %><br /><br />
+  <br />
+</div>
 <% end %>
-</table>
-
-<br />
-
-<%= link_to 'New Podcast', new_podcast_path %>

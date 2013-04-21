@@ -5,10 +5,16 @@ PodcastNetwork::Application.routes.draw do
   resources :episodes
   resources :podcasts
 
-  match ':podcast_shortname' => 'podcasts#show'
-  match ':podcast_shortname/:episode_number' => 'episodes#show'
+  match ':podcast_shortname/edit', :to => 'podcasts#edit', :as => 'podcast_edit'
+  match ':podcast_shortname/:episode_number/edit', :to => 'episodes#edit', :as => 'episode_edit'
 
-  root :to => 'viewer#index'
+  match ':podcast_shortname', :to => 'podcasts#show', :as => 'podcast_show'
+  match ':podcast_shortname/:episode_number', :to => 'episodes#show', :as => 'episode_show'
+
+  root :to => 'podcasts#index'
+
+  # match 'logout', :to => 'sessions#destroy', :as => "logout"
+
 
   # match ':podcast_shortname' => 'podcasts#show'
   # match ':podcast_shortname/:episode_number' => 'episodes#show'

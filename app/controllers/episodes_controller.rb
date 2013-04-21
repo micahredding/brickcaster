@@ -43,7 +43,13 @@ class EpisodesController < ApplicationController
 
   # GET /episodes/1/edit
   def edit
-    @episode = Episode.find(params[:id])
+    if params[:id]
+      @episode = Episode.find(params[:id])
+      @podcast = @episode.podcast
+    elsif params[:podcast_shortname]
+      @podcast = Podcast.where(:shortname => params[:podcast_shortname]).first
+      @episode = Episode.where(:podcast_id => @podcast.id, :episode_number => params[:episode_number]).first
+    end
   end
 
   # POST /episodes
