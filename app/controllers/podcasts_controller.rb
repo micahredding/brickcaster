@@ -22,6 +22,10 @@ class PodcastsController < ApplicationController
       @podcast = Podcast.where(:shortname => params[:podcast_shortname]).first
     end
 
+    if not @podcast 
+      redirect_to podcasts_path and return
+    end
+
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @podcast }

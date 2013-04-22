@@ -24,6 +24,14 @@ class EpisodesController < ApplicationController
       @episode = Episode.where(:podcast_id => @podcast.id, :episode_number => params[:episode_number]).first
     end
 
+    if not @podcast 
+      redirect_to podcasts_path and return
+    end
+
+    if not @episode 
+      redirect_to podcast_show_path and return
+    end
+
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @episode }
