@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Broadcast From The Singularity</title>
+    <link>http://localhost:3000/singularity</link>
+    <itunes_subtitle>Micah, Ryan, John Yates, and friends discuss wild-eyed ideas about the future.</itunes_subtitle>
+    <description>Micah, Ryan, John Yates, and friends discuss wild-eyed ideas about the future.</description>
+    <itunes_summary>Micah, Ryan, John Yates, and friends discuss wild-eyed ideas about the future.</itunes_summary>
+    <language>en-us</language>
+    <copyright>&amp;#169; 2013 Micah Redding</copyright>
+    <itunes_author>Micah Redding, Ryan Hogan, John Yates</itunes_author>
+    <itunes_owner>
+      <itunes_name>Micah Redding</itunes_name>
+      <itunes_email>micahtredding@gmail.com</itunes_email>
+    </itunes_owner>
+    <itunes_image>http://brickcaster.com/sites/default/files/styles/medium/public/podimages/broadcast_from_the_singularity_instagram.jpg</itunes_image>
+    <itunes_category>
+      <itunes_category text="Category 2"/>
+    </itunes_category>
+    <item>
+      <title>Derek Webb &amp; the AI, part 2</title>
+      <itunes_author>Micah Redding, Ryan Hogan, John Yates</itunes_author>
+      <itunes_subtitle>In the second part of our interview, Derek Webb talks about how to approach the oncoming future with values and practicality, as well as going into the problems with laws, the Amish, hippies, Kevin Kelly, and the iPhone 13.
+
+...</itunes_subtitle>
+      <description>In the second part of our interview, Derek Webb talks about how to approach the oncoming future with values and practicality, as well as going into the problems with laws, the Amish, hippies, Kevin Kelly, and the iPhone 13.
+
+- [Kevin Kelly, uber-hippie and hero](http://kk.org/)
+- [Sola-mi](http://sola-mi.com/) - Download Derek's album about the first Artificial Intelligence for free.  
+- [DerekWebb.com](http://www.derekwebb.com/) - Listen to and purchase his latest album, Ctrl.  
+- [@derekwebb](https://twitter.com/derekwebb) Follow Derek Webb on twitter.  </description>
+      <itunes_summary>In the second part of our interview, Derek Webb talks about how to approach the oncoming future with values and practicality, as well as going into the problems with laws, the Amish, hippies, Kevin Kelly, and the iPhone 13.
+
+- [Kevin Kelly, uber-hippie and hero](http://kk.org/)
+- [Sola-mi](http://sola-mi.com/) - Download Derek's album about the first Artificial Intelligence for free.  
+- [DerekWebb.com](http://www.derekwebb.com/) - Listen to and purchase his latest album, Ctrl.  
+- [@derekwebb](https://twitter.com/derekwebb) Follow Derek Webb on twitter.  </itunes_summary>
+      <itunes_image>http://brickcaster.com/sites/default/files/styles/medium/public/podimages/broadcast_from_the_singularity_instagram.jpg</itunes_image>
+      <enclosure url="http://resources.brickcaster.com/singularity/007_derek_webb_2.mp3"/>
+      <guid>http://localhost:3000/singularity/7</guid>
+      <link>http://localhost:3000/singularity/7</link>
+      <pubDate>Wed, 27 Mar 2013 02:05:49 +0000</pubDate>
+      <itunes_duration>10:00</itunes_duration>
+    </item>
+  </channel>
+</rss>

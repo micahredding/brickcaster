@@ -18,18 +18,24 @@ class EpisodesController < ApplicationController
   def show
     if params[:id]
       @episode = Episode.find(params[:id])
+      unless @episode
+        redirect_to podcasts_path and return        
+      end
       @podcast = @episode.podcast
+      unless @podcast
+        redirect_to podcasts_path and return        
+      end        
     elsif params[:podcast_shortname]
       @podcast = Podcast.where(:shortname => params[:podcast_shortname]).first
+      unless @podcast
+        redirect_to podcasts_path and return
+      end
       @episode = Episode.where(:podcast_id => @podcast.id, :episode_number => params[:episode_number]).first
-    end
-
-    if not @podcast 
-      redirect_to podcasts_path and return
-    end
-
-    if not @episode 
-      redirect_to podcast_show_path and return
+      unless @episode
+        redirect_to podcast_show_path and return
+      end
+    else 
+      redirect_to podcasts_path and return      
     end
 
     respond_to do |format|

@@ -1,9 +1,13 @@
 class Podcast < ActiveRecord::Base
   has_many :episodes
-  attr_accessible :art_url, :body, :title, :shortname, :links, :subscribe_itunes_link, :subscribe_feedburner_link
+  attr_accessible :shortname, :title, :author, :body, :art_url, :links, :subscribe_itunes_link, :subscribe_feedburner_link
 
   def rss_path 
     shortname + '.rss'
+  end
+
+  def podcast_url
+    'http://localhost:3000/' + shortname
   end
 
   def subscribe_links
