@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130423011355) do
+ActiveRecord::Schema.define(:version => 20130509040950) do
 
   create_table "admins", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
@@ -40,6 +40,7 @@ ActiveRecord::Schema.define(:version => 20130423011355) do
     t.datetime "created_at",     :null => false
     t.datetime "updated_at",     :null => false
     t.string   "author"
+    t.datetime "publish_date"
   end
 
   add_index "episodes", ["podcast_id"], :name => "index_episodes_on_podcast_id"
@@ -55,6 +56,9 @@ ActiveRecord::Schema.define(:version => 20130423011355) do
     t.string   "subscribe_itunes_link"
     t.string   "subscribe_feedburner_link"
     t.string   "author"
+    t.string   "keywords"
+    t.text     "categories"
+    t.string   "art_url_medium"
   end
 
 end

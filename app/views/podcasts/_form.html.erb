@@ -28,6 +28,14 @@
     <%= f.text_area :body %>
   </div>
   <div class="field">
+    <%= f.label :keywords %><br />
+    <%= f.text_field :keywords %>
+  </div>
+  <div class="field">
+    <%= f.label :categories %><br />
+    <%= f.text_area :categories %>
+  </div>
+  <div class="field">
     <%= f.label :subscribe_itunes_link %><br />
     <%= f.text_field :subscribe_itunes_link %>
   </div>
@@ -43,6 +51,11 @@
     <%= f.label :art_url %><br />
     <%= f.text_field :art_url %>
   </div>
+  <div class="field">
+    <%= f.label :art_url_medium %><br />
+    <%= f.text_field :art_url_medium %>
+  </div>
+
   <div class="actions">
     <%= f.submit %>
   </div>

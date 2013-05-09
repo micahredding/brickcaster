@@ -32,6 +32,10 @@
     <%= f.number_field :episode_number %>
   </div>
   <div class="field">
+    <%= f.label :publish_date %><br />
+    <%= f.text_field :publish_date %>
+  </div>
+  <div class="field">
     <%= f.label :podcast_id %><br />
     <%= f.select :podcast_id, options_for_select( Podcast.all.map { |podcast| [podcast.title, podcast.id] } ) %>
   </div>

@@ -25,6 +25,7 @@ end
 
 gem 'jquery-rails'
 gem 'mediaelement_rails'
+gem 'taglib-ruby', :require => 'taglib'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

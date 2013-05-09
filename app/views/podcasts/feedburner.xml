@@ -1,14 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0" xml:base="http://brickcaster.com">
-<channel>
- <title>Broadcast From The Singularity</title>
- <link>http://brickcaster.com/singularity</link>
- <description>Three guys discuss wild-eyed ideas about the future, and living life on the curve of accelerating change.</description>
- <language>en</language>
-<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/BroadcastTheSingularity" /><feedburner:info uri="broadcastthesingularity" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><media:copyright>All Rights Reserved.</media:copyright><media:thumbnail url="http://resources.brickcaster.com/images/broadcast_from_the_singularity_500.jpg" /><media:keywords>singularity,technology,transhuman,transhumanism,kurzweil,artificial,intelligence,technium,kevin,kelly</media:keywords><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Society &amp; Culture/Philosophy</media:category><itunes:owner><itunes:email>singularity@brickcaster.com</itunes:email><itunes:name>Micah Redding, Ryan Hogan &amp; John Yates</itunes:name></itunes:owner><itunes:author>Micah Redding, Ryan Hogan &amp; John Yates</itunes:author><itunes:explicit>no</itunes:explicit><itunes:image href="http://resources.brickcaster.com/images/broadcast_from_the_singularity_500.jpg" /><itunes:keywords>singularity,technology,transhuman,transhumanism,kurzweil,artificial,intelligence,technium,kevin,kelly</itunes:keywords><itunes:subtitle>life on the curve</itunes:subtitle><itunes:summary>Micah, Ryan, John and guests talk about life in the age of constantly accelerating change, and what that means for technology, culture, and the future of the world.</itunes:summary><itunes:category text="Technology" /><itunes:category text="Society &amp; Culture"><itunes:category text="Philosophy" /></itunes:category><item>
- <title>Ep 7: Derek Webb &amp; the AI, part 2</title>
- <link>http://feedproxy.google.com/~r/BroadcastTheSingularity/~3/QoJzBlQ7NTs/7</link>
- <description>&lt;div class="field field-name-body field-type-text-with-summary field-label-hidden"&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even" property="content:encoded"&gt;&lt;p&gt;In the second part of our interview, Derek Webb talks about how to approach the oncoming future with values and practicality, as well as going into the problems with laws, the Amish, hippies, Kevin Kelly, and the iPhone 13.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0" xml:base="http://brickcaster.com">
+  <channel>
+    <title>Broadcast From The Singularity</title>
+    <link>http://brickcaster.com/singularity</link>
+    <description>Three guys discuss wild-eyed ideas about the future, and living life on the curve of accelerating change.</description>
+    <language>en</language>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/BroadcastTheSingularity" />
+    <feedburner:info uri="broadcastthesingularity" />
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+    <media:copyright>All Rights Reserved.</media:copyright>
+    <media:thumbnail url="http://resources.brickcaster.com/images/broadcast_from_the_singularity_500.jpg" />
+    <media:keywords>singularity,technology,transhuman,transhumanism,kurzweil,artificial,intelligence,technium,kevin,kelly</media:keywords>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Society &amp; Culture/Philosophy</media:category>
+    <itunes:owner>
+      <itunes:email>singularity@brickcaster.com</itunes:email>
+      <itunes:name>Micah Redding, Ryan Hogan &amp; John Yates</itunes:name>
+    </itunes:owner>
+    <itunes:author>Micah Redding, Ryan Hogan &amp; John Yates</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="http://resources.brickcaster.com/images/broadcast_from_the_singularity_500.jpg" />
+    <itunes:keywords>singularity,technology,transhuman,transhumanism,kurzweil,artificial,intelligence,technium,kevin,kelly</itunes:keywords>
+    <itunes:subtitle>life on the curve</itunes:subtitle>
+    <itunes:summary>Micah, Ryan, John and guests talk about life in the age of constantly accelerating change, and what that means for technology, culture, and the future of the world.</itunes:summary>
+    <itunes:category text="Technology" />
+    <itunes:category text="Society &amp; Culture">
+      <itunes:category text="Philosophy" />
+    </itunes:category>
+    <item>
+      <title>Ep 7: Derek Webb &amp; the AI, part 2</title>
+      <link>http://feedproxy.google.com/~r/BroadcastTheSingularity/~3/QoJzBlQ7NTs/7</link>
+      <description>&lt;div class="field field-name-body field-type-text-with-summary field-label-hidden"&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even" property="content:encoded"&gt;&lt;p&gt;In the second part of our interview, Derek Webb talks about how to approach the oncoming future with values and practicality, as well as going into the problems with laws, the Amish, hippies, Kevin Kelly, and the iPhone 13.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://kk.org/"&gt;Kevin Kelly, uber-hippie and hero&lt;/a&gt;&lt;/li&gt;
