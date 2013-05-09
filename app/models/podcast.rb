@@ -13,23 +13,23 @@ class Podcast < ActiveRecord::Base
   end
 
   def path
-    shortname
+    '/' + shortname
   end
 
   def url
-    domain + '/' + path
+    domain + path
   end
 
   def rss_path 
-    shortname + '/feed'
+    path + '/feed'
   end
 
   def rss_url
-    domain + '/' + rss_path
+    domain + rss_path
   end
 
   def media_path
-    media_directory + '/' + path
+    media_directory + path
   end    
 
   def subscribe_links
