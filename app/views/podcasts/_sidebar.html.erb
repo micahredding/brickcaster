@@ -5,6 +5,7 @@
   </p>
 
   <div class="podcast-links">
-    <%= raw(@podcast.links_html) %>
+    <%= raw @podcast.subscribe_links %>
+    <%= raw BlueCloth.new(@podcast.links).to_html %>
   </div>
 </div>
