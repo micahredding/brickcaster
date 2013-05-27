@@ -26,8 +26,8 @@ xml.rss :version => "2.0" do
         xml.title episode.title
         xml.itunes_author episode.author || @podcast.author || 'Micah Redding'
         xml.itunes_subtitle truncate(episode.body, :length => 255, :separator => "\n")
-        xml.description episode.body
-        xml.itunes_summary episode.body
+        xml.description raw BlueCloth.new(episode.body).to_html
+        xml.itunes_summary raw BlueCloth.new(episode.body).to_html
         xml.itunes_image @podcast.art_url
         xml.enclosure :url => episode.media_url
         xml.guid episode.url
