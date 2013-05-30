@@ -31,14 +31,6 @@ class Episode < ActiveRecord::Base
     Time.at(media_length).utc.strftime("%H:%M:%S") #=> "01:00:00"
   end
 
-  def media_local_filename
-    media_url.split('/').last
-  end
-
-  def media_local_url
-    podcast.media_path + '/' + media_local_filename
-  end
-
   def url
     podcast.url + '/' + episode_number
   end

@@ -5,6 +5,7 @@ class Podcast < ActiveRecord::Base
 
   def domain
     'http://brickcaster.com'
+    ''
   end
 
   def media_directory
