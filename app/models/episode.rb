@@ -24,7 +24,7 @@ class Episode < ActiveRecord::Base
   end
 
   def list_title
-    episode_number.to_s.rjust(2, '0') + '. ' + title    
+    episode_number + ' ' + title    
   end
 
   def media_length_formatted
