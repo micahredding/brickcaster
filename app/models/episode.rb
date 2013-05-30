@@ -7,7 +7,7 @@ class Episode < ActiveRecord::Base
 
   def load_media_properties
     # Load a file
-    unless media_local_url return
+    if media_local_url.nil? return
     TagLib::FileRef.open(media_local_url) do |fileref|
       unless fileref.null?
         tag = fileref.tag
