@@ -12,6 +12,10 @@ class Podcast < ActiveRecord::Base
     'public/brickcaster.resources'
   end
 
+  def podcast_path
+    path
+  end
+
   def path
     '/' + shortname
   end
