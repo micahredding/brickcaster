@@ -16,9 +16,7 @@ class PodcastsController < ApplicationController
   # GET /podcasts/1
   # GET /podcasts/1.json
   def show
-    if params[:id]
-      @podcast = Podcast.find(params[:id])
-    elsif params[:podcast_shortname]
+    if params[:podcast_shortname]
       @podcast = Podcast.where(:shortname => params[:podcast_shortname]).first
     end
 
@@ -46,9 +44,7 @@ class PodcastsController < ApplicationController
 
   # GET /podcasts/1/edit
   def edit
-    if params[:id]
-      @podcast = Podcast.find(params[:id])
-    elsif params[:podcast_shortname] 
+    if params[:podcast_shortname] 
       @podcast = Podcast.where(:shortname => params[:podcast_shortname]).first
     end
   end

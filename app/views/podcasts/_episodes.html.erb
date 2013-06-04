@@ -2,7 +2,7 @@
 <h4>Episodes</h4>
 <% if @episodes %>
   <% @episodes.each do |episode| %>
-    <%= link_to episode.list_title, episode.url %><br />
+    <%= link_to episode.list_title, episode_show_path(@podcast.shortname, episode.episode_number) %><br />
   <% end %>
 <% end %>
 <br />

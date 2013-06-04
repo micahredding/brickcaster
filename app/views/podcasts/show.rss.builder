@@ -2,7 +2,7 @@ xml.instruct! :xml, :version => "1.0"
 xml.rss :version => "2.0" do
   xml.channel do
     xml.title @podcast.title
-    xml.link @podcast.url
+    xml.link podcast_show_path(@podcast.shortname)
     xml.itunes_subtitle truncate(@podcast.body, :length => 255, :separator => "\n") 
     xml.description @podcast.body
     xml.itunes_summary @podcast.body
@@ -30,10 +30,10 @@ xml.rss :version => "2.0" do
         xml.itunes_summary raw BlueCloth.new(episode.body).to_html
         xml.itunes_image @podcast.art_url
         xml.enclosure :url => episode.media_url
-        xml.guid episode.url
-        xml.link episode.url
+        xml.guid episode_show_path(@podcast.shortname, episode.episode_number)
+        xml.link episode_show_path(@podcast.shortname, episode.episode_number)
         xml.pubDate episode.publish_date || episode.created_at.to_s(:rfc822)
-        xml.itunes_duration episode.media_length_formatted
+        xml.itunes_duration episode.media_length_formatted || 0
       end
     end
   end

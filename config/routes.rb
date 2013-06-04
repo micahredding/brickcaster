@@ -1,7 +1,8 @@
 PodcastNetwork::Application.routes.draw do
   devise_for :admins
 
-  resources :episodes, :podcasts
+  match 'episodes',                :to => 'episodes#index', :as => 'episodes'
+  match 'podcasts',                :to => 'podcasts#index', :as => 'podcasts'
 
   match ':podcast_shortname',      :to => 'podcasts#show', :as => 'podcast_show'
   match ':podcast_shortname/edit', :to => 'podcasts#edit', :as => 'podcast_edit'
@@ -12,6 +13,8 @@ PodcastNetwork::Application.routes.draw do
   match ':podcast_shortname/:episode_number',      :to => 'episodes#show', :as => 'episode_show'
   match ':podcast_shortname/:episode_number/edit', :to => 'episodes#edit', :as => 'episode_edit'
 
+
+  # resources :episodes, :podcasts
 
   root :to => 'podcasts#index'
 

@@ -1,7 +1,7 @@
 <% @podcasts.each do |podcast| %>
 <div class="podcast-teaser">
   <img src="<%= podcast.art_url_medium || podcast.art_url %>" />
-  <h2 class="podcast-title"><%= link_to podcast.title, podcast.path %></h2>
+  <h2 class="podcast-title"><%= link_to podcast.title, podcast_show_path(podcast.shortname) %></h2>
   <%= podcast.body %><br /><br />
   <br />
 </div>

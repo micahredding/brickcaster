@@ -28,11 +28,8 @@ class Episode < ActiveRecord::Base
   end
 
   def media_length_formatted
+    unless media_length then return 0 end
     Time.at(media_length).utc.strftime("%H:%M:%S") #=> "01:00:00"
-  end
-
-  def url
-    podcast.url + '/' + episode_number
   end
 
 end
