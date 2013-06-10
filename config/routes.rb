@@ -1,14 +1,23 @@
 PodcastNetwork::Application.routes.draw do
   devise_for :admins
 
-  match 'episodes',                :to => 'episodes#index', :as => 'episodes'
-  match 'podcasts',                :to => 'podcasts#index', :as => 'podcasts'
+  match 'podcasts',                :to => 'podcasts#create', :as => 'podcast_create', :via => 'post'
+  match 'episodes',                :to => 'episodes#create', :as => 'episode_create', :via => 'post'
 
-  match ':podcast_shortname',      :to => 'podcasts#show', :as => 'podcast_show'
-  match ':podcast_shortname/edit', :to => 'podcasts#edit', :as => 'podcast_edit'
+  match 'podcasts/:id',            :to => 'podcasts#update', :as => 'podcast_update', :via => 'post'
+  match 'episodes/:id',            :to => 'episodes#update', :as => 'episode_update', :via => 'post'
 
-  match ':podcast_shortname/feed', :to => 'podcasts#show', :as => 'podcast_feed', :format => 'rss'
-  match ':podcast_shortname/rss',  :to => 'podcasts#show', :as => 'podcast_feed', :format => 'rss'
+  match 'podcasts',                :to => 'podcasts#index',  :as => 'podcasts'
+  match 'episodes',                :to => 'episodes#index',  :as => 'episodes'
+
+  match 'podcasts/new',            :to => 'podcasts#new',    :as => 'podcast_new'
+  match 'episodes/new',            :to => 'episodes#new',    :as => 'episode_new'
+
+  match ':podcast_shortname',      :to => 'podcasts#show',   :as => 'podcast_show'
+  match ':podcast_shortname/edit', :to => 'podcasts#edit',   :as => 'podcast_edit'
+
+  match ':podcast_shortname/feed', :to => 'podcasts#show',   :as => 'podcast_feed', :format => 'rss'
+  match ':podcast_shortname/rss',  :to => 'podcasts#show',   :as => 'podcast_rss', :format => 'rss'
 
   match ':podcast_shortname/:episode_number',      :to => 'episodes#show', :as => 'episode_show'
   match ':podcast_shortname/:episode_number/edit', :to => 'episodes#edit', :as => 'episode_edit'
