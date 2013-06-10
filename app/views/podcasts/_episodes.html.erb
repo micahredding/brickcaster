@@ -1,8 +1,7 @@
 <% @episodes = @podcast.episodes %>
-<h4>Episodes</h4>
 <% if @episodes %>
   <% @episodes.each do |episode| %>
-    <%= link_to episode.list_title, episode_show_path(@podcast.shortname, episode.episode_number) %><br />
+    <div class="episode"><%= link_to episode.list_title, episode_show_path(@podcast.shortname, episode.episode_number) %></div>
   <% end %>
 <% end %>
 <br />

@@ -6,5 +6,6 @@ $(document).ready( () ->
   $('audio').mediaelementplayer(
     audioWidth: 400,
     audioHeight: 30,
+    enableAutosize: true,
   )
 )
