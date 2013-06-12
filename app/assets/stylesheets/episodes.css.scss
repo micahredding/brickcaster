@@ -24,7 +24,8 @@ $padding: 20px;
   }
 
   .episode-title {
-    margin:$padding;
+    padding: 0 $padding;
+    margin: $padding 0;
     @media(min-width:800px) {
       margin:0 auto;
     }
@@ -36,9 +37,6 @@ $padding: 20px;
       line-height: 1.5em;      
     }
     margin:$padding;
-    @media(min-width:800px) {
-      margin:$padding 0;
-    }
   }
 
 }

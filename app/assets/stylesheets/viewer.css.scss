@@ -19,16 +19,28 @@ body
 
 header {
   background: black;
-  padding:0px;
+  padding:10px;
 
-  a, a:link {
+  a, a:link, a.site-name, a.site-motto, span {
     text-decoration: none;
     color:#ffffff;
+  }
+  a, span {
+    display: inline-block;
+    padding:10px 20px;
+    margin:0;
+  }
+  a.site-name {
+    padding-right:0;
+  }
+  a.site-motto {
+    padding-left:0;
   }
 }
 
 .page {
   margin:0px auto;
+  max-width: 800px;
 }
 .podcast-wrapper, .episode-wrapper, .podcast-teaser {
   max-width: 800px;
@@ -54,19 +66,6 @@ header {
   }
 }
 
-.site-name {
-  padding:0;
-  margin:0;
-  position: relative;
-  &, a, span {
-    color:#ffffff;    
-  }
-  a, span {
-    display: inline-block;
-    padding:10px 20px;
-    margin:0;
-  }
-}
 .page-title,
 .episode-title,
 .podcast-title {
