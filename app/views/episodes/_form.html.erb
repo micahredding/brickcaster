@@ -1,4 +1,4 @@
-<%= form_for @episode, url: episode_show_path(@episode), html: { method: :put } do |f| %>
+<%= form_for @episode, :url => { :action => :update, :id => @episode.id} do |f| %>
   <% if @episode.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@episode.errors.count, "error") %> prohibited this episode from being saved:</h2>
