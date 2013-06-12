@@ -21,6 +21,11 @@ header {
   background: black;
   padding:10px;
 
+  // font-size: 0.9em;
+  // @media(min-width:800px) {
+  //   font-size: 1em;
+  // }
+
   a, a:link, a.site-name, a.site-motto, span {
     text-decoration: none;
     color:#ffffff;
