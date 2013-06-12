@@ -21,10 +21,10 @@ header {
   background: black;
   padding:10px;
 
-  // font-size: 0.9em;
-  // @media(min-width:800px) {
-  //   font-size: 1em;
-  // }
+  font-size: 0.9em;
+  @media(min-width:800px) {
+    font-size: 1em;
+  }
 
   a, a:link, a.site-name, a.site-motto, span {
     text-decoration: none;
@@ -32,7 +32,7 @@ header {
   }
   a, span {
     display: inline-block;
-    padding:10px 20px;
+    padding:0 20px;
     margin:0;
   }
   a.site-name {
