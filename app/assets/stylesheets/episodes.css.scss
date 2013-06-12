@@ -29,9 +29,11 @@ $padding: 20px;
   }
 
   .episode-body {
-    &, p, ul, li {
-      font-size: 1.2em;
-      line-height: 1.5em;      
+    font-size: 1.2em;
+    line-height: 1.5em;      
+
+    p, ul, li {
+      font-size: 1em;
     }
     margin:$padding;
   }
