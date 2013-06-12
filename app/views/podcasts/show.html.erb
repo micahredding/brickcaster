@@ -1,9 +1,5 @@
 <div class="podcast-wrapper">
 
-  <div class="podcast-topbar">
-    <%= render 'artwork' %><br />
-  </div>
-
   <h1 class="podcast-title">
     <%= @podcast.title %>
   </h1>
@@ -12,11 +8,8 @@
     <%= @podcast.body %>
   </div>
 
-  <div class="podcast-links">
-    <%= link_to 'Subscribe in iTunes', @podcast.subscribe_itunes_link %>
-    <%= link_to 'Subscribe in RSS', podcast_feed_path(@podcast.shortname) %>
-    <%= link_to 'Subscribe in Feedburner', @podcast.subscribe_feedburner_link %>
-    <%= raw BlueCloth.new(@podcast.links).to_html %>
+  <div class="podcast-topbar">
+<!--     <%= render 'artwork' %><br /> -->
   </div>
 
   <div class="podcast-episodes">
@@ -24,3 +17,10 @@
   </div>
 
 </div>
+
+  <div class="podcast-links"><div class="podcast-links-inner">
+    <%= link_to 'Subscribe in iTunes', @podcast.subscribe_itunes_link %>
+    <%= link_to 'Subscribe in RSS', podcast_feed_path(@podcast.shortname) %>
+    <%= link_to 'Subscribe in Feedburner', @podcast.subscribe_feedburner_link %>
+    <%= raw BlueCloth.new(@podcast.links).to_html %>
+  </div></div>

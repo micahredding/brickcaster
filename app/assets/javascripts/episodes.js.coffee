@@ -3,9 +3,5 @@
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 $ = jQuery
 $(document).ready( () ->
-  $('audio').mediaelementplayer(
-    audioWidth: 400,
-    audioHeight: 30,
-    enableAutosize: true,
-  )
+  $('audio').audioPlayer()
 )

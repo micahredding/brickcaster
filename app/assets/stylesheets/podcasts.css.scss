@@ -1,3 +1,96 @@
 // Place all the styles related to the podcasts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$padding: 20px;
+
+.podcast-wrapper {
+
+  @media(min-width:800px) {
+    padding:$padding 0 0;
+  }
+
+  .podcast-topbar {
+    padding:0;
+    img {
+      // width: 100%;
+      height: auto;
+    }
+    display: none;
+    @media(min-width:800px) {
+      // float:left;
+      // padding:0 ($padding * 2) $padding 0;
+      display: block;
+    }
+  }
+  .podcast-title {
+    padding: 0 $padding;
+    margin: $padding 0;
+    @media(min-width:800px) {
+      margin:0 auto;
+    }
+  }
+  .podcast-body {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin:$padding;
+  }
+  .podcast-episodes {
+    .episode a {
+      display: block;
+      text-decoration: none;
+      color: #000000;
+      // background: #FFFFFF;
+      // border:2px solid #FFFFFF;
+
+      &:hover {
+        color: #000000;
+        background: #EEEEEE;
+      }
+
+      padding:($padding / 2) $padding;
+    }
+  }
+}
+
+  .podcast-links {  
+    background: #111111;
+    a, a:visited {
+      color:#eee;
+      display: block;
+      font-size: 1em;
+      line-height: 1.5em;
+      padding:($padding / 2) $padding;
+      &:hover {
+        background: #ffffff;
+        text-decoration: none;
+        color: #000000;
+      }
+    }
+    .podcast-links-inner {
+      margin:0 auto;
+      padding: $padding 0;
+      max-width: 800px;
+    }
+  }
+
+
+
+/* Misc */
+.podcast-sidebar {
+  float:left;
+  margin:0 30px 30px 0;
+  max-width: 220px;
+}
+
+.podcast-header {
+  // background: #333;
+  padding:0px;
+
+  a, a:link {
+    text-decoration: none;
+    color:#000000;
+    padding:10px 20px;
+    display: block;
+  }  
+}
