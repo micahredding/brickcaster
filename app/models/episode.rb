@@ -24,7 +24,36 @@ class Episode < ActiveRecord::Base
   end
 
   def list_title
-    title    
+    title
+  end
+
+  def return_media_length
+    load_file_properties
+    @media_length
+  end
+
+  def load_file_properties
+    tags = load_file
+    @media_title = tags['title']
+    @media_album = tags['album']
+    @media_artist = tags['artist']
+    @media_length = tags['length']
+  end
+
+  def load_file
+    url = URI.parse(media_url) # turn the string into a URI
+    http = Net::HTTP.new(url.host, url.port) 
+    req = Net::HTTP::Get.new(url.path) # init a request with the url
+    # req.range = (0..4096) # limit the load to only 4096 bytes
+    res = http.request(req) # load the mp3 file
+    child = [] # prepare an empty array to store the metadata we grab
+    Mp3Info.open( StringIO.open(res.body) ) do |m|  #do the parsing
+        child['title'] = m.tag.title 
+        child['album'] = m.tag.album 
+        child['artist'] = m.tag.artist
+        child['length'] = m.length 
+    end  
+    child
   end
 
   def media_length_formatted

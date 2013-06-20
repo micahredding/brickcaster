@@ -7,7 +7,7 @@
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
-<body>
+<body class="<%= yield :body_class %>">
   <header>
     <a class="site-name" href="/">brickcaster:</a> <a class="site-motto" href="/">small podcasts from the human edge</a>
     <% if notice %>

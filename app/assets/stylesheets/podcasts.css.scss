@@ -38,6 +38,8 @@ $padding: 20px;
   .podcast-episodes {
     .episode a {
       display: block;
+      font-size: 1.5em;
+      line-height: 1em;
       text-decoration: none;
       color: #000000;
       // background: #FFFFFF;
@@ -48,7 +50,7 @@ $padding: 20px;
         background: #EEEEEE;
       }
 
-      padding:($padding / 2) $padding;
+      padding:$padding $padding;
     }
   }
 }

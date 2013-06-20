@@ -45,9 +45,12 @@ header {
   }
 }
 
-.page {
+body .page {
   margin:0px auto;
   max-width: 800px;
+}
+body.application .page {
+  max-width: 100%;
 }
 .podcast-wrapper, .episode-wrapper, .podcast-teaser {
   max-width: 800px;
@@ -80,11 +83,11 @@ header {
   font-size: 2em;
   line-height: 1.2em;
 
-  @media(min-width:480px) {
+  @media(min-width:640px) {
     font-size: 3em;
   }
-  @media(min-width:640px) {
-    font-size: 48px;
+  @media(min-width:800px) {
+    font-size: 3.8em;
   }
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
