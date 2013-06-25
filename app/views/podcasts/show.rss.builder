@@ -33,7 +33,7 @@ xml.rss :version => "2.0" do
         xml.guid episode_show_path(@podcast.shortname, episode.episode_number)
         xml.link episode_show_path(@podcast.shortname, episode.episode_number)
         xml.pubDate episode.publish_date || episode.created_at.to_s(:rfc822)
-        xml.itunes_duration episode.media_length_formatted || 0
+        xml.itunes_duration episode.media_length || 0
       end
     end
   end
