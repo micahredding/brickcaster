@@ -42,7 +42,6 @@ class Episode < ActiveRecord::Base
     @media_year = tags['year']
     @media_track = tags['track']
     update_column(:media_length, @media_length)
-    update_column(:media_length, @media_length)
     update_column(:media_title, @media_title)
     update_column(:media_artist, @media_artist)
     update_column(:media_album, @media_album)
