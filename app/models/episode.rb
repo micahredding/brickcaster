@@ -11,9 +11,6 @@ class Episode < ActiveRecord::Base
   end
 
   def media_length(raw=false, load=true)
-    if load && @media_length.nil?
-      load_file_properties_into_variables
-    end
     if raw
       length = @media_length
     else
