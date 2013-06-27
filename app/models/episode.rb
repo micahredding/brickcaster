@@ -10,7 +10,7 @@ class Episode < ActiveRecord::Base
     title
   end
 
-  def media_length(raw=false)
+  def media_length(raw=true)
     if raw
       length = @media_length
     else
