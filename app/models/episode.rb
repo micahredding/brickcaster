@@ -4,7 +4,7 @@ class Episode < ActiveRecord::Base
   attr_accessor :media_length, :media_title, :media_artist, :media_album, :media_year, :media_track
 
   after_initialize :load_file_properties_from_database
-  after_save :load_file_properties_into_variables
+  after_create :load_file_properties_into_variables
 
   def list_title
     title
