@@ -32,6 +32,9 @@ class Episode < ActiveRecord::Base
 
   def load_file_properties_into_variables
     tags = load_file_properties
+    if tags.nil?
+      return nil
+    end
     @media_length = tags['length']
     @media_title = tags['title']
     @media_artist = tags['artist']
@@ -47,8 +50,8 @@ class Episode < ActiveRecord::Base
   end
 
   def load_file_properties
-    unless media_url 
-      return 
+    if media_url.nil? 
+      return nil
     end
     url = URI.parse(media_url) # turn the string into a URI
     http = Net::HTTP.new(url.host, url.port) 
