@@ -14,7 +14,6 @@ class Episode < ActiveRecord::Base
     if @media_length
       length = Time.at(@media_length.to_i).utc.strftime("%H:%M:%S")
     else
-      load_file_properties_into_variables      
       length = "00:00:00"
     end
     length
