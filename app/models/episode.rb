@@ -47,6 +47,9 @@ class Episode < ActiveRecord::Base
   end
 
   def load_file_properties
+    unless media_url 
+      return 
+    end
     url = URI.parse(media_url) # turn the string into a URI
     http = Net::HTTP.new(url.host, url.port) 
     req = Net::HTTP::Get.new(url.path) # init a request with the url
