@@ -20,11 +20,7 @@ class Episode < ActiveRecord::Base
   end
 
   def publish_date_formatted
-    if not @publish_date.nil?
-      return @publish_date.rfc2822()
-    else 
-      return self.created_at.rfc2822()
-    end
+    return @publish_date
   end
 
   def media_filesize
