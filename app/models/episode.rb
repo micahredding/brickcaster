@@ -20,7 +20,9 @@ class Episode < ActiveRecord::Base
   end
 
   def publish_date_formatted
-    return @publish_date
+    p = publish_date
+    q = p.to_s
+    q
   end
 
   def media_filesize
