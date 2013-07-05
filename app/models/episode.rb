@@ -19,6 +19,18 @@ class Episode < ActiveRecord::Base
     length
   end
 
+  def publish_date_formatted
+    if not @publish_date.nil?
+      return @publish_date.rfc2822()
+    else 
+      return self.created_at.rfc2822()
+    end
+  end
+
+  def media_filesize
+    @media_length || 0
+  end
+
   def load_file_properties_from_database
     tags = attributes
     @media_length = tags['media_length']
