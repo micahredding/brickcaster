@@ -15,7 +15,14 @@ xml.rss :version => "2.0" do
     end
     xml.itunes_image :href => @podcast.art_url
     @podcast.categories.lines.each do |category|
-      xml.itunes_category :text => category.chomp
+      subcategories = category.split(/, /)
+      if subcategories.size > 1
+        xml.itunes_category :text => subcategories[0].chomp do
+          xml.itunes_category :text => subcategories[1].chomp
+        end
+      else
+        xml.itunes_category :text => category.chomp
+      end
     end
     xml.itunes_keywords @podcast.keywords
 
