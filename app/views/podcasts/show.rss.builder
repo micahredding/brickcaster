@@ -38,7 +38,7 @@ xml.rss :version => "2.0" do
         xml.description raw BlueCloth.new(episode.body).to_html
         xml.itunes_summary raw BlueCloth.new(episode.body).to_html
         xml.itunes_image :href => @podcast.art_url
-        xml.enclosure :url => episode.media_url, :length => episode.media_filesize
+        xml.enclosure :url => episode.media_url, :length => episode.media_filesize, :type => 'audio/mpeg'
         xml.guid episode_show_url(@podcast.shortname, episode.episode_number)
         xml.link episode_show_url(@podcast.shortname, episode.episode_number)
         xml.pubDate episode.publish_date_formatted
