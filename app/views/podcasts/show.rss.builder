@@ -37,7 +37,7 @@ xml.rss :version => "2.0" do
         xml.itunes_subtitle truncate(episode.body, :length => 255, :separator => "\n")
         xml.description raw BlueCloth.new(episode.body).to_html
         xml.itunes_summary raw BlueCloth.new(episode.body).to_html
-        xml.itunes_image @podcast.art_url
+        xml.itunes_image :href => @podcast.art_url
         xml.enclosure :url => episode.media_url, :length => episode.media_filesize
         xml.guid episode_show_url(@podcast.shortname, episode.episode_number)
         xml.link episode_show_url(@podcast.shortname, episode.episode_number)
