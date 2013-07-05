@@ -28,7 +28,7 @@ class Episode < ActiveRecord::Base
   end
 
   def media_filesize
-    @media_length || 0
+    @media_length.to_i || 0
   end
 
   def load_file_properties_from_database
