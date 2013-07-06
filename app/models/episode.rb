@@ -4,7 +4,7 @@ class Episode < ActiveRecord::Base
   attr_accessor :media_length, :media_title, :media_artist, :media_album, :media_year, :media_track
 
   after_initialize :load_file_properties_from_database
-  after_create :load_file_properties_into_variables
+  after_save :load_file_properties_into_variables
 
   def list_title
     title
@@ -20,9 +20,11 @@ class Episode < ActiveRecord::Base
   end
 
   def publish_date_formatted
-    p = publish_date
-    q = p.to_s
-    q
+    if publish_date.nil?
+      return 0
+    end
+
+    publish_date.rfc822
   end
 
   def media_filesize
@@ -69,6 +71,7 @@ class Episode < ActiveRecord::Base
     res = http.request(req) # load the mp3 file
     child = {} # prepare an empty array to store the metadata we grab
     Mp3Info.open( StringIO.open(res.body) ) do |m|
+      debug m
       child['length'] = m.length 
       child['title'] = m.tag.title 
       child['artist'] = m.tag.artist
