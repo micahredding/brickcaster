@@ -15,7 +15,15 @@
     <%= link_to '(download)', @episode.media_url %>
   </div>
   <div class="episode-body">
-    <%= raw BlueCloth.new(@episode.body).to_html %>
+    <%= body_encode(@episode.body) %>
+    <br />
+    <%= @episode.media_title %><br />
+    <%= @episode.media_artist %><br />
+    <%= @episode.media_album %><br />
+    <%= format_date_human(@episode.publish_date) %><br />
+
+    Duration: <%= format_length(@episode.media_length) %><br />
+
   </div>
 
 </div>

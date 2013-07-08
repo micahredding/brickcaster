@@ -4,27 +4,10 @@ class Episode < ActiveRecord::Base
   attr_accessor :media_length, :media_title, :media_artist, :media_album, :media_year, :media_track
 
   after_initialize :load_file_properties_from_database
-  after_create :load_file_properties_into_variables
+  after_save :load_file_properties_into_variables
 
   def list_title
     title
-  end
-
-  def media_length_formatted
-    if @media_length
-      length = Time.at(@media_length.to_i).utc.strftime("%H:%M:%S")
-    else
-      length = "00:00:00"
-    end
-    length
-  end
-
-  def publish_date_formatted
-    if publish_date.nil?
-      return 0
-    end
-
-    publish_date.rfc822
   end
 
   def media_filesize
@@ -42,10 +25,10 @@ class Episode < ActiveRecord::Base
   end
 
   def load_file_properties_into_variables
-    tags = load_file_properties
-    if tags.nil?
+    if media_url.nil? 
       return nil
     end
+    tags = load_file_properties
     @media_length = tags['length']
     @media_title = tags['title']
     @media_artist = tags['artist']
@@ -61,17 +44,13 @@ class Episode < ActiveRecord::Base
   end
 
   def load_file_properties
-    if media_url.nil? 
-      return nil
-    end
     url = URI.parse(media_url) # turn the string into a URI
     http = Net::HTTP.new(url.host, url.port) 
     req = Net::HTTP::Get.new(url.path) # init a request with the url
     # req.range = (0..4096) # limit the load to only 4096 bytes
     res = http.request(req) # load the mp3 file
     child = {} # prepare an empty array to store the metadata we grab
-    Mp3Info.open( StringIO.open(res.body) ) do |m|
-      debug m
+    Mp3Info.open( res.body ) do |m|
       child['length'] = m.length 
       child['title'] = m.tag.title 
       child['artist'] = m.tag.artist
