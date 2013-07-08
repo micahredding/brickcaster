@@ -13,7 +13,7 @@ xml.rss :version => "2.0", "xmlns:itunes" => "http://www.itunes.com/dtds/podcast
     xml.description @podcast.body
 
     # podcast image
-    xml.itunes_image :href => @podcast.art_url
+    xml.itunes :image, :href => @podcast.art_url
 
     # podcast meta
     xml.language 'en-us'
