@@ -1,6 +1,8 @@
 xml.instruct! :xml, :version => "1.0" 
-xml.rss :version => "2.0" do
+xml.rss :version => "2.0", "xmlns:itunes" => "http://www.itunes.com/dtds/podcast-1.0.dtd", "xmlns:atom" => "http://www.w3.org/2005/Atom", "xmlns:content"=>"http://purl.org/rss/1.0/modules/content/" do
   xml.channel do
+    xml.atom :link, :href => podcast_rss_url(@podcast.shortname), :rel => "self", :type => "application/rss+xml"
+
     # id
     xml.link podcast_show_url(@podcast.shortname)    
 
