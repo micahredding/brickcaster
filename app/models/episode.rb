@@ -11,7 +11,10 @@ class Episode < ActiveRecord::Base
   end
 
   def media_filesize
-    @media_length.to_i || 0
+    if @media_length.nil?
+      return 0
+    end
+    @media_length.to_i * 8055
   end
 
   def load_file_properties_from_database
