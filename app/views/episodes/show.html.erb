@@ -27,3 +27,10 @@
   </div>
 
 </div>
+
+  <div class="podcast-links"><div class="podcast-links-inner">
+    <%= link_to 'Subscribe in iTunes', @episode.podcast.subscribe_itunes_link %>
+    <%= link_to 'Subscribe in RSS', podcast_rss_path(@episode.podcast.shortname) %>
+    <%= link_to 'Subscribe in Feedburner', @episode.podcast.subscribe_feedburner_link %>
+    <%= raw BlueCloth.new(@episode.podcast.links).to_html %>
+  </div></div>

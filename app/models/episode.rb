@@ -4,7 +4,7 @@ class Episode < ActiveRecord::Base
   attr_accessor :media_length, :media_title, :media_artist, :media_album, :media_year, :media_track
 
   after_initialize :load_file_properties_from_database
-  after_create :load_file_properties_into_variables
+  after_save :load_file_properties_into_variables
 
   def sort_order
     if episode_number[0,1] == 'p'
@@ -13,6 +13,10 @@ class Episode < ActiveRecord::Base
       return episode_number.to_i
     end
   end
+
+  def local_url
+    'public/brickcaster.resources/' + media_url.split('http://resources.brickcaster.com/')[1]    
+  end    
 
   def media_filesize
     if @media_length.nil?
@@ -51,13 +55,8 @@ class Episode < ActiveRecord::Base
   end
 
   def load_file_properties
-    url = URI.parse(media_url) # turn the string into a URI
-    http = Net::HTTP.new(url.host, url.port) 
-    req = Net::HTTP::Get.new(url.path) # init a request with the url
-    # req.range = (0..4096) # limit the load to only 4096 bytes
-    res = http.request(req) # load the mp3 file
-    child = {} # prepare an empty array to store the metadata we grab
-    Mp3Info.open( StringIO.open(res.body) ) do |m|
+    child = {}
+    Mp3Info.open( local_url ) do |m|
       child['length'] = m.length 
       child['title'] = m.tag.title 
       child['artist'] = m.tag.artist
