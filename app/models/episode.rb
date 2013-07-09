@@ -6,8 +6,12 @@ class Episode < ActiveRecord::Base
   after_initialize :load_file_properties_from_database
   after_save :load_file_properties_into_variables
 
-  def list_title
-    title
+  def sort_order
+    if episode_number[0,1] == 'p'
+      return episode_number[1..-1].to_i - 100
+    else
+      return episode_number.to_i
+    end
   end
 
   def media_filesize
@@ -28,7 +32,7 @@ class Episode < ActiveRecord::Base
   end
 
   def load_file_properties_into_variables
-    if media_url.nil? 
+    if media_url.nil? || media_url.length == 0 
       return nil
     end
     tags = load_file_properties
@@ -53,7 +57,7 @@ class Episode < ActiveRecord::Base
     # req.range = (0..4096) # limit the load to only 4096 bytes
     res = http.request(req) # load the mp3 file
     child = {} # prepare an empty array to store the metadata we grab
-    Mp3Info.open( res.body ) do |m|
+    Mp3Info.open( StringIO.open(res.body) ) do |m|
       child['length'] = m.length 
       child['title'] = m.tag.title 
       child['artist'] = m.tag.artist

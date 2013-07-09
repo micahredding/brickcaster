@@ -1,14 +1,12 @@
-<%= content_for :body_class do %>application episode<% end %>
+<% @episodes.sort_by! { |e| [ e.podcast.id, e.sort_order ] } %>
 
-<h1>Listing episodes</h1>
+<h1>All episodes</h1>
 
-<ul>
+<table>
 <% @episodes.each do |episode| %>
-  <li>
-    <%= episode.title %><br />
-    <%= episode.podcast.title %>
-    <%= link_to 'Show', episode_show_path(episode.podcast.shortname, episode.episode_number) %>
-    <%= episode.body %>
-  </li>
+  <tr>
+  	<td><%= episode.podcast.title %>  &nbsp; </td>
+  	<td><%= link_to episode.title, episode_show_path(episode.podcast.shortname, episode.episode_number) %></td>
+  </tr>
 <% end %>
-</ul>
+</table>

@@ -21,7 +21,7 @@ class PodcastsController < ApplicationController
     end
 
     if not @podcast 
-      redirect_to podcasts_path and return
+      redirect_to root_path and return
     end
 
     respond_to do |format|

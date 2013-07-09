@@ -12,18 +12,25 @@ PodcastNetwork::Application.routes.draw do
 
   resources :podcasts, :episodes
 
-  match 'podcasts',                :to => 'podcasts#index',  :as => 'podcasts'
-  match 'episodes',                :to => 'episodes#index',  :as => 'episodes'
+  match ':podcast_shortname',                      :to => 'podcasts#show',  :as => 'podcast_show'
+  match ':podcast_shortname.rss',                  :to => 'podcasts#show',  :as => 'podcast_rss',  :format => 'rss'
+  match ':podcast_shortname/rss',                  :to => 'podcasts#show',  :as => 'podcast_rss2', :format => 'rss'
+  match ':podcast_shortname/feed',                 :to => 'podcasts#show',  :as => 'podcast_feed', :format => 'rss'
+  match ':podcast_shortname/:episode_number',      :to => 'episodes#show',  :as => 'episode_show'
 
-  match ':podcast_shortname',      :to => 'podcasts#show',   :as => 'podcast_show'
-  match ':podcast_shortname/edit', :to => 'podcasts#edit',   :as => 'podcast_edit'
+  match ':podcast_shortname/edit',                 :to => 'podcasts#edit',  :as => 'podcast_edit'
+  match ':podcast_shortname/:episode_number/edit', :to => 'episodes#edit',  :as => 'episode_edit'
 
-  match ':podcast_shortname.rss',  :to => 'podcasts#show',   :as => 'podcast_rss', :format => 'rss'
-  match ':podcast_shortname/rss',  :to => 'podcasts#show',   :as => 'podcast_rss2', :format => 'rss'
-  match ':podcast_shortname/feed', :to => 'podcasts#show',   :as => 'podcast_feed', :format => 'rss'
 
-  match ':podcast_shortname/:episode_number',      :to => 'episodes#show', :as => 'episode_show'
-  match ':podcast_shortname/:episode_number/edit', :to => 'episodes#edit', :as => 'episode_edit'
+  # match 'podcasts/new',            :to => 'podcasts#new',    :as => 'podcast_new'
+  # match 'podcasts',                :to => 'podcasts#create', :as => 'podcast_create', :via => 'post'
+
+  # match 'episodes/new',            :to => 'episodes#new',    :as => 'episode_new'
+  # match 'episodes',                :to => 'episodes#create', :as => 'episode_create', :via => 'post'
+
+  # match 'podcasts',                :to => 'podcasts#index',  :as => 'podcasts'
+  # match 'episodes',                :to => 'episodes#index',  :as => 'episodes'
+
 
 
   # resources :episodes, :podcasts

@@ -6,7 +6,7 @@
     @episodes.sort_by! { |e| e.publish_date.to_i }
     @episodes.reverse!
     @episodes.each do |episode| %>
-    <div class="episode"><%= link_to episode.list_title, episode_show_path(@podcast.shortname, episode.episode_number) %></div>
+    <div class="episode"><%= link_to episode.title, episode_show_path(@podcast.shortname, episode.episode_number) %></div>
   <% end %>
 <% end %>
 <br />
