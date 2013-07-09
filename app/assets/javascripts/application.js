@@ -14,4 +14,5 @@
 //= require jquery_ujs
 //= require mediaelement_rails
 //= require episodes
+//= require analytics
 //= require_tree .
