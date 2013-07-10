@@ -10,6 +10,7 @@ gem 'sqlite3'
 gem 'pg', :require => 'pg'
 gem 'builder'
 gem 'bluecloth'
+gem 'redcarpet'
 gem 'devise'
 
 # Gems used only for assets and not required
