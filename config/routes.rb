@@ -1,15 +1,8 @@
 PodcastNetwork::Application.routes.draw do
+
   devise_for :admins
 
-  # match 'podcasts',                :to => 'podcasts#create', :as => 'podcast_create', :via => 'post'
-  # match 'episodes',                :to => 'episodes#create', :as => 'episode_create', :via => 'post'
-
-  # match 'podcasts/:id',            :to => 'podcasts#update', :as => 'podcast_update', :via => 'post'
-  # match 'episodes/:id',            :to => 'episodes#update', :as => 'episode_update', :via => 'post'
-
-  # match 'podcasts/new',            :to => 'podcasts#new',    :as => 'podcast_new'
-  # match 'episodes/new',            :to => 'episodes#new',    :as => 'episode_new'
-
+  match 'episodes/:id/edit', :to => 'episodes#edit',  :as => 'episode_edit'
   match ':podcast_shortname/:episode_number/edit', :to => 'episodes#edit',  :as => 'episode_edit'
   match ':podcast_shortname/edit',                 :to => 'podcasts#edit',  :as => 'podcast_edit'
 
@@ -21,29 +14,9 @@ PodcastNetwork::Application.routes.draw do
   match ':podcast_shortname/feed',                 :to => 'podcasts#show',  :as => 'podcast_feed', :format => 'rss'
   match ':podcast_shortname/:episode_number',      :to => 'episodes#show',  :as => 'episode_show'
 
-
-
-  # match 'podcasts/new',            :to => 'podcasts#new',    :as => 'podcast_new'
-  # match 'podcasts',                :to => 'podcasts#create', :as => 'podcast_create', :via => 'post'
-
-  # match 'episodes/new',            :to => 'episodes#new',    :as => 'episode_new'
-  # match 'episodes',                :to => 'episodes#create', :as => 'episode_create', :via => 'post'
-
-  # match 'podcasts',                :to => 'podcasts#index',  :as => 'podcasts'
-  # match 'episodes',                :to => 'episodes#index',  :as => 'episodes'
-
-
-
-  # resources :episodes, :podcasts
-
   root :to => 'podcasts#index'
 
   # match 'logout', :to => 'sessions#destroy', :as => "logout"
-
-
-  # match ':podcast_shortname' => 'podcasts#show'
-  # match ':podcast_shortname/:episode_number' => 'episodes#show'
-
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
