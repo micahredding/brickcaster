@@ -55,7 +55,7 @@ xml.rss :version => "2.0", "xmlns:itunes" => "http://www.itunes.com/dtds/podcast
         xml.content :encoded, body_encode(episode.body)
 
         # episode media
-        xml.enclosure :url => episode.media_url, :length => episode.media_filesize, :type => 'audio/mpeg'
+        xml.enclosure :url => episode.media_url, :length => episode.media_size, :type => 'audio/mpeg'
 
         # episode meta
         xml.pubDate format_date(episode.publish_date)
