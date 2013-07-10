@@ -47,17 +47,14 @@ class EpisodesController < ApplicationController
   end
 
   # GET /episodes/1/edit
+  # GET /podcast_shortname/1/edit
   def edit
     if params[:podcast_shortname]
-
       @podcast = Podcast.where(:shortname => params[:podcast_shortname]).first
       @episode = Episode.where(:podcast_id => @podcast.id, :episode_number => params[:episode_number]).first
-      unless @episode
-        redirect_to root_path and return
-      end
-
     elsif params[:id]
       @episode = Episode.find(params[:id])
+      redirect_to episode_edit_path(@episode.podcast.shortname, @episode.episode_number)
     end
   end
 
