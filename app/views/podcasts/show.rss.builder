@@ -49,9 +49,9 @@ xml.rss :version => "2.0", "xmlns:itunes" => "http://www.itunes.com/dtds/podcast
 
         # title, summary, content
         xml.title episode.title
-        xml.itunes :subtitle, body_truncate(episode.body)
-        xml.itunes :summary, body_truncate(episode.body)
-        xml.description body_truncate(episode.body)
+        xml.itunes :subtitle, episode.summary || body_truncate(episode.body)
+        xml.itunes :summary, episode.summary || body_truncate(episode.body)
+        xml.description episode.summary || body_truncate(episode.body)
         xml.content :encoded, body_encode(episode.body)
 
         # episode media

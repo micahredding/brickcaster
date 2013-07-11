@@ -1,6 +1,6 @@
 class Episode < ActiveRecord::Base
   belongs_to :podcast
-  attr_accessible :episode_number, :title, :author, :body, :media_url, :podcast_id, :publish_date
+  attr_accessible :episode_number, :title, :summary, :author, :body, :media_url, :podcast_id, :publish_date
   attr_accessor :media_length, :media_size, :media_title, :media_artist, :media_album, :media_year, :media_track
 
   after_initialize :load_file_properties_from_database
