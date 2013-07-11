@@ -46,6 +46,7 @@ class Episode < ActiveRecord::Base
     @media_album = tags['media_album']
     @media_year = tags['media_year']
     @media_track = tags['media_track']
+    @summary = tags['summary']
   end
 
   def load_file_properties_into_database
