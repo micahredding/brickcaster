@@ -6,6 +6,13 @@ class Episode < ActiveRecord::Base
   after_initialize :load_file_properties_from_database
   after_save :load_file_properties_into_database
 
+  def summary
+    if @summary.nil?
+      return @body
+    else 
+      return @summary
+  end
+
   def sort_order
     if episode_number[0,1] == 'p'
       return episode_number[1..-1].to_i - 100
