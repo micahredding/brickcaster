@@ -11,6 +11,7 @@ class Episode < ActiveRecord::Base
       return @body
     else 
       return @summary
+    end
   end
 
   def sort_order
