@@ -6,6 +6,7 @@ class PodcastsController < ApplicationController
   # GET /podcasts.json
   def index
     @podcasts = Podcast.all
+    @podcasts.sort_by! { |p| p.shortname.length }
 
     respond_to do |format|
       format.html # index.html.erb
