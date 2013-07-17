@@ -1,9 +1,6 @@
 <%= content_for :html_title do %><%= @episode.podcast.title %>, <%= @episode.title %><% end %>
 <%= content_for :body_class do %>application episode<% end %>
-
-<div class="podcast-header">
-  <%= link_to '« ' + @episode.podcast.title, podcast_show_path(@episode.podcast.shortname) %>
-</div>
+<%= content_for :back_link do %><%= link_to '« ' + @episode.podcast.title, podcast_show_path(@episode.podcast.shortname) %><% end %>
 <div class="episode-wrapper">
   <h1 class="episode-title">
     <%= @episode.title %>

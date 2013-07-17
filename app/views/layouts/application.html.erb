@@ -19,6 +19,10 @@
     <% end %>
   </header>
   <div class="page">
+    <div class="back-link">
+      <%= yield :back_link %>
+    </div>
+
     <%= yield %>
   </div>
 </body>
