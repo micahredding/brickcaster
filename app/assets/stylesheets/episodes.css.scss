@@ -2,11 +2,17 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.episode-title {
+  @include page-title;
+}
+
 $padding: 20px;
 
 .episode-wrapper {
+  padding-top: 20px;
   padding-bottom: 20px;
   max-width: 800px;
+  margin:0 auto;
 
   .episode-topbar {
     text-align: center;

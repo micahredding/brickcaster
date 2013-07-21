@@ -7,6 +7,7 @@
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/ico" href="/favicon.ico">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 </head>
 <body class="<%= yield :body_class %>">
   <header>
@@ -17,13 +18,20 @@
     <% if alert %>
     <span class="alert"><%= alert %></span>
     <% end %>
+    <span class="connect">
+      <a href="http://twitter.com/brickcaster"><i class="icon-twitter"></i>/brickcaster</a>
+      <a href="http://facebook.com/brickcaster"><i class="icon-facebook"></i>/brickcaster</a>
+    </span>
   </header>
+  <div class="back-link">
+    <%= yield :back_link %>
+  </div>
   <div class="page">
-    <div class="back-link">
-      <%= yield :back_link %>
-    </div>
-
     <%= yield %>
   </div>
+  <div class="footer-links"><div class="footer-links-inner">
+    <%= yield :footer_links %>
+  </div></div>
+
 </body>
 </html>

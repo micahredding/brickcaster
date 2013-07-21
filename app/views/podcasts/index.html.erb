@@ -1,6 +1,7 @@
 <%= content_for :html_title do %>brickcaster: small podcasts from the human edge<% end %>
 <%= content_for :body_class do %>application podcast<% end %>
 
+<div class="podcast-index-wrapper">
 <% @podcasts.each do |podcast| %>
 <div class="podcast-teaser">
   <img src="<%= podcast.art_url_medium || podcast.art_url %>" />
@@ -8,4 +9,5 @@
   <div class="podcast-body"><%= podcast.body %></div>
 </div>
 <% end %>
+</div>
 <br /><br /><br />

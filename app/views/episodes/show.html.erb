@@ -26,8 +26,8 @@
 
 </div>
 
-<div class="podcast-links"><div class="podcast-links-inner">
+<%= content_for :footer_links do %>
   <%= link_to 'Subscribe in iTunes', @episode.podcast.subscribe_itunes_link %>
   <%= link_to 'Subscribe in RSS', podcast_rss_path(@episode.podcast.shortname) %>
   <%= process_markdown(@episode.podcast.links) %>
-</div></div>
+<% end %>
