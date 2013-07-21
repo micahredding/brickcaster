@@ -23,8 +23,11 @@
       <a href="http://facebook.com/brickcaster"><i class="icon-facebook"></i>/brickcaster</a>
     </span>
   </header>
-  <div class="back-link">
-    <%= yield :back_link %>
+  <div class="header-art">
+    <img src="<%= yield :art %>" />
+    <div class="back-link">
+      <%= yield :back_link %>
+    </div>
   </div>
   <div class="page">
     <%= yield %>

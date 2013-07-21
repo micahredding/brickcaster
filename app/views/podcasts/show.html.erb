@@ -1,6 +1,8 @@
 <%= content_for :html_title do %><%= @podcast.title %><% end %>
 <%= content_for :body_class do %>application podcast<% end %>
-<%= content_for :back_link do %><%= link_to '« All Podcasts', podcasts_path() %><% end %>
+<%= content_for :back_link do %><%= link_to '« All Podcasts', podcasts_path(), :class => 'white' %><% end %>
+<%= content_for :art do %><%= @podcast.art_url_wide %><% end %>
+
 <div class="podcast-wrapper">
 
   <h1 class="podcast-title">
