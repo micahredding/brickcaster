@@ -1,7 +1,13 @@
 module EpisodesHelper
 
   def markdown_init
-    Redcarpet::Markdown.new(Redcarpet::Render::HTML, :hard_wrap => true, :autolink => true, :space_after_headers => true)
+    rndr = Redcarpet::Render::HTML.new(:link_attributes => Hash["target" => "_blank"])
+    Redcarpet::Markdown.new(
+      rndr,
+      :hard_wrap => true,                
+      :autolink => true,
+      :space_after_headers => true
+    )
   end
 
   def process_markdown(body)
