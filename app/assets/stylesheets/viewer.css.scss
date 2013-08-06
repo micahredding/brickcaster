@@ -118,7 +118,7 @@ $padding:20px;
   }
 }
 .footer-links {
-  @include media($desktop) {
+  @media(min-width:800px) {
     position: fixed;
     top:2.9em;
     right:0;
