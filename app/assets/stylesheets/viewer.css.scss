@@ -117,25 +117,23 @@ $padding:20px;
     }
   }
 }
-.footer-links {
-  @media(min-width:800px) {
-    position: fixed;
-    top:2.9em;
-    right:0;
-    background:none;
-    a, a:visited {
-      background:none;
-      text-align: right;
-      color: #000000;
-      text-shadow: 0px 0px 16px #ffffff;
-      &:hover {
-        color: #000000;
-        text-shadow: none;
-      }
-    }    
-  }
-}
-
-
+// .footer-links {
+//   @include media($desktop) {
+//     position: fixed;
+//     top:2.9em;
+//     right:0;
+//     background:none;
+//     a, a:visited {
+//       background:none;
+//       text-align: right;
+//       color: #000000;
+//       text-shadow: 0px 0px 16px #ffffff;
+//       &:hover {
+//         color: #000000;
+//         text-shadow: none;
+//       }
+//     }    
+//   }
+// }
 
 
