@@ -16,24 +16,12 @@
     <%= f.text_field :title %>
   </div>
   <div class="field">
-    <%= f.label :author %><br />
-    <%= f.text_field :author %>
-  </div>
-  <div class="field">
-    <%= f.label :summary %><br />
-    <%= f.text_area :summary %>
-  </div>
-  <div class="field">
-    <%= f.label :body %><br />
-    <%= f.text_area :body %>
-  </div>
-  <div class="field">
-    <%= f.label :media_url %><br />
-    <%= f.text_field :media_url %>
-  </div>
-  <div class="field">
     <%= f.label :episode_number %><br />
     <%= f.text_field :episode_number %>
+  </div>
+  <div class="field">
+    <%= f.label :author %><br />
+    <%= f.text_field :author %>
   </div>
   <div class="field">
     <%= f.label :publish_date %><br />
@@ -42,7 +30,50 @@
   <div class="field">
     <%= f.label :podcast_id %><br />
     <%= f.select :podcast_id, options_for_select( Podcast.all.map { |podcast| [podcast.title, podcast.id] } ) %>
+  </div>  
+  <div class="field">
+    <%= f.label :summary %><br />
+    <%= f.text_area :summary %>
   </div>
+  <div class="field">
+    <%= f.label :body %><br />
+    <%= f.text_area :body %>
+  </div>
+  <fieldset id="media-fields">
+    <legend>Media (file) Properties</legend>
+    <div class="field">
+      <%= f.label :media_url %><br />
+      <%= f.text_field :media_url %>
+    </div>
+    <div class="field">
+      <%= f.label :media_length, "Media Length in seconds" %><br />
+      <%= f.text_field :media_length %>
+    </div>
+    <div class="field">
+      <%= f.label :media_size, "Media Size in bytes" %><br />
+      <%= f.text_field :media_size %>
+    </div>
+    <div class="field">
+      <%= f.label :media_title %><br />
+      <%= f.text_field :media_title %>
+    </div>
+    <div class="field">
+      <%= f.label :media_artist %><br />
+      <%= f.text_field :media_artist %>
+    </div>
+    <div class="field">
+      <%= f.label :media_album, "Media Album (podcast title)" %><br />
+      <%= f.text_field :media_album %>
+    </div>
+    <div class="field">
+      <%= f.label :media_year %><br />
+      <%= f.text_field :media_year %>
+    </div>
+    <div class="field">
+      <%= f.label :media_track, "Media Track (episode number)" %><br />
+      <%= f.text_field :media_track %>
+    </div>
+  </fieldset>
   <div class="actions">
     <%= f.submit %>
   </div>
