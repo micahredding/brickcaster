@@ -8,24 +8,21 @@
 
 .podcast-index-wrapper {
   @include outer-container;
+  max-width: 800px;
   margin-top:2em;
 }
 .podcast-teaser {
   padding:0 2em;
-  @include media($tablet) {
-    margin-bottom: 2em;
-    padding:2em;
-    @include span-columns(6 of 12);
-    @include omega(2n);
-  }
-  @include media($desktop-wide) {
-    padding:0;
-  }
+  margin-bottom: 2em;
+  @include clearfix;
 
   img {
     display: inline-block;
     vertical-align: middle;
-    margin:1em 1em 1em 0;
+    margin:0em 1em 1em 0;
+    @include media($tablet) {
+      float:left;
+    }
   }
   .podcast-title {
     a {
@@ -99,7 +96,7 @@ $padding: 20px;
   }
 }
 
-.podcast-links {  
+.podcast-links {
   background: #111111;
   a, a:visited {
     color:#eee;
