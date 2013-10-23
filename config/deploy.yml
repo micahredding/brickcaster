@@ -1,6 +1,7 @@
 production:
-  domain: 
+  domain:
   - name: "root@198.199.88.79"
   deploy_to: "/var/www/podcast_network/"
   repository: "git@github.com:micahredding/podcast_network.git"
   branch: "master"
+  post_deploy_script: "config/post_deploy.sh"
