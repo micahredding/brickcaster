@@ -5,3 +5,5 @@ production:
   repository: "git@github.com:micahredding/podcast_network.git"
   branch: "master"
   post_deploy_script: "config/post_deploy.sh"
+  rake_env:
+    RAILS_ENV: 'production'
