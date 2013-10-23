@@ -1,11 +1,10 @@
 <%= content_for :html_title do %>brickcaster: small podcasts from the human edge<% end %>
 <%= content_for :body_class do %>application podcast<% end %>
-<%= content_for :art do %>http://resources.brickcaster.com/covers/brickcaster.jpg<% end %>
 
 <div class="podcast-index-wrapper">
 <% @podcasts.each do |podcast| %>
 <div class="podcast-teaser">
-  <%= link_to image_tag(podcast.art_url_medium, :border=>0), podcast_show_path(podcast.shortname) %>  
+  <%= link_to image_tag(podcast.art_url_medium, :border=>0), podcast_show_path(podcast.shortname) %>
   <h2 class="podcast-title"><%= link_to podcast.title, podcast_show_path(podcast.shortname) %></h2>
   <div class="podcast-body"><%= podcast.body %></div>
 </div>
