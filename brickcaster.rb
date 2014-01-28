@@ -19,7 +19,6 @@ module BrickcasterHelpers
     length = Time.at(length.to_i).utc.strftime("%H:%M:%S")
   end
   def format_date(date)
-    puts DateTime.parse(date).rfc822
     return 0 if date.nil?
     DateTime.parse(date).rfc822
   end
