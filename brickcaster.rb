@@ -58,6 +58,9 @@ class Index < Schema
   def self.get
     super 'data/index.json'
   end
+  def valid podcast_id
+    @podcasts.include?(podcast_id)
+  end
   def podcasts
     @podcasts.collect do |podcast_id|
       Podcast.get(podcast_id)
@@ -68,7 +71,12 @@ end
 class Podcast < Schema
 	attr_accessor :title, :podcast_id, :author, :url, :itunes_url, :rss_url, :keywords, :categories, :description, :links
   def self.get id
-    super 'data/podcasts/' + id + '.json'
+    @index = Index.get
+    if @index.valid(id)
+      super 'data/podcasts/' + id + '.json'
+    else
+      nil
+    end
   end
 	def art_url key="normal"
 		@art_url[key]
