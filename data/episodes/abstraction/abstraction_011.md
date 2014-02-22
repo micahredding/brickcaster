@@ -20,7 +20,7 @@ In this coming-of-age episode, Micah and Ryan explore the problems with Millenni
 - [A Salinger documentary?](http://www.imdb.com/title/tt1596753/)
 - The Eternal Return, a recurring theme of this podcast
 - [Gödel, Escher, Bach: An Eternal Golden Braid](http://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567)
-- A reading list for this show — add your contributions here!
+- [A reading list for this show — add your contributions here!](https://docs.google.com/document/d/1dhC85QifU9AJri_OVKkBnbPDX7vnmKzS999S5iA3QG0/edit?usp=sharing)
 - [Why are millennials unhappy?](http://www.huffingtonpost.com/wait-but-why/generation-y-unhappy_b_3930620.html)
 	- Gen Y Millennials, or GYPSYs
 	- Flotsam Gypsum and Lorem Gypsum
