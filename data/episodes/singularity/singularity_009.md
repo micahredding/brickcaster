@@ -2,6 +2,7 @@ In this episode, Micah interviews world-traveling science fiction writer Colin W
 
 - [Colin's books, including A Tale of More and the Real Powers series](http://colin.io)
 - [Colin on Twitter](http://twitter.com/colinismyname)
+- [Crypto-Anarchy](http://en.wikipedia.org/wiki/Crypto-anarchism) and the [Crypto-Anarchist Manifesto](http://groups.csail.mit.edu/mac/classes/6.805/articles/crypto/cypherpunks/may-crypto-manifesto.html)
+- [Bicameralism](http://en.wikipedia.org/wiki/Bicameralism_(psychology))
 - [Alphas, TV series](http://www.imdb.com/title/tt1183865/)
-- [Zoltan Istvan's Transhumanist Wager on Wikipedia](http://en.wikipedia.org/wiki/The_Transhumanist_Wager)
-- [Zoltan Istvan's Transhumanist Wager on Amazon](http://www.amazon.com/gp/product/B00AQQSY60/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00AQQSY60&linkCode=as2&tag=micahredding-20)
+- Zoltan Istvan's Transhumanist Wager on [Wikipedia](http://en.wikipedia.org/wiki/The_Transhumanist_Wager) and on [Amazon](http://www.amazon.com/gp/product/B00AQQSY60/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00AQQSY60&linkCode=as2&tag=micahredding-20)
