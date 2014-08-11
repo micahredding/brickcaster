@@ -1,6 +1,8 @@
 require 'rubygems'
 require 'sinatra'
 require 'redcarpet'
-require File.expand_path '../brickcaster.rb', __FILE__
+require 'yaml'
+require 'require_all'
+require_all 'app'
 
 run Sinatra::Application
