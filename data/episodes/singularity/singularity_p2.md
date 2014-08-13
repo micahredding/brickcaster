@@ -1,4 +1,4 @@
-{
+---
 	"title": "Preview Episode 2: Micah and Ryan",
 	"podcast_id": "singularity",
 	"episode_number": "p2",
@@ -13,4 +13,4 @@
 	"media_year": 2011,
 	"media_track": 0,
 	"summary": "Micah and Ryan are driving around, talking smack and singularity."
-}
+---

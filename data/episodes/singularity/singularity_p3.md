@@ -1,4 +1,4 @@
-{
+---
 	"title": "Preview Episode 3: A very special episode",
 	"podcast_id": "singularity",
 	"episode_number": "p3",
@@ -13,4 +13,4 @@
 	"media_year": 2011,
 	"media_track": 0,
 	"summary": "Micah and Ryan are driving around Sikeston, Missouri, the last place the singularity will arrive. It's a very special Christmas episode, with a returning reluctant guest."
-}
+---

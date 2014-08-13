@@ -1,4 +1,4 @@
-{
+---
 	"title": "Preview Episode 1: Car ride",
 	"podcast_id": "singularity",
 	"episode_number": "p1",
@@ -13,4 +13,4 @@
 	"media_year": 2011,
 	"media_track": 0,
 	"summary": "Micah, Ryan, and special guest and co-navigator Emily, discuss technology and the future...and how to do a podcast. No one was harmed in the incident at the end."
-}
+---
