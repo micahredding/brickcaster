@@ -1,3 +1,19 @@
+---
+"title": "Ep 5: Pandora's Box"
+"podcast_id": "abstraction"
+"episode_number": 5
+"publish_date": "2013-07-11 12:03:00"
+"url": "http://brickcaster.com/abstraction/5"
+"media_url": "http://resources.brickcaster.com/abstraction/005_pandoras_box.mp3"
+"media_length": 1491.0171666666665
+"media_size": 17985006
+"media_title": "Ep 5: Pandora's Box"
+"media_artist": "Micah Redding & Ryan Hogan"
+"media_album": "The Podcast of Unnecessary Abstraction(s)"
+"media_year": 2013
+"media_track": 5
+"summary": "This podcast has opened Pandora's Box, and once opened, the box cannot be repacked. We delve into mythology, internet radio services, popular chain restaurants, cross-species interbreeding, alternate histories, and Free Willy. Come along for the drive."
+---
 *This episode was recorded on Christmas day 2012, but is only now being released in July 2013.*
 
 This podcast has opened Pandora's Box, and once opened, the box cannot be repacked. We delve into mythology, internet radio services, popular chain restaurants, cross-species interbreeding, alternate histories, and Free Willy. Come along for the drive.

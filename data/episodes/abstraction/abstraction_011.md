@@ -1,3 +1,19 @@
+---
+"title": "Ep 11: Coming of Age"
+"podcast_id": "abstraction"
+"episode_number": 11
+"publish_date": "2014-02-24 0:00:01"
+"url": "http://brickcaster.com/abstraction/11"
+"media_url": "http://resources.brickcaster.com/abstraction/011_coming_of_age.mp3"
+"media_length": 3210
+"media_size": 128491695
+"media_title": "Ep 11: Coming of Age"
+"media_artist": "Micah Redding & Ryan Hogan"
+"media_album": "The Podcast of Unnecessary Abstraction(s)"
+"media_year": 2014
+"media_track": 11
+"summary": "In this coming-of-age episode, Micah and Ryan explore the problems with Millennials and Gypsies, find out why hippies become bankers, solve deep theological problems with the Power Rangers, and give the world a sure-fire formula for success!"
+---
 In this coming-of-age episode, Micah and Ryan explore the problems with Millennials and Gypsies, find out why hippies become bankers, solve deep theological problems with the Power Rangers, and give the world a sure-fire formula for success!
 
 - [Strange Loops](http://www.amazon.com/Am-Strange-Loop-Douglas-Hofstadter-ebook/dp/B004PYDBS0/), Exponential Extrapolations, and the [Simulation Argument](http://www.simulation-argument.com/)
@@ -7,7 +23,7 @@ In this coming-of-age episode, Micah and Ryan explore the problems with Millenni
 	- [The trinity and pie](http://answers.yahoo.com/question/index?qid=20130712054515AAxFwf8)
 	- [The trinity and pi](http://www.imdb.com/title/tt0138704/)
 	- All the other illustrations fail miserably, so I use my go-to illustration of [The Megazord from The Power Rangers](http://powerrangers.wikia.com/wiki/Megazord)
-	- [Captain Planet](http://en.wikipedia.org/wiki/Captain_Planet_and_the_Planeteers)	
+	- [Captain Planet](http://en.wikipedia.org/wiki/Captain_Planet_and_the_Planeteers)
 	- [A film adaptation of Captain Planet?](http://www.hollywoodreporter.com/heat-vision/captain-planet-planeteers-movie-works-576490)
 	- [Ted Turner](http://www.tedturner.com/)
 - Both numerable and innumerable
@@ -28,7 +44,7 @@ In this coming-of-age episode, Micah and Ryan explore the problems with Millenni
 - Trying to convince ourselves we’re special
 	- [The Flight of the Conchords and their fanbase](http://www.youtube.com/watch?v=JdeJRKxZZNY)
 	- [Ylvis](http://www.youtube.com/watch?v=mbyzgeee2mg)
-	- Ryan Hogan’s Sure-Fire Formula for Success: 
+	- Ryan Hogan’s Sure-Fire Formula for Success:
 		- move to New Zealand or Norway and start a comedy band
 - Hippies and cults
 - Idealists vs Radicals
