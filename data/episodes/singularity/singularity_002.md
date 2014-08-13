@@ -14,3 +14,4 @@
 "media_track": 2
 "summary": "John, Ryan, and Micah discuss how to look at the future and the Singularity. Are you an optimist, a pessimist, or a catastrophist? What nightmare scenarios are possible? What is the best-case scenario, and how can we steer in that direction?"
 ---
+John, Ryan, and Micah discuss how to look at the future and the Singularity. Are you an optimist, a pessimist, or a catastrophist? What nightmare scenarios are possible? What is the best-case scenario, and how can we steer in that direction?

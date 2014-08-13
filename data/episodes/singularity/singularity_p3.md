@@ -14,3 +14,4 @@
 "media_track": 0
 "summary": "Micah and Ryan are driving around Sikeston, Missouri, the last place the singularity will arrive. It's a very special Christmas episode, with a returning reluctant guest."
 ---
+Micah and Ryan are driving around Sikeston, Missouri, the last place the singularity will arrive. It's a very special Christmas episode, with a returning reluctant guest.
