@@ -1,6 +1,5 @@
 class Podcast
   include BrickcasterHelpers
-  attr_accessor :hash, :json
   attr_accessor :title, :podcast_id, :author, :url, :itunes_url, :rss_url, :keywords, :categories, :description, :links
 
   def initialize args
@@ -25,9 +24,8 @@ class Podcast
     @url.gsub('http://brickcaster.com', '')
   end
 
-
   def self.get id
-    filename = 'data/podcasts/' + id + '.json'
+    filename = "data/podcasts/#{id}.json"
     begin
       File.open(filename, "r") do |f|
         self.new JSON.load( f )

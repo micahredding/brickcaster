@@ -5,26 +5,29 @@ class Episode
     Episode.new podcast_id, episode_number
   end
 
-  def self.filename podcast_id, episode_number, format="md"
-    'data/episodes/' + podcast_id + '/' + podcast_id + '_' + self.file_number(episode_number) + '.' + format
-  end
-
-  def self.file_number episode_number
-    begin
-      "%03d" % Integer(episode_number)
-    rescue
-      episode_number
-    end
-  end
-
   def initialize podcast_id, episode_number
     @podcast_id = podcast_id
     @episode_number = episode_number
     parse_file
   end
 
+  def file_number
+    begin
+      "%03d" % Integer(@episode_number)
+    rescue
+      @episode_number
+    end
+  end
+
+  def filename
+    "data/episodes/#{@podcast_id}/#{@podcast_id}_#{file_number}.md"
+  end
+
+  def file_contents
+    @file_contents ||= File.read filename
+  end
+
   def parse_file
-    file_contents = File.read(Episode.filename(@podcast_id, @episode_number))
     if (md = file_contents.match(/^(?<metadata>---\s*\n.*?\n?)^(---\s*$\n?)/m))
       @body = markdown.render(md.post_match)
       @metadata = YAML.load(md[:metadata])
