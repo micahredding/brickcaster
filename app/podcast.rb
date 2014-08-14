@@ -11,7 +11,7 @@ class Podcast
   end
 
   def art_url key="normal"
-      @art_url[key]
+    @art_url[key]
   end
 
   def episodes
@@ -24,14 +24,17 @@ class Podcast
     @url.gsub('http://brickcaster.com', '')
   end
 
+  def self.filename id
+    "data/podcasts/#{id}.json"
+  end
+
   def self.get id
-    filename = "data/podcasts/#{id}.json"
     begin
-      File.open(filename, "r") do |f|
+      File.open(filename(id), "r") do |f|
         self.new JSON.load( f )
       end
     rescue
-      puts filename
+      puts filename(id)
       nil
     end
   end
