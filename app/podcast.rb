@@ -29,13 +29,8 @@ class Podcast
   end
 
   def self.get id
-    begin
-      File.open(filename(id), "r") do |f|
-        self.new JSON.load( f )
-      end
-    rescue
-      puts filename(id)
-      nil
+    File.open(filename(id), "r") do |f|
+      self.new JSON.load( f )
     end
   end
 
