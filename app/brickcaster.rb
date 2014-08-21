@@ -9,6 +9,8 @@ require_all 'app'
 
 helpers BrickcasterHelpers
 
+PODCASTS = ["abstraction", "singularity", "christianity"]
+
 get '/:podcast_id/:episode_number' do
   @podcast = Podcast.get(params[:podcast_id])
 	@episode = Episode.get(params[:podcast_id], params[:episode_number])
@@ -31,6 +33,6 @@ get '/:podcast_id' do
 end
 
 get '/' do
-  @index = Index.get
+  @podcasts = Podcast.get_all PODCASTS
   erb :index
 end

@@ -39,5 +39,10 @@ class Podcast
     end
   end
 
+  def self.get_all podcast_ids
+    podcast_ids.collect do |podcast_id|
+      self.get(podcast_id)
+    end
+  end
 end
 
