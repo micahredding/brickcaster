@@ -3,12 +3,8 @@ require 'ostruct'
 class Episode < OpenStruct
   include BrickcasterHelpers
 
-  def initialize(args)
-    super
-  end
-
   def podcast
-    Podcast.read(self.podcast_id)
+    @podcast ||= Podcast.read(self.podcast_id)
   end
 
   def write(path)
