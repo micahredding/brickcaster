@@ -1,0 +1,3 @@
+<% @podcast.episodes.reverse.each do |episode| %>
+<div class="episode"><a href="<%= episode.local_url %>"><%= episode.title %></a></div>
+<% end %>
