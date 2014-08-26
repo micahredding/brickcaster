@@ -1,0 +1,40 @@
+@mixin page-title {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  @include media($mobile) {
+    font-size: 2em;
+  }
+  @include media($tablet) {
+    font-size: 3em;
+  }
+  @include media($desktop) {
+    font-size: 3.7em;
+  }
+  color: #000000;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  margin-top:0;
+  margin-bottom: 0.5em;
+  a {
+    text-decoration: none;
+    &:hover {
+      background:none;
+      color: #000000;
+    }
+  }
+}
+
+@mixin page-body {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  @include media($tablet) {
+    font-size: 1.5em;
+  }
+  @include media($desktop) {
+    font-size: 1.7em;
+  }
+  p, ul, li {
+    font-size: 1em;
+    line-height: 1.3em;
+  }
+}
