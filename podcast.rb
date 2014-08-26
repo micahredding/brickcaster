@@ -22,7 +22,7 @@ class Podcast < OpenStruct
   end
 
   def write_rss_file(path)
-    output = StaticFile.render(self, "podcast.rss.builder", {:podcast => self})
+    output = StaticFile.render_file("podcast.rss.builder", self, {:podcast => self})
     StaticFile.write("#{path}.rss", output)
   end
 
