@@ -6,6 +6,6 @@ require 'require_all'
 
 class Brickcaster
   def self.read_and_write_podcast
-    Podcast.read("singularity").write("singularity")
+    PodcastIndex.new(["singularity"]).write("/")
   end
 end
