@@ -21,20 +21,20 @@ class StaticFile
   end
 
   def self.render(object, template, variables = {})
-    self.render_outer(object, template, variables)
+    content = self.render_file(template, object, variables)
+    layout = self.render_layout("layout.html.erb", object, variables, content)
   end
 
-  def self.render_outer(object, template, variables = {})
-    layout = Tilt.new("#{TEMPLATE_ROOT}/layout.html.erb")
-    content = self.render_inner(object, template, variables)
+  def self.render_layout(template, object = {}, variables = {}, inner_content = "")
+    layout = Tilt.new("#{TEMPLATE_ROOT}/#{template}")
     layout.render object, variables do
-      content
+      inner_content
     end
   end
 
-  def self.render_inner(object, template, variables = {})
+  def self.render_file(template, object = self, variables = {})
     template = Tilt.new("#{TEMPLATE_ROOT}/#{template}")
-    output = template.render object, variables
+    template.render object, variables
   end
 
   def self.write(output_path, output)
