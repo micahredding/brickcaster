@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title><%= render_file "_html_title.html.erb" %></title>
+  <title>
+    <%= episode.title + ' | ' if episode %>
+    <%= podcast.title + ' | ' if podcast %>
+    brickcaster: small podcasts from the human edge
+</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/ico" href="/favicon.ico">
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
@@ -20,10 +24,9 @@
     </span>
   </header>
   <div class="header-art">
-    <%= render_file "_art.html.erb" %>
-    <div class="back-link">
-      <%= render_file "_back_link.html.erb" %>
-    </div>
+    <% if podcast %>
+      <a href="<%= podcast.url %>"><img src="<%= podcast.art_url["wide"] %>" /></a>
+    <% end %>
   </div>
   <div class="page">
     <%= yield %>
