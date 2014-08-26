@@ -8,5 +8,5 @@ require_all '.'
 
 desc "Run generator"
 task :default do
-  Podcast.read("singularity").write("singularity")
+  Brickcaster.read_and_write_podcast
 end
