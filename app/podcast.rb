@@ -11,12 +11,12 @@ class Podcast < OpenStruct
   end
 
   def write(path)
-    write_index_file(path)
+    write_html_file(path)
     write_rss_file(path)
     write_episodes(path)
   end
 
-  def write_index_file(path)
+  def write_html_file(path)
     output = StaticFile.render("podcast.html.erb", self, {:podcast => self})
     StaticFile.write("#{path}/index.html", output)
   end
