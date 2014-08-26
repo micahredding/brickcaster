@@ -3,6 +3,7 @@ require 'ostruct'
 require 'redcarpet'
 require 'builder'
 require 'require_all'
+require_all './app'
 require_all '.'
 
 desc "Run generator"
