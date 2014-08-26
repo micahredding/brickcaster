@@ -20,7 +20,7 @@ class StaticFile
     metadata
   end
 
-  def self.render(object, template, variables = {})
+  def self.render(template, object, variables = {})
     content = self.render_file(template, object, variables)
     layout = self.render_layout("layout.html.erb", object, variables, content)
   end
