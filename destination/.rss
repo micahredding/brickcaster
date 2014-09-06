@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link href="http://brickcaster.com/singularity.rss" rel="self" type="application/rss+xml"/>
+    <link>http://brickcaster.com/singularity</link>
+    <title>Broadcast From The Singularity</title>
+    <itunes:subtitle>Micah, Ryan, John Yates, and friends discuss wild-eyed ideas about the future. With unique guests, they delve into life in the age of constantly accelerating change, and what that means for technology, culture, and the future of the world.</itunes:subtitle>
+    <itunes:summary>Micah, Ryan, John Yates, and friends discuss wild-eyed ideas about the future. With unique guests, they delve into life in the age of constantly accelerating change, and what that means for technology, culture, and the future of the world.</itunes:summary>
+    <description>Micah, Ryan, John Yates, and friends discuss wild-eyed ideas about the future. With unique guests, they delve into life in the age of constantly accelerating change, and what that means for technology, culture, and the future of the world.</description>
+    <itunes:image href="{&quot;normal&quot;=&gt;&quot;http://resources.brickcaster.com/images/broadcast_from_the_singularity.jpg&quot;, &quot;medium&quot;=&gt;&quot;http://resources.brickcaster.com/images/broadcast_from_the_singularity_small.jpg&quot;, &quot;wide&quot;=&gt;&quot;http://resources.brickcaster.com/covers/singularity_wide.jpg&quot;}"/>
+    <language>en-us</language>
+    <copyright>copyright © 2012-2014 Micah Redding</copyright>
+    <itunes:author>Micah Redding, Ryan Hogan, John Yates</itunes:author>
+    <itunes:owner>
+      <itunes:name>Micah Redding</itunes:name>
+      <itunes:email>micahtredding@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:keywords>singularity,technology,transhuman,transhumanism,kurzweil,artificial,intelligence,technium,kevin,kelly</itunes:keywords>
+    <itunes:category text="Technology"/>
+    <itunes:category text="Society &amp; Culture">
+      <itunes:category text="Philosophy"/>
+    </itunes:category>
+    <item>
+      <guid>http://brickcaster.com/singularity/1</guid>
+      <link>http://brickcaster.com/singularity/1</link>
+      <title>Ep 1: Art, Science, and The Technium</title>
+      <itunes:subtitle>What is art? What's it like to paint on an infinite canvas? Is art the only thing standing between us and the robot invasion? Micah Redding, Ryan Hogan, and John Yates in the first official podcast of Broadcast From The Singularity!</itunes:subtitle>
+      <itunes:summary>What is art? What's it like to paint on an infinite canvas? Is art the only thing standing between us and the robot invasion? Micah Redding, Ryan Hogan, and John Yates in the first official podcast of Broadcast From The Singularity!</itunes:summary>
+      <description>What is art? What's it like to paint on an infinite canvas? Is art the only thing standing between us and the robot invasion? Micah Redding, Ryan Hogan, and John Yates in the first official podcast of Broadcast From The Singularity!</description>
+      <content:encoded>&lt;p&gt;What is art? What&amp;#39;s it like to paint on an infinite canvas? Is art the only thing standing between us and the robot invasion?&lt;/p&gt;
+
+&lt;p&gt;Micah Redding, Ryan Hogan, and John Yates in the first official podcast of Broadcast From The Singularity!&lt;/p&gt;
+
+&lt;p&gt;Ideas Discussed:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The Singularity&lt;/li&gt;
+&lt;li&gt;The Technium as coined by &lt;a href="http//kk.org" target="_blank"&gt;Kevin Kelly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://eminenthuman.com/2012/02/22/the-implications-of-the-technium-on-the-state-of-art" target="_blank"&gt;The Implications of the Technium on The State of The Art&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;How the Technium redefines art forms&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://micahredding.com/blog/2011/12/28/artists-developers-deep-structures-new-world" target="_blank"&gt;Artists, Developers, and The Deep Structures of The New World&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Consciousness is a virtual world, that has been trying to reach out and colonize our reality, in all of our various art forms&lt;/li&gt;
+&lt;li&gt;Social media has exploded to fill the canvas&lt;/li&gt;
+&lt;li&gt;Film, writing, music started out on different ends of the canvas, but are trying to converge&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.ribbonfarm.com/2011/11/11/technology-and-the-baroque-unconscious/" target="_blank"&gt;Technology and the Baroque Unconscious&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Technology is an expanding canvas, sucking in our art, flattening and minimalizing it&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+      <enclosure url="http://resources.brickcaster.com/singularity/001_art_science_technium.mp3" length="66843315" type="audio/mpeg"/>
+      <pubDate>Thu, 1 Mar 2012 15:31:28 +0000</pubDate>
+      <itunes:duration>00:33:12</itunes:duration>
+      <itunes:author>Micah Redding, Ryan Hogan, John Yates</itunes:author>
+      <itunes:image href="{&quot;normal&quot;=&gt;&quot;http://resources.brickcaster.com/images/broadcast_from_the_singularity.jpg&quot;, &quot;medium&quot;=&gt;&quot;http://resources.brickcaster.com/images/broadcast_from_the_singularity_small.jpg&quot;, &quot;wide&quot;=&gt;&quot;http://resources.brickcaster.com/covers/singularity_wide.jpg&quot;}"/>
+      <itunes:keywords>singularity,technology,transhuman,transhumanism,kurzweil,artificial,intelligence,technium,kevin,kelly</itunes:keywords>
+    </item>
+  </channel>
+</rss>
