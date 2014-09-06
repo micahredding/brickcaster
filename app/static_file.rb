@@ -38,7 +38,8 @@ class StaticFile
   end
 
   def self.write(output_path, output)
-    File.open("#{OUTPUT_ROOT}/#{output_path}", "w") do |f|
+    absolute_output_path = "#{OUTPUT_ROOT}/#{output_path}"
+    File.open(absolute_output_path, "w") do |f|
       f.write output
     end
   end

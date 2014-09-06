@@ -2,10 +2,8 @@
 <html>
 <head>
   <title>
-    <%= episode.title + ' | ' if episode %>
-    <%= podcast.title + ' | ' if podcast %>
-    brickcaster: small podcasts from the human edge
-</title>
+    <%= title %> | brickcaster: small podcasts from the human edge
+  </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/ico" href="/favicon.ico">
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
@@ -24,15 +22,17 @@
     </span>
   </header>
   <div class="header-art">
-    <% if podcast %>
-      <a href="<%= podcast.url %>"><img src="<%= podcast.art_url["wide"] %>" /></a>
+    <% if !art_url.nil? %>
+      <a href=""><img src="<%= art_url %>" /></a>
     <% end %>
   </div>
   <div class="page">
     <%= yield %>
   </div>
   <div class="footer-links"><div class="footer-links-inner">
-    <%= StaticFile.render_file("_podcast_links.html.erb", self, { :podcast => podcast } ) if podcast %>
+    <% if false && podcast %>
+      <%= StaticFile.render_file("_podcast_links.html.erb", self, { :podcast => podcast } ) %>
+    <% end %>
     <div class="twitter-like">
     <a href="https://twitter.com/share" class="twitter-share-button" data-via="brickcaster">Tweet</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>

@@ -17,13 +17,13 @@ class Podcast < OpenStruct
   end
 
   def write_html_file(path)
-    output = StaticFile.render("podcast.html.erb", self, {:podcast => self})
-    StaticFile.write("#{path}/index.html", output)
+    output = StaticFile.render("podcast.html.erb", self, {:podcast => self, :art_url => self.art_url["wide"]})
+    StaticFile.write("#{self.podcast_id}/index.html", output)
   end
 
   def write_rss_file(path)
     output = StaticFile.render_file("podcast.rss.builder", self, {:podcast => self})
-    StaticFile.write("#{path}.rss", output)
+    StaticFile.write("#{self.podcast_id}.rss", output)
   end
 
   def write_episodes(path)

@@ -2,7 +2,7 @@ class PodcastIndex < Array
   include BrickcasterHelpers
 
   def podcasts
-    @podcasts ||= self.collect do |podcast_id|
+    @podcasts_loaded ||= self.collect do |podcast_id|
       Podcast.read(podcast_id)
     end
   end
@@ -13,13 +13,18 @@ class PodcastIndex < Array
   end
 
   def write_html_file(path)
-    output = StaticFile.render("podcast_index.html.erb", self, {:podcasts => podcasts})
+    variables = {
+      :podcasts => podcasts,
+      :title => "",
+      :art_url => nil,
+    }
+    output = StaticFile.render("podcast_index.html.erb", self, variables)
     StaticFile.write("#{path}/index.html", output)
   end
 
   def write_podcasts(path)
     self.podcasts.each do |podcast|
-      podcast.write("#{path}/#{podcast}")
+      podcast.write("#{path}/#{podcast.id}")
     end
   end
 

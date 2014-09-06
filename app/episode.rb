@@ -9,7 +9,7 @@ class Episode < OpenStruct
 
   def write(path)
     output = StaticFile.render("episode.html.erb", self, {:episode => self, :podcast => self.podcast})
-    StaticFile.write("#{path}/#{episode_number}/index.html", output)
+    StaticFile.write("#{podcast_id}/#{episode_number}/index.html", output)
   end
 
   def self.read(path, episode_number = 1)
