@@ -30,7 +30,7 @@
     <%= yield %>
   </div>
   <div class="footer-links"><div class="footer-links-inner">
-    <% if false && podcast %>
+    <% if podcast_links %>
       <%= StaticFile.render_file("_podcast_links.html.erb", self, { :podcast => podcast } ) %>
     <% end %>
     <div class="twitter-like">

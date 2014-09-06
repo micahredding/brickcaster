@@ -17,6 +17,7 @@ class PodcastIndex < Array
       :podcasts => podcasts,
       :title => "",
       :art_url => nil,
+      :podcast_links => false,
     }
     output = StaticFile.render("podcast_index.html.erb", self, variables)
     StaticFile.write("#{path}/index.html", output)
