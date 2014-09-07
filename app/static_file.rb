@@ -2,6 +2,7 @@ require 'redcarpet'
 require 'yaml'
 require 'erb'
 require 'tilt'
+require 'fileutils'
 
 class StaticFile
   extend BrickcasterHelpers
@@ -39,9 +40,16 @@ class StaticFile
 
   def self.write(output_path, output)
     absolute_output_path = "#{OUTPUT_ROOT}/#{output_path}"
+    self.prepare_path absolute_output_path
     File.open(absolute_output_path, "w") do |f|
       f.write output
     end
   end
 
+  def self.prepare_path(output_path)
+    dirname = File.dirname(output_path)
+    unless File.directory?(dirname)
+      FileUtils.mkdir_p(dirname)
+    end
+  end
 end
