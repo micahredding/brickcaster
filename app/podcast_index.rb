@@ -18,6 +18,7 @@ class PodcastIndex < Array
       :title => "",
       :art_url => nil,
       :podcast_links => false,
+      :absolute_url => "http://brickcaster.com"
     }
     output = StaticFile.render("podcast_index.html.erb", self, variables)
     StaticFile.write("#{path}/index.html", output)
