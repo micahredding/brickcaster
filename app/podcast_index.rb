@@ -15,7 +15,7 @@ class PodcastIndex < Array
   def write_html_file(path)
     variables = {
       :podcasts => podcasts,
-      :title => "",
+      :title => nil,
       :art_url => nil,
       :podcast_links => false,
       :absolute_url => "http://brickcaster.com"
