@@ -38,3 +38,4 @@ DEPENDENCIES
   require_all
   sinatra
   sinatra-export
+  tilt
