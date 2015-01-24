@@ -32,19 +32,30 @@ header {
   a, span {
     color: #ffffff;
   }
-  span.site-name, span.connect {
+  span.site-name, span.podcast-links, span.connect {
     display: inline-block;
     a {
       color: #ffffff;
       text-decoration: none;
       display: inline-block;
-      padding:10px 20px;
+      padding: 10px;
+      @include media($desktop) {
+        padding:10px 20px;
+      }
       &:hover {
         color: #018fe2;
       }
     }
   }
   span.site-name {
+    span {
+      display: none;
+      @include media($desktop) {
+        display: inline;
+      }
+    }
+  }
+  span.podcast-links {
     span {
       display: none;
       @include media($desktop) {
@@ -79,10 +90,15 @@ header {
 }
 
 .header-art {
-  position: relative;
+  @include media($desktop) {
+    margin:2em auto;
+  }
   padding: 0;
+  margin:0 auto;
+  max-width: 800px;
   img {
-    width: 100%;
+    /*width: 100%;*/
+    margin: o auto;
   }
   .back-link {
     position: absolute;
@@ -108,15 +124,6 @@ $padding:20px;
   p {
     margin:0 0;
   }
-  .fb-like {
-    padding: $padding;
-  }
-  .twitter-like {
-    margin:1em;
-    @include media($desktop) {
-      margin:1em -1em 1em 1em;
-    }
-  }
   .footer-links-inner {
     margin:0 auto;
     padding: $padding 0;
@@ -127,8 +134,9 @@ $padding:20px;
     }
   }
 }
+
 .footer-links {
-  @include media($desktop) {
+/*  @include media($desktop) {
     position: fixed;
     top:2.9em;
     right:0;
@@ -139,6 +147,6 @@ $padding:20px;
       color: #000000;
     }
   }
-}
+*/}
 
 

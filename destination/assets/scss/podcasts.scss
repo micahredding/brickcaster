@@ -87,29 +87,6 @@ $padding: 20px;
   }
 }
 
-.podcast-links {
-  background: #111111;
-  a, a:visited {
-    color:#eee;
-    display: block;
-    font-size: 1em;
-    line-height: 1.5em;
-    padding:($padding / 2) $padding;
-    &:hover {
-      background: #ffffff;
-      text-decoration: none;
-      color: #000000;
-    }
-  }
-  .podcast-links-inner {
-    margin:0 auto;
-    padding: $padding 0;
-    max-width: 800px;
-  }
-}
-
-
-
 /* Misc */
 .podcast-sidebar {
   float:left;
