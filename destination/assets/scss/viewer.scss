@@ -6,11 +6,10 @@ body {
   padding:0;
 }
 body .page {
-  @include media($tablet) {
-    margin:0px auto;
-    max-width: 800px;
-  }
   margin:0 2em;
+  @include media($desktop) {
+    margin:0px auto;
+  }
 }
 .page-title {
   @include page-title;
@@ -50,7 +49,7 @@ header {
   span.site-name {
     span {
       display: none;
-      @include media($desktop) {
+      @include media($desktop-wide) {
         display: inline;
       }
     }
@@ -58,7 +57,7 @@ header {
   span.podcast-links {
     span {
       display: none;
-      @include media($desktop) {
+      @include media($desktop-wide) {
         display: inline;
       }
     }
@@ -67,7 +66,7 @@ header {
     float: right;
     a span {
       display: none;
-      @include media($desktop) {
+      @include media($desktop-wide) {
         display: inline;
       }
     }
@@ -90,19 +89,14 @@ header {
 }
 
 .header-art {
-  @include media($desktop) {
-    margin:2em auto;
-  }
   padding: 0;
   margin:0 auto;
-  max-width: 800px;
+  max-width: 100%;
+  max-height: 300px;
+  overflow: hidden;
   img {
-    /*width: 100%;*/
-    margin: o auto;
-  }
-  .back-link {
-    position: absolute;
-    top:0;
+    width: 100%;
+    margin: 0 auto;
   }
 }
 

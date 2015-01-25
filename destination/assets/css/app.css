@@ -263,10 +263,9 @@ body {
 
 body .page {
   margin: 0 2em; }
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 768px) {
     body .page {
-      margin: 0px auto;
-      max-width: 800px; } }
+      margin: 0px auto; } }
 
 .page-title {
   font-size: 1.2em;
@@ -274,8 +273,10 @@ body .page {
   color: #000000;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0.5em; }
+  margin: 1em auto 0.5em;
+  max-width: 800px;
+  padding: 0;
+  /*text-align:center;*/ }
   @media screen and (min-width: 100px) {
     .page-title {
       font-size: 2em; } }
@@ -318,19 +319,19 @@ header {
         color: #018fe2; }
   header span.site-name span {
     display: none; }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1200px) {
       header span.site-name span {
         display: inline; } }
   header span.podcast-links span {
     display: none; }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1200px) {
       header span.podcast-links span {
         display: inline; } }
   header span.connect {
     float: right; }
     header span.connect a span {
       display: none; }
-      @media screen and (min-width: 768px) {
+      @media screen and (min-width: 1200px) {
         header span.connect a span {
           display: inline; } }
 
@@ -347,16 +348,12 @@ header {
 .header-art {
   padding: 0;
   margin: 0 auto;
-  max-width: 800px; }
-  @media screen and (min-width: 768px) {
-    .header-art {
-      margin: 2em auto; } }
+  max-width: 100%;
+  max-height: 300px;
+  overflow: hidden; }
   .header-art img {
-    /*width: 100%;*/
-    margin: o auto; }
-  .header-art .back-link {
-    position: absolute;
-    top: 0; }
+    width: 100%;
+    margin: 0 auto; }
 
 .footer-links {
   background: #111111; }
@@ -394,6 +391,31 @@ header {
       }
     }
   */ }
+
+.podcast-title {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  color: #000000;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  margin: 1em auto 0.5em;
+  max-width: 800px;
+  padding: 0;
+  /*text-align:center;*/ }
+  @media screen and (min-width: 100px) {
+    .podcast-title {
+      font-size: 2em; } }
+  @media screen and (min-width: 480px) {
+    .podcast-title {
+      font-size: 3em; } }
+  @media screen and (min-width: 768px) {
+    .podcast-title {
+      font-size: 3.7em; } }
+  .podcast-title a {
+    text-decoration: none; }
+    .podcast-title a:hover {
+      background: none;
+      color: #000000; }
 
 .podcast-index-wrapper {
   *zoom: 1;
@@ -464,8 +486,10 @@ header {
     color: #000000;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 0.5em;
+    margin: 1em auto 0.5em;
+    max-width: 800px;
+    padding: 0;
+    /*text-align:center;*/
     padding: 0;
     margin: 20px 0; }
     @media screen and (min-width: 100px) {
@@ -532,8 +556,10 @@ header {
   color: #000000;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0.5em; }
+  margin: 1em auto 0.5em;
+  max-width: 800px;
+  padding: 0;
+  /*text-align:center;*/ }
   @media screen and (min-width: 100px) {
     .episode-title {
       font-size: 2em; } }
@@ -550,19 +576,17 @@ header {
       color: #000000; }
 
 .episode-wrapper {
-  padding-top: 20px;
-  padding-bottom: 20px;
   max-width: 800px;
-  margin: 0 auto; }
+  margin: 0 auto 2em; }
   .episode-wrapper .episode-topbar {
     text-align: center;
-    padding: 20px; }
+    padding: 20px 0; }
     .episode-wrapper .episode-topbar img {
       width: 100%;
       height: auto; }
     @media (min-width: 800px) {
       .episode-wrapper .episode-topbar {
-        padding: 40px 20px; } }
+        padding: 40px 0; } }
   .episode-wrapper .episode-title {
     padding: 0 20px;
     margin: 20px 0; }
@@ -572,7 +596,7 @@ header {
   .episode-wrapper .episode-body {
     font-size: 1.2em;
     line-height: 1.5em;
-    margin: 20px; }
+    margin: 20px 0; }
     @media screen and (min-width: 480px) {
       .episode-wrapper .episode-body {
         font-size: 1.5em; } }

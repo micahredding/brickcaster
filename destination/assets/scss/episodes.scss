@@ -9,20 +9,18 @@
 $padding: 20px;
 
 .episode-wrapper {
-  padding-top: 20px;
-  padding-bottom: 20px;
   max-width: 800px;
-  margin:0 auto;
+  margin:0 auto 2em;
 
   .episode-topbar {
     text-align: center;
-    padding:$padding;
+    padding:$padding 0;
     img {
       width: 100%;
       height: auto;
     }
     @media(min-width:800px) {
-      padding:($padding * 2) $padding;
+      padding:($padding * 2) 0;
     }
   }
 
@@ -36,7 +34,7 @@ $padding: 20px;
 
   .episode-body {
     @include page-body;
-    margin:$padding;
+    margin:$padding 0;
     ul {
       padding-left: 1em;
       li {
