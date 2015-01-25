@@ -25,6 +25,7 @@
     <itunes:category text="Society &amp; Culture">
       <itunes:category text="Philosophy"/>
     </itunes:category>
+    <itunes:explicit>no</itunes:explicit>
     <item>
       <guid>http://brickcaster.com/christianity/2</guid>
       <link>http://brickcaster.com/christianity/2</link>

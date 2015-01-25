@@ -20,6 +20,7 @@
     <itunes:category text="Society &amp; Culture">
       <itunes:category text="Philosophy"/>
     </itunes:category>
+    <itunes:explicit>no</itunes:explicit>
     <item>
       <guid>http://brickcaster.com/singularity/10</guid>
       <link>http://brickcaster.com/singularity/10</link>

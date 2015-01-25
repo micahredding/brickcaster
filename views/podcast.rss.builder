@@ -37,6 +37,8 @@ xml.rss :version => "2.0", "xmlns:itunes" => "http://www.itunes.com/dtds/podcast
       end
     end
 
+    xml.itunes :explicit, "no"
+
     episodes = podcast.episodes
     episodes.reverse!
 

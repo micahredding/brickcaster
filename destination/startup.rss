@@ -18,6 +18,7 @@
     <itunes:keywords>technology,startup,business,development</itunes:keywords>
     <itunes:category text="Technology"/>
     <itunes:category text="Business"/>
+    <itunes:explicit>no</itunes:explicit>
     <item>
       <guid>http://brickcaster.com/startup/1</guid>
       <link>http://brickcaster.com/startup/1</link>
