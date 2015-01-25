@@ -3,7 +3,7 @@
 "podcast_id": "startup"
 "author": "Micah Redding, Ann Howard"
 "keywords": "technology,startup,business,development"
-"categories": ["Society & Culture, Philosophy", "Comedy"]
+"categories": ["Technology", "Business"]
 "description": "Demystifying tech decision-making! Two developers and a human being discuss the difficult world of technology, business, and building software that matters."
 "url": "http://brickcaster.com/startup"
 "itunes_url": ""

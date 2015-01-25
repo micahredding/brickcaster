@@ -16,10 +16,8 @@
       <itunes:email>micahtredding@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:keywords>technology,startup,business,development</itunes:keywords>
-    <itunes:category text="Society &amp; Culture">
-      <itunes:category text="Philosophy"/>
-    </itunes:category>
-    <itunes:category text="Comedy"/>
+    <itunes:category text="Technology"/>
+    <itunes:category text="Business"/>
     <item>
       <guid>http://brickcaster.com/startup/1</guid>
       <link>http://brickcaster.com/startup/1</link>
