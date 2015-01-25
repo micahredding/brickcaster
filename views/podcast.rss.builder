@@ -17,7 +17,7 @@ xml.rss :version => "2.0", "xmlns:itunes" => "http://www.itunes.com/dtds/podcast
 
     # podcast meta
     xml.language 'en-us'
-    xml.copyright 'copyright © 2012-2014 Micah Redding'
+    xml.copyright 'copyright 2012-2015 Micah Redding'
     xml.itunes :author, podcast.author || 'Micah Redding'
     xml.itunes :owner do
       xml.itunes :name, 'Micah Redding'
