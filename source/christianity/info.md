@@ -15,7 +15,7 @@
   "wide": ""
 }
 "links": {
-  "Micah's Essays": "http://micahredding.com/blog"
+  "Micah's Essays": "http://micahredding.com/blog",
   "Christian Transhumanist Association": "http://christiantranshumanism.org"
 }
 "episodes": [1,2]

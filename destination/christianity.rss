@@ -3,19 +3,19 @@
   <channel>
     <atom:link href="http://brickcaster.com/christianity.rss" rel="self" type="application/rss+xml"/>
     <link>http://brickcaster.com/christianity</link>
-    <title>Christianity on the Curve</title>
-    <itunes:subtitle>Micah &amp; Ryan venture to the edge of Christianity and human experience, to discuss practical theology in a time of accelerating change.</itunes:subtitle>
-    <itunes:summary>Micah &amp; Ryan venture to the edge of Christianity and human experience, to discuss practical theology in a time of accelerating change.</itunes:summary>
-    <description>Micah &amp; Ryan venture to the edge of Christianity and human experience, to discuss practical theology in a time of accelerating change.</description>
+    <title>Christianity &amp; Transhumanism</title>
+    <itunes:subtitle>Micah Redding explores Christianity and Transhumanism, and the connections between religion, technology, and the future of the human race.</itunes:subtitle>
+    <itunes:summary>Micah Redding explores Christianity and Transhumanism, and the connections between religion, technology, and the future of the human race.</itunes:summary>
+    <description>Micah Redding explores Christianity and Transhumanism, and the connections between religion, technology, and the future of the human race.</description>
     <itunes:image href="http://resources.brickcaster.com/images/anarchistcross_black.jpg"/>
     <language>en-us</language>
     <copyright>copyright 2012-2015 Micah Redding</copyright>
-    <itunes:author>Micah Redding, Ryan Hogan</itunes:author>
+    <itunes:author>Micah Redding</itunes:author>
     <itunes:owner>
       <itunes:name>Micah Redding</itunes:name>
       <itunes:email>micahtredding@gmail.com</itunes:email>
     </itunes:owner>
-    <itunes:keywords>theology,christianity,spirituality,god,religion</itunes:keywords>
+    <itunes:keywords>theology,christianity,spirituality,transhumanism,singularity</itunes:keywords>
     <itunes:category text="Religion &amp; Spirituality">
       <itunes:category text="Christianity"/>
     </itunes:category>
@@ -38,9 +38,9 @@
       <enclosure url="http://resources.brickcaster.com/christianity/02_drive_to_franklin.mp3" length="19413820" type="audio/mpeg"/>
       <pubDate>Thu, 19 Jan 2012 15:23:02 +0000</pubDate>
       <itunes:duration>00:28:11</itunes:duration>
-      <itunes:author>Micah Redding, Ryan Hogan</itunes:author>
+      <itunes:author>Micah Redding</itunes:author>
       <itunes:image href="http://resources.brickcaster.com/images/anarchistcross_black.jpg"/>
-      <itunes:keywords>theology,christianity,spirituality,god,religion</itunes:keywords>
+      <itunes:keywords>theology,christianity,spirituality,transhumanism,singularity</itunes:keywords>
     </item>
     <item>
       <guid>http://brickcaster.com/christianity/1</guid>
@@ -54,9 +54,9 @@
       <enclosure url="http://resources.brickcaster.com/christianity/01_the_idea_of_practical_theology.mp3" length="41632235" type="audio/mpeg"/>
       <pubDate>Mon, 16 Jan 2012 14:18:14 +0000</pubDate>
       <itunes:duration>00:28:52</itunes:duration>
-      <itunes:author>Micah Redding, Ryan Hogan</itunes:author>
+      <itunes:author>Micah Redding</itunes:author>
       <itunes:image href="http://resources.brickcaster.com/images/anarchistcross_black.jpg"/>
-      <itunes:keywords>theology,christianity,spirituality,god,religion</itunes:keywords>
+      <itunes:keywords>theology,christianity,spirituality,transhumanism,singularity</itunes:keywords>
     </item>
   </channel>
 </rss>
