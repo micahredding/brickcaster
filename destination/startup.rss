@@ -7,7 +7,7 @@
     <itunes:subtitle>Demystifying tech decision-making! Two developers and a human being discuss the difficult world of technology, business, and building software that matters.</itunes:subtitle>
     <itunes:summary>Demystifying tech decision-making! Two developers and a human being discuss the difficult world of technology, business, and building software that matters.</itunes:summary>
     <description>Demystifying tech decision-making! Two developers and a human being discuss the difficult world of technology, business, and building software that matters.</description>
-    <itunes:image href="http://resources.brickcaster.com/images/anarchistcross_black.jpg"/>
+    <itunes:image href="http://resources.brickcaster.com/images/startup_sequence.jpg"/>
     <language>en-us</language>
     <copyright>copyright © 2012-2014 Micah Redding</copyright>
     <itunes:author>Micah Redding, Ann Howard</itunes:author>
@@ -16,14 +16,25 @@
       <itunes:email>micahtredding@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:keywords>technology,startup,business,development</itunes:keywords>
-    <itunes:category text="Religion &amp; Spirituality">
-      <itunes:category text="Christianity"/>
-    </itunes:category>
-    <itunes:category text="Religion &amp; Spirituality">
-      <itunes:category text="Spirituality"/>
-    </itunes:category>
     <itunes:category text="Society &amp; Culture">
       <itunes:category text="Philosophy"/>
     </itunes:category>
+    <itunes:category text="Comedy"/>
+    <item>
+      <guid>http://brickcaster.com/startup/1</guid>
+      <link>http://brickcaster.com/startup/1</link>
+      <title>Ep 1: Platforms vs Custom Development</title>
+      <itunes:subtitle>You've got deadlines, budget constraints, and incredible ambitions. Do you build your software on a platform that's already out there? Or do you develop everything from scratch? In this episode, we provide a framework to help you visualize your decision, as well as a list of questions to consider as you’re going through the process.</itunes:subtitle>
+      <itunes:summary>You've got deadlines, budget constraints, and incredible ambitions. Do you build your software on a platform that's already out there? Or do you develop everything from scratch? In this episode, we provide a framework to help you visualize your decision, as well as a list of questions to consider as you’re going through the process.</itunes:summary>
+      <description>You've got deadlines, budget constraints, and incredible ambitions. Do you build your software on a platform that's already out there? Or do you develop everything from scratch? In this episode, we provide a framework to help you visualize your decision, as well as a list of questions to consider as you’re going through the process.</description>
+      <content:encoded>&lt;p&gt;You&amp;#39;ve got deadlines, budget constraints, and incredible ambitions. Do you build your software on a platform that&amp;#39;s already out there? Or do you develop everything from scratch? In this episode, we provide a framework to help you visualize your decision, as well as a list of questions to consider as you’re going through the process.&lt;/p&gt;
+</content:encoded>
+      <enclosure url="http://resources.brickcaster.com/startup/001_platform_vs_dev.mp3" length="58970244" type="audio/mpeg"/>
+      <pubDate>Wed, 1 Apr 2015 00:00:01 +0000</pubDate>
+      <itunes:duration>00:24:34</itunes:duration>
+      <itunes:author>Micah Redding, Ann Howard</itunes:author>
+      <itunes:image href="http://resources.brickcaster.com/images/startup_sequence.jpg"/>
+      <itunes:keywords>technology,startup,business,development</itunes:keywords>
+    </item>
   </channel>
 </rss>
