@@ -10,9 +10,9 @@
 "feedburner_url": "http://feeds.feedburner.com/ChristianityOnTheCurve"
 "rss_url": "http://brickcaster.com/christianity.rss"
 "art_url": {
-  "normal": "http://resources.brickcaster.com/images/anarchistcross_black.jpg",
-  "medium": "http://resources.brickcaster.com/images/anarchistcross_black_small.jpg",
-  "wide": ""
+  "normal": "http://resources.brickcaster.com/images/christianity_and_transhumanism.jpg",
+  "medium": "http://resources.brickcaster.com/images/christianity_and_transhumanism_small.jpg",
+  "wide": "christianity_and_transhumanism_wide.jpg"
 }
 "links": {
   "Micah's Essays": "http://micahredding.com/blog",
