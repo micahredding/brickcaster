@@ -3,6 +3,7 @@
   <channel>
     <atom:link href="http://brickcaster.com/christianity.rss" rel="self" type="application/rss+xml"/>
     <link>http://brickcaster.com/christianity</link>
+    <itunes:new-feed-url>http://brickcaster.com/christianity.rss</itunes:new-feed-url>
     <title>Christianity &amp; Transhumanism</title>
     <itunes:subtitle>Micah Redding explores Christianity and Transhumanism, diving deep into the relationship between religion, technology, and the future of the human race.</itunes:subtitle>
     <itunes:summary>Micah Redding explores Christianity and Transhumanism, diving deep into the relationship between religion, technology, and the future of the human race.</itunes:summary>

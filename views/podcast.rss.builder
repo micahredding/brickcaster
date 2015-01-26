@@ -5,6 +5,7 @@ xml.rss :version => "2.0", "xmlns:itunes" => "http://www.itunes.com/dtds/podcast
 
     # id
     xml.link podcast.url
+    xml.itunes :'new-feed-url', podcast.rss_url
 
     # title, summary, content
     xml.title podcast.title

@@ -3,6 +3,7 @@
   <channel>
     <atom:link href="http://brickcaster.com/singularity.rss" rel="self" type="application/rss+xml"/>
     <link>http://brickcaster.com/singularity</link>
+    <itunes:new-feed-url>http://brickcaster.com/singularity.rss</itunes:new-feed-url>
     <title>Broadcast From The Singularity</title>
     <itunes:subtitle>Micah, Ryan, John Yates, and friends discuss wild-eyed ideas about the future. With unique guests, they delve into life in the age of constantly accelerating change, and what that means for technology, culture, and the future of the world.</itunes:subtitle>
     <itunes:summary>Micah, Ryan, John Yates, and friends discuss wild-eyed ideas about the future. With unique guests, they delve into life in the age of constantly accelerating change, and what that means for technology, culture, and the future of the world.</itunes:summary>

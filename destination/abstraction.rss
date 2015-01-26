@@ -3,6 +3,7 @@
   <channel>
     <atom:link href="http://brickcaster.com/abstraction.rss" rel="self" type="application/rss+xml"/>
     <link>http://brickcaster.com/abstraction</link>
+    <itunes:new-feed-url>http://brickcaster.com/abstraction.rss</itunes:new-feed-url>
     <title>The Podcast of Unnecessary Abstraction(s)</title>
     <itunes:subtitle>An ascending rampage up the tower of abstraction(s). Obfuscation, paradox, and irony are the hallmarks of this pedantic exploration of intellectual pretension.</itunes:subtitle>
     <itunes:summary>An ascending rampage up the tower of abstraction(s). Obfuscation, paradox, and irony are the hallmarks of this pedantic exploration of intellectual pretension.</itunes:summary>

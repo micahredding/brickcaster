@@ -3,6 +3,7 @@
   <channel>
     <atom:link href="http://brickcaster.com/startup.rss" rel="self" type="application/rss+xml"/>
     <link>http://brickcaster.com/startup</link>
+    <itunes:new-feed-url>http://brickcaster.com/startup.rss</itunes:new-feed-url>
     <title>Startup Sequence</title>
     <itunes:subtitle>Demystifying tech decision-making! Two developers and a human being discuss the difficult world of technology, business, and building software that matters.</itunes:subtitle>
     <itunes:summary>Demystifying tech decision-making! Two developers and a human being discuss the difficult world of technology, business, and building software that matters.</itunes:summary>
