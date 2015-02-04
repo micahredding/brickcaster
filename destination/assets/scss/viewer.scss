@@ -33,6 +33,9 @@ header {
   }
   span.site-name {
     text-transform: uppercase;
+    span {
+      text-transform: none;
+    }
   }
   span.site-name, span.podcast-links, span.connect {
     display: inline-block;
