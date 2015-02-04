@@ -305,6 +305,8 @@ header {
       font-size: 1em; } }
   header a, header span {
     color: #ffffff; }
+  header span.site-name {
+    text-transform: uppercase; }
   header span.site-name, header span.podcast-links, header span.connect {
     display: inline-block; }
     header span.site-name a, header span.podcast-links a, header span.connect a {

@@ -31,6 +31,9 @@ header {
   a, span {
     color: #ffffff;
   }
+  span.site-name {
+    text-transform: uppercase;
+  }
   span.site-name, span.podcast-links, span.connect {
     display: inline-block;
     a {
