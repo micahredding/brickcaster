@@ -306,8 +306,10 @@ header {
   header a, header span {
     color: #ffffff; }
   header span.site-name {
+    font-weight: bold;
     text-transform: uppercase; }
     header span.site-name span {
+      font-weight: normal;
       text-transform: none; }
   header span.site-name, header span.podcast-links, header span.connect {
     display: inline-block; }

@@ -32,8 +32,10 @@ header {
     color: #ffffff;
   }
   span.site-name {
+    font-weight: bold;
     text-transform: uppercase;
     span {
+      font-weight: normal;
       text-transform: none;
     }
   }
