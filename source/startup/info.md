@@ -15,8 +15,9 @@
   "wide": "http://resources.brickcaster.com/images/startup_sequence_wide.jpg"
 }
 "links": {
-  "Essays by Micah": "http://micahredding.com/blog",
-  "Centresource Interactive Agency": "http://centresource.com"
+  "Subscribe by Email": "http://eepurl.com/bp3iOf",
+  "Centresource Interactive Agency": "http://centresource.com",
+  "Essays by Micah": "http://micahredding.com/blog"
 }
 "episodes": [1]
 ---
