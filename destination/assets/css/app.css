@@ -361,8 +361,9 @@ header {
     display: block;
     width: 100%; }
   .header-art img {
-    width: 100%;
-    margin: 0 auto; }
+    display: block;
+    margin: 0 auto;
+    width: 100%; }
 
 .footer-links {
   background: #111111; }
