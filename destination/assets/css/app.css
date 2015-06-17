@@ -336,7 +336,7 @@ header {
   header span.connect {
     display: none;
     float: right; }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 480px) {
       header span.connect {
         display: inline; } }
 

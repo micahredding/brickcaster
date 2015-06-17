@@ -73,7 +73,7 @@ header {
   span.connect {
     display: none;
     float: right;
-    @include media($desktop-wide) {
+    @include media($tablet) {
       display: inline;
     }
   }
