@@ -12,10 +12,10 @@ input[type="submit"] {
   display: inline-block;
   font-size: 11px;
   font-weight: bold;
-  background-color: #477dca;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #477dca), color-stop(100%, #2760b2));
-  background-image: -webkit-linear-gradient(#477dca, #2760b2);
-  background-image: linear-gradient(#477dca, #2760b2);
+  background-color: #477DCA;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #477DCA), color-stop(100%, #2760b2));
+  background-image: -webkit-linear-gradient(#477DCA, #2760b2);
+  background-image: linear-gradient(#477DCA, #2760b2);
   padding: 7px 18px;
   text-decoration: none;
   text-shadow: 0 1px 0 #1b4f9a;
@@ -32,14 +32,14 @@ input[type="submit"] {
   button:active:not(:disabled),
   input[type="submit"]:active:not(:disabled) {
     border: 1px solid #2459a6;
-    box-shadow: inset 0 0 8px 4px #235397, inset 0 0 8px 4px #235397, 0 1px 1px 0 #eeeeee; }
+    box-shadow: inset 0 0 8px 4px #235397, inset 0 0 8px 4px #235397, 0 1px 1px 0 #eee; }
   button:disabled,
   input[type="submit"]:disabled {
     opacity: 0.5;
     cursor: not-allowed; }
 
 body {
-  color: #333333;
+  color: #333;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   -webkit-font-smoothing: antialiased;
@@ -72,7 +72,7 @@ p {
   margin: 0 0 0.75em; }
 
 a {
-  color: #477dca;
+  color: #477DCA;
   text-decoration: none;
   -webkit-transition: color 0.1s linear;
   -moz-transition: color 0.1s linear;
@@ -84,7 +84,7 @@ a {
     outline: none; }
 
 hr {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #DDD;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -95,7 +95,7 @@ img {
   max-width: 100%; }
 
 abbr, acronym {
-  border-bottom: 1px dotted #dddddd;
+  border-bottom: 1px dotted #DDD;
   cursor: help; }
 
 address {
@@ -109,7 +109,7 @@ del {
   color: #595959; }
 
 blockquote {
-  border-left: 2px solid #dddddd;
+  border-left: 2px solid #DDD;
   color: #595959;
   margin: 1.5em 0;
   padding-left: 0.75em; }
@@ -122,7 +122,7 @@ cite {
 
 fieldset {
   background: #f7f7f7;
-  border: 1px solid #dddddd;
+  border: 1px solid #DDD;
   margin: 0 0 0.75em 0;
   padding: 1.5em; }
 
@@ -151,7 +151,7 @@ input[type="email"], input[type="number"], input[type="password"], input[type="s
   transition: border-color;
   background-color: white;
   border-radius: 0.1875em;
-  border: 1px solid #dddddd;
+  border: 1px solid #DDD;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
@@ -163,7 +163,7 @@ input[type="email"], input[type="number"], input[type="password"], input[type="s
     border-color: #c4c4c4; }
   textarea:focus,
   input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus {
-    border-color: #477dca;
+    border-color: #477DCA;
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(55, 112, 192, 0.7);
     outline: none; }
 
@@ -205,7 +205,7 @@ th {
   text-align: left; }
 
 td {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #DDD;
   padding: 0.75em 0; }
 
 tr, td, th {
@@ -231,7 +231,7 @@ dl {
   font-weight: bold; }
 
 .error, #flash_failure {
-  background: #fbe3e4;
+  background: #FBE3E4;
   color: #96151b; }
   .error a, #flash_failure a {
     color: #6a0f13; }
@@ -239,7 +239,7 @@ dl {
       color: #110203; }
 
 .notice, #flash_notice {
-  background: #fff6bf;
+  background: #FFF6BF;
   color: #8c7800; }
   .notice a, #flash_notice a {
     color: #594c00; }
@@ -247,7 +247,7 @@ dl {
       color: black; }
 
 .success, #flash_success {
-  background: #e6efc2;
+  background: #E6EFC2;
   color: #56651a; }
   .success a, #flash_success a {
     color: #333c10; }
@@ -555,6 +555,28 @@ header {
   float: left;
   margin: 0 30px 30px 0;
   max-width: 220px; }
+
+.additional-page-content {
+  background: #eeeeee;
+  margin-top: 3em;
+  padding: 2em 0 2em; }
+  .additional-page-content #mc_embed_signup {
+    clear: left;
+    font: 14px Helvetica,Arial,sans-serif; }
+  .additional-page-content .inner {
+    margin: 0 1em; }
+    @media screen and (min-width: 768px) {
+      .additional-page-content .inner {
+        *zoom: 1;
+        max-width: 86.75em;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 800px; }
+        .additional-page-content .inner:before, .additional-page-content .inner:after {
+          content: " ";
+          display: table; }
+        .additional-page-content .inner:after {
+          clear: both; } }
 
 .episode-title {
   font-size: 1.2em;
@@ -927,20 +949,20 @@ header {
 
 .audioplayer-playpause,
 .audioplayer-volume a {
-  -webkit-filter: drop-shadow(1px 1px 0 black);
-  -moz-filter: drop-shadow(1px 1px 0 black);
-  -ms-filter: drop-shadow(1px 1px 0 black);
-  -o-filter: drop-shadow(1px 1px 0 black);
-  filter: drop-shadow(1px 1px 0 black); }
+  -webkit-filter: drop-shadow(1px 1px 0 #000);
+  -moz-filter: drop-shadow(1px 1px 0 #000);
+  -ms-filter: drop-shadow(1px 1px 0 #000);
+  -o-filter: drop-shadow(1px 1px 0 #000);
+  filter: drop-shadow(1px 1px 0 #000); }
 
 .audioplayer,
 .audioplayer-volume-adjust {
-  background: -webkit-gradient(linear, left top, left bottom, from(#444444), to(#222222));
-  background: -webkit-linear-gradient(top, #444444, #222222);
-  background: -moz-linear-gradient(top, #444444, #222222);
-  background: -ms-radial-gradient(top, #444444, #222222);
-  background: -o-linear-gradient(top, #444444, #222222);
-  background: linear, to bottom, #444444, #222222; }
+  background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#222));
+  background: -webkit-linear-gradient(top, #444, #222);
+  background: -moz-linear-gradient(top, #444, #222);
+  background: -ms-radial-gradient(top, #444, #222);
+  background: -o-linear-gradient(top, #444, #222);
+  background: linear, to bottom, #444, #222; }
 
 .audioplayer-bar-played {
   background: -webkit-gradient(linear, left top, right top, from(#007fd1), to(#c600ff));
@@ -1002,3 +1024,5 @@ header {
  *= require mediaelement_rails
  *= require mediaelement_rails/mejs-skins
  */
+
+/*# sourceMappingURL=app.css.map */

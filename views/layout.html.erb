@@ -41,6 +41,15 @@
   <div class="page">
     <%= yield %>
   </div>
+  <% if defined? podcast %>
+    <% if podcast.additional_page_content %>
+      <div class="additional-page-content">
+        <div class="inner">
+          <%= podcast.additional_page_content %>
+        </div>
+      </div>
+    <% end %>
+  <% end %>
   <div class="footer-links"><div class="footer-links-inner">
     <% if podcast_links %>
       <%= StaticFile.render_file("_podcast_links.html.erb", self, { :podcast => podcast } ) %>

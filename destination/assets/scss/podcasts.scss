@@ -96,3 +96,20 @@ $padding: 20px;
   margin:0 30px 30px 0;
   max-width: 220px;
 }
+
+.additional-page-content {
+  #mc_embed_signup {
+    clear:left;
+    font:14px Helvetica,Arial,sans-serif;
+  }
+  background: #eeeeee;
+  margin-top: 3em;
+  padding: 2em 0 2em;
+  .inner {
+    margin: 0 1em;
+    @include media($desktop) {
+      @include outer-container;
+      max-width: 800px;
+    }
+  }
+}
