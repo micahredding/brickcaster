@@ -334,12 +334,11 @@ header {
       header span.podcast-links span {
         display: inline; } }
   header span.connect {
+    display: none;
     float: right; }
-    header span.connect a span {
-      display: none; }
-      @media screen and (min-width: 1200px) {
-        header span.connect a span {
-          display: inline; } }
+    @media screen and (min-width: 1200px) {
+      header span.connect {
+        display: inline; } }
 
 .back-link {
   padding: 0px; }

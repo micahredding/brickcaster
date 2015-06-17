@@ -71,12 +71,10 @@ header {
     }
   }
   span.connect {
+    display: none;
     float: right;
-    a span {
-      display: none;
-      @include media($desktop-wide) {
-        display: inline;
-      }
+    @include media($desktop-wide) {
+      display: inline;
     }
   }
 }
