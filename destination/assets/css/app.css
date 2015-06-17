@@ -354,7 +354,6 @@ header {
 .header-art {
   padding: 0;
   margin: 0;
-  max-width: 100%;
   max-height: 300px;
   width: 100%;
   overflow: hidden; }
