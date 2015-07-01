@@ -8,7 +8,7 @@
     <itunes:subtitle>Demystifying tech decision-making! Two developers and a human being discuss the difficult world of technology, business, and building software that matters.</itunes:subtitle>
     <itunes:summary>Demystifying tech decision-making! Two developers and a human being discuss the difficult world of technology, business, and building software that matters.</itunes:summary>
     <description>Demystifying tech decision-making! Two developers and a human being discuss the difficult world of technology, business, and building software that matters.</description>
-    <itunes:image href="http://resources.brickcaster.com/images/startup_sequence.jpg"/>
+    <itunes:image href="http://resources.brickcaster.com/images/startup_sequence.png"/>
     <language>en-us</language>
     <copyright>copyright 2012-2015 Micah Redding</copyright>
     <itunes:author>Micah Redding, Ann Howard</itunes:author>
@@ -24,32 +24,32 @@
       <guid>http://brickcaster.com/startup/3</guid>
       <link>http://brickcaster.com/startup/3</link>
       <title>Ep 3: Why Open Source?</title>
-      <itunes:subtitle>Is open source dangerous? Insecure? Unsafe? Or is it the best platform to build your next product on? What does ‘open source’ even mean? Why do software developers love it so much? Learn all this and more, on our newest episode!</itunes:subtitle>
-      <itunes:summary>Is open source dangerous? Insecure? Unsafe? Or is it the best platform to build your next product on? What does ‘open source’ even mean? Why do software developers love it so much? Learn all this and more, on our newest episode!</itunes:summary>
-      <description>Is open source dangerous? Insecure? Unsafe? Or is it the best platform to build your next product on? What does ‘open source’ even mean? Why do software developers love it so much? Learn all this and more, on our newest episode!</description>
-      <content:encoded>&lt;p&gt;Is open source dangerous? Insecure? Unsafe? Or is it the best platform to build your next product on? What does ‘open source’ even mean? Why do software developers love it so much? Learn all this and more, on our newest episode! &lt;a href="http://brickcaster.com/startup/3" target="_blank"&gt;Read our detailed notes here&lt;/a&gt;.&lt;/p&gt;
+      <itunes:subtitle>Is open source dangerous? Insecure? Unsafe? Or is it the best platform to build your next product on? What does 'open source' even mean? Why do software developers love it so much? Learn all this and more, on our newest episode!</itunes:subtitle>
+      <itunes:summary>Is open source dangerous? Insecure? Unsafe? Or is it the best platform to build your next product on? What does 'open source' even mean? Why do software developers love it so much? Learn all this and more, on our newest episode!</itunes:summary>
+      <description>Is open source dangerous? Insecure? Unsafe? Or is it the best platform to build your next product on? What does 'open source' even mean? Why do software developers love it so much? Learn all this and more, on our newest episode!</description>
+      <content:encoded>&lt;p&gt;Is open source dangerous? Insecure? Unsafe? Or is it the best platform to build your next product on? What does &amp;#39;open source&amp;#39; even mean? Why do software developers love it so much? Learn all this and more, on our newest episode! &lt;a href="http://brickcaster.com/startup/3" target="_blank"&gt;Read our detailed notes here&lt;/a&gt;.&lt;/p&gt;
 </content:encoded>
       <enclosure url="http://resources.brickcaster.com/startup/003_open_source.mp3" length="34830525" type="audio/mpeg"/>
       <pubDate>Wed, 25 Mar 2015 00:00:01 +0000</pubDate>
       <itunes:duration>00:23:48</itunes:duration>
       <itunes:author>Micah Redding, Ann Howard</itunes:author>
-      <itunes:image href="http://resources.brickcaster.com/images/startup_sequence.jpg"/>
+      <itunes:image href="http://resources.brickcaster.com/images/startup_sequence.png"/>
       <itunes:keywords>technology,startup,business,development</itunes:keywords>
     </item>
     <item>
       <guid>http://brickcaster.com/startup/2</guid>
       <link>http://brickcaster.com/startup/2</link>
       <title>Ep 2: Programming as Gardening</title>
-      <itunes:subtitle>You’re about to embark on a massive software project. What are you getting into? Are you building the pyramids or the botanical gardens? Is this a build-it-and-walk-away situation, or an ongoing endeavor requiring loving care and upkeep? Know what you’re getting into, and learn how to think about the significance of your role in the project.</itunes:subtitle>
-      <itunes:summary>You’re about to embark on a massive software project. What are you getting into? Are you building the pyramids or the botanical gardens? Is this a build-it-and-walk-away situation, or an ongoing endeavor requiring loving care and upkeep? Know what you’re getting into, and learn how to think about the significance of your role in the project.</itunes:summary>
-      <description>You’re about to embark on a massive software project. What are you getting into? Are you building the pyramids or the botanical gardens? Is this a build-it-and-walk-away situation, or an ongoing endeavor requiring loving care and upkeep? Know what you’re getting into, and learn how to think about the significance of your role in the project.</description>
-      <content:encoded>&lt;p&gt;You’re about to embark on a massive software project. What are you getting into? Are you building the pyramids or the botanical gardens? Is this a build-it-and-walk-away situation, or an ongoing endeavor requiring loving care and upkeep? Know what you’re getting into, and learn how to think about the significance of your role in the project. &lt;a href="http://brickcaster.com/startup/2" target="_blank"&gt;Read our detailed notes here&lt;/a&gt;.&lt;/p&gt;
+      <itunes:subtitle>You're about to embark on a massive software project. What are you getting into? Are you building the pyramids or the botanical gardens? Is this a build-it-and-walk-away situation, or an ongoing endeavor requiring loving care and upkeep? Know what you’re getting into, and learn how to think about the significance of your role in the project.</itunes:subtitle>
+      <itunes:summary>You're about to embark on a massive software project. What are you getting into? Are you building the pyramids or the botanical gardens? Is this a build-it-and-walk-away situation, or an ongoing endeavor requiring loving care and upkeep? Know what you’re getting into, and learn how to think about the significance of your role in the project.</itunes:summary>
+      <description>You're about to embark on a massive software project. What are you getting into? Are you building the pyramids or the botanical gardens? Is this a build-it-and-walk-away situation, or an ongoing endeavor requiring loving care and upkeep? Know what you’re getting into, and learn how to think about the significance of your role in the project.</description>
+      <content:encoded>&lt;p&gt;You&amp;#39;re about to embark on a massive software project. What are you getting into? Are you building the pyramids or the botanical gardens? Is this a build-it-and-walk-away situation, or an ongoing endeavor requiring loving care and upkeep? Know what you’re getting into, and learn how to think about the significance of your role in the project. &lt;a href="http://brickcaster.com/startup/2" target="_blank"&gt;Read our detailed notes here&lt;/a&gt;.&lt;/p&gt;
 </content:encoded>
       <enclosure url="http://resources.brickcaster.com/startup/002_gardening.mp3" length="40254891" type="audio/mpeg"/>
       <pubDate>Wed, 25 Feb 2015 00:00:01 +0000</pubDate>
       <itunes:duration>00:20:40</itunes:duration>
       <itunes:author>Micah Redding, Ann Howard</itunes:author>
-      <itunes:image href="http://resources.brickcaster.com/images/startup_sequence.jpg"/>
+      <itunes:image href="http://resources.brickcaster.com/images/startup_sequence.png"/>
       <itunes:keywords>technology,startup,business,development</itunes:keywords>
     </item>
     <item>
@@ -65,7 +65,7 @@
       <pubDate>Sun, 25 Jan 2015 00:00:01 +0000</pubDate>
       <itunes:duration>00:24:34</itunes:duration>
       <itunes:author>Micah Redding, Ann Howard</itunes:author>
-      <itunes:image href="http://resources.brickcaster.com/images/startup_sequence.jpg"/>
+      <itunes:image href="http://resources.brickcaster.com/images/startup_sequence.png"/>
       <itunes:keywords>technology,startup,business,development</itunes:keywords>
     </item>
   </channel>
