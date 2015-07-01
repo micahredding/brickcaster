@@ -31,34 +31,37 @@
 
 &lt;h3&gt;Notes&lt;/h3&gt;
 
-&lt;p&gt;&lt;em&gt;What is the Open in open source?&lt;/em&gt;
-Open means that the source code of the software can be viewed by everybody. Which means it&amp;#39;s available for us to inspect.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is the Open in open source?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Open means that the source code of the software can be viewed by everybody. Which means it&amp;#39;s available for us to inspect.&lt;/p&gt;
 
 &lt;p&gt;Which means that when we use open source tools, we don&amp;#39;t have to build on a “black box”, but can build on something that is knowable and transparent.&lt;/p&gt;
 
 &lt;p&gt;In addition, open source tools are built by hundreds and thousands of contributors, and is constantly being tested and reviewed by them. This means we have confidence.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Is Open Source worth less because it is free?&lt;/em&gt;
-No! :) This is a common bias based on the psychology of pricing, but it&amp;#39;s very much not the case.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Is Open Source worth less because it is free?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;How do we get support for open source software?&lt;/em&gt;
-Your developers! Rather than waiting for someone in an ivory tower at Microsoft (or somewhere else) to support your tools, something built on an open source platform can be supported by anyone who works in that platform.&lt;/p&gt;
+&lt;p&gt;No! :) This is a common bias based on the psychology of pricing, but it&amp;#39;s very much not the case.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How do we get support for open source software?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Your developers! Rather than waiting for someone in an ivory tower at Microsoft (or somewhere else) to support your tools, something built on an open source platform can be supported by anyone who works in that platform.&lt;/p&gt;
 
 &lt;p&gt;And if you are having custom software built, then the best people to support that software are the people who built it. Don&amp;#39;t needlessly cut ties with the people who build your software -- expect them to be able to maintain it and support it over time.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;The Speed of Trust: Trusting relationships is where the efficiency of business is found.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Speed of Trust: Trusting relationships is where the efficiency of business is found.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;The advantage of Ruby on Rails is that it maximizes developer happiness and productivity.&lt;/p&gt;
 
 &lt;p&gt;It allows you to rapidly get working software into production. Way faster than building in many other systems.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Happy cows make better cheese: happy developers make better code.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Happy cows make better cheese: happy developers make better code.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;KLOCs (1000 lines of code) - the worst metric ever!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;KLOCs (1000 lines of code) - the worst metric ever!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;You don&amp;#39;t want to optimize for the amount of code written. You want to optimize for working features that model your problems and solve them elegantly.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;When you scale to be as big as Twitter, you might need to refactor some of your early tools. That&amp;#39;s good news!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;When you scale to be as big as Twitter, you might need to refactor some of your early tools. That&amp;#39;s good news!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Don&amp;#39;t prematurely optimize. At a certain scale, Twitter needed to remake some of its core pieces to operate faster. But they did this at the right time.&lt;/p&gt;
 
@@ -68,19 +71,19 @@ Your developers! Rather than waiting for someone in an ivory tower at Microsoft 
 
 &lt;p&gt;At no point in that transition will open source present a bottleneck. In fact, open source allows for that transition to happen more smoothly.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Q. What&amp;#39;s the alternative to open source? A: Propriety.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q. What&amp;#39;s the alternative to open source? A: Propriety.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Is propriety more secure? No!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Is propriety more secure? No!&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;There is no security through obscurity.&lt;/em&gt; Just because the source code is kept secret does not mean it is invulnerable to attacks. It&amp;#39;s actually the opposite: when the source code is secret, it means developers don&amp;#39;t know the vulnerabilities that are there, and so can&amp;#39;t see the attacks coming.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;There is no security through obscurity.&lt;/strong&gt; Just because the source code is kept secret does not mean it is invulnerable to attacks. It&amp;#39;s actually the opposite: when the source code is secret, it means developers don&amp;#39;t know the vulnerabilities that are there, and so can&amp;#39;t see the attacks coming.&lt;/p&gt;
 
 &lt;p&gt;In contrast, open source is available for developers to inspect and discover problems. And that means that when doing something particularly significant (logins, secure transactions, etc) we can all use code that has been verified to work, and stress-tested by thousands of developers.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Don&amp;#39;t recreate the history of software development!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Don&amp;#39;t recreate the history of software development!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Build on the layers of software that have been built and proven before. Much of that is open source.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;An open source software project can&amp;#39;t just be unilaterally shut down. But proprietary software can.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;An open source software project can&amp;#39;t just be unilaterally shut down. But proprietary software can.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;We don&amp;#39;t want to build a house on someone else&amp;#39;s property. We want to build a house on a piece of land we can hold on to!&lt;/p&gt;
 </content:encoded>
@@ -102,27 +105,27 @@ Your developers! Rather than waiting for someone in an ivory tower at Microsoft 
 
 &lt;h1&gt;Notes&lt;/h1&gt;
 
-&lt;h3&gt;Planning&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Planning&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;You do planning — but you have to be open to change. Sometimes you have to move things around, sometimes things die, sometimes you have to replace them.&lt;/p&gt;
+&lt;p&gt;You do planning &amp;emdash; but you have to be open to change. Sometimes you have to move things around, sometimes things die, sometimes you have to replace them.&lt;/p&gt;
 
-&lt;h3&gt;A process of learning and discovery&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;A process of learning and discovery&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;There&amp;#39;s an element of discovery. This tool isn&amp;#39;t quite what we thought it was — this library needs to be replaced — we aren&amp;#39;t building the same thing twice.&lt;/p&gt;
 
 &lt;p&gt;We&amp;#39;re learning about the tools, we&amp;#39;re learning about the problem space, we&amp;#39;re learning about the business.&lt;/p&gt;
 
-&lt;h3&gt;We&amp;#39;re not building the same thing twice&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;We&amp;#39;re not building the same thing twice&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;You could buy a ready-made garden off the shelf. But when you want to add something new, you need to start over.&lt;/p&gt;
 
 &lt;p&gt;When you&amp;#39;ve got well-defined problems (Wordpress blog, simple ecommerce) pre-packaged solutions make sense. But when you&amp;#39;re building something new, for a new business case, then you approach it as a learning experience.&lt;/p&gt;
 
-&lt;h3&gt;The environment changes as well&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;The environment changes as well&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;The environment (not just the tools) might be changing. The business need and business setting may be changing during the process of development.&lt;/p&gt;
 
-&lt;h3&gt;Software is soft, buildings are not&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Software is soft, buildings are not&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Boundaries around what you&amp;#39;re building tend to be much more ambiguous.&lt;/p&gt;
 
@@ -134,21 +137,26 @@ Your developers! Rather than waiting for someone in an ivory tower at Microsoft 
 
 &lt;p&gt;Allowing for flexibility allows us to discover and work around potential entanglements.&lt;/p&gt;
 
-&lt;h3&gt;The well maintained garden produces more&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;The well maintained garden produces more&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;A garden needs maintained over time.
-Software has a life-cycle.
-It will be a different thing six months out, a year out, two years out.
-You need professional cultivators.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A garden needs maintained over time.&lt;/li&gt;
+&lt;li&gt;Software has a life-cycle.&lt;/li&gt;
+&lt;li&gt;It will be a different thing six months out, a year out, two years out.&lt;/li&gt;
+&lt;li&gt;You need professional cultivators.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;You could cultivate:
-1. Simple projects yourself.
-2. Mid-tier projects can bring in professionals periodically.
-3. Larger projects need full-time professional care.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;You could cultivate:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Simple projects yourself.&lt;/li&gt;
+&lt;li&gt;Mid-tier projects can bring in professionals periodically.&lt;/li&gt;
+&lt;li&gt;Larger projects need full-time professional care.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;It&amp;#39;s never done, never finished, always growing, always changing.&lt;/p&gt;
 
-&lt;h3&gt;Web development offers the ability to deploy more often&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Web development offers the ability to deploy more often&lt;/strong&gt;&lt;/p&gt;
 </content:encoded>
       <enclosure url="http://resources.brickcaster.com/startup/002_gardening.mp3" length="40254891" type="audio/mpeg"/>
       <pubDate>Wed, 25 Feb 2015 00:00:01 +0000</pubDate>
