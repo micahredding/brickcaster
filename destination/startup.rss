@@ -29,63 +29,60 @@
       <description>Is open source dangerous? Insecure? Unsafe? Or is it the best platform to build your next product on? What does 'open source' even mean? Why do software developers love it so much? Learn all this and more, on our newest episode!</description>
       <content:encoded>&lt;p&gt;Is open source dangerous? Insecure? Unsafe? Or is it the best platform to build your next product on? What does &amp;#39;open source&amp;#39; even mean? Why do software developers love it so much? Learn all this and more, on our newest episode! &lt;a href="http://brickcaster.com/startup/3" target="_blank"&gt;Read our detailed notes here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1&gt;Notes&lt;/h1&gt;
+&lt;h3&gt;Notes&lt;/h3&gt;
 
-&lt;h3&gt;What is the Open in open source?&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;What is the Open in open source?&lt;/em&gt;
+Open means that the source code of the software can be viewed by everybody. Which means it&amp;#39;s available for us to inspect.&lt;/p&gt;
 
-&lt;p&gt;Open means that the source code of the software can be viewed by everybody. Which means it’s available for us to inspect.&lt;/p&gt;
-
-&lt;p&gt;Which means that when we use open source tools, we don’t have to build on a “black box”, but can build on something that is knowable and transparent.&lt;/p&gt;
+&lt;p&gt;Which means that when we use open source tools, we don&amp;#39;t have to build on a “black box”, but can build on something that is knowable and transparent.&lt;/p&gt;
 
 &lt;p&gt;In addition, open source tools are built by hundreds and thousands of contributors, and is constantly being tested and reviewed by them. This means we have confidence.&lt;/p&gt;
 
-&lt;h3&gt;Is Open Source worth less because it is free?&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Is Open Source worth less because it is free?&lt;/em&gt;
+No! :) This is a common bias based on the psychology of pricing, but it&amp;#39;s very much not the case.&lt;/p&gt;
 
-&lt;p&gt;No! :) This is a common bias based on the psychology of pricing, but it’s very much not the case.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;How do we get support for open source software?&lt;/em&gt;
+Your developers! Rather than waiting for someone in an ivory tower at Microsoft (or somewhere else) to support your tools, something built on an open source platform can be supported by anyone who works in that platform.&lt;/p&gt;
 
-&lt;h3&gt;How do we get support for open source software?&lt;/h3&gt;
+&lt;p&gt;And if you are having custom software built, then the best people to support that software are the people who built it. Don&amp;#39;t needlessly cut ties with the people who build your software -- expect them to be able to maintain it and support it over time.&lt;/p&gt;
 
-&lt;p&gt;Your developers! Rather than waiting for someone in an ivory tower at Microsoft (or somewhere else) to support your tools, something built on an open source platform can be supported by anyone who works in that platform.&lt;/p&gt;
-
-&lt;p&gt;And if you are having custom software built, then the best people to support that software are the people who built it. Don’t needlessly cut ties with the people who build your software -- expect them to be able to maintain it and support it over time.&lt;/p&gt;
-
-&lt;h3&gt;The Speed of Trust: Trusting relationships is where the efficiency of business is found.&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;The Speed of Trust: Trusting relationships is where the efficiency of business is found.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;The advantage of Ruby on Rails is that it maximizes developer happiness and productivity.&lt;/p&gt;
 
 &lt;p&gt;It allows you to rapidly get working software into production. Way faster than building in many other systems.&lt;/p&gt;
 
-&lt;h3&gt;Happy cows make better cheese: happy developers make better code.&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Happy cows make better cheese: happy developers make better code.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h3&gt;KLOCs (1000 lines of code) - the worst metric ever!&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;KLOCs (1000 lines of code) - the worst metric ever!&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;You don’t want to optimize for the amount of code written. You want to optimize for working features that model your problems and solve them elegantly.&lt;/p&gt;
+&lt;p&gt;You don&amp;#39;t want to optimize for the amount of code written. You want to optimize for working features that model your problems and solve them elegantly.&lt;/p&gt;
 
-&lt;h3&gt;When you scale to be as big as Twitter, you might need to refactor some of your early tools. That’s good news!&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;When you scale to be as big as Twitter, you might need to refactor some of your early tools. That&amp;#39;s good news!&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Don’t prematurely optimize. At a certain scale, Twitter needed to remake some of its core pieces to operate faster. But they did this at the right time.&lt;/p&gt;
+&lt;p&gt;Don&amp;#39;t prematurely optimize. At a certain scale, Twitter needed to remake some of its core pieces to operate faster. But they did this at the right time.&lt;/p&gt;
 
 &lt;p&gt;Early on, they prioritized getting a working product out the door.&lt;/p&gt;
 
-&lt;p&gt;There’s a tradeoff between creating something that will scale to 10 million users, and creating something that will be able to be in production in a reasonable amount of time.&lt;/p&gt;
+&lt;p&gt;There&amp;#39;s a tradeoff between creating something that will scale to 10 million users, and creating something that will be able to be in production in a reasonable amount of time.&lt;/p&gt;
 
 &lt;p&gt;At no point in that transition will open source present a bottleneck. In fact, open source allows for that transition to happen more smoothly.&lt;/p&gt;
 
-&lt;h3&gt;Q. What’s the alternative to open source? A: Propriety.&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Q. What&amp;#39;s the alternative to open source? A: Propriety.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h3&gt;Is propriety more secure? No!&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Is propriety more secure? No!&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;There is no security through obscurity.&lt;/em&gt; Just because the source code is kept secret does not mean it is invulnerable to attacks. It’s actually the opposite: when the source code is secret, it means developers don’t know the vulnerabilities that are there, and so can’t see the attacks coming.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;There is no security through obscurity.&lt;/em&gt; Just because the source code is kept secret does not mean it is invulnerable to attacks. It&amp;#39;s actually the opposite: when the source code is secret, it means developers don&amp;#39;t know the vulnerabilities that are there, and so can&amp;#39;t see the attacks coming.&lt;/p&gt;
 
 &lt;p&gt;In contrast, open source is available for developers to inspect and discover problems. And that means that when doing something particularly significant (logins, secure transactions, etc) we can all use code that has been verified to work, and stress-tested by thousands of developers.&lt;/p&gt;
 
-&lt;h3&gt;Don’t recreate the history of software development!&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Don&amp;#39;t recreate the history of software development!&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Build on the layers of software that have been built and proven before. Much of that is open source.&lt;/p&gt;
 
-&lt;h3&gt;An open source software project can’t just be unilaterally shut down. But proprietary software can.&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;An open source software project can&amp;#39;t just be unilaterally shut down. But proprietary software can.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;We don’t want to build a house on someone else’s property. We want to build a house on a piece of land we can hold on to!&lt;/p&gt;
+&lt;p&gt;We don&amp;#39;t want to build a house on someone else&amp;#39;s property. We want to build a house on a piece of land we can hold on to!&lt;/p&gt;
 </content:encoded>
       <enclosure url="http://resources.brickcaster.com/startup/003_open_source.mp3" length="34830525" type="audio/mpeg"/>
       <pubDate>Wed, 25 Mar 2015 00:00:01 +0000</pubDate>
