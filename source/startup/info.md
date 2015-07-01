@@ -10,9 +10,9 @@
 "feedburner_url": ""
 "rss_url": "http://brickcaster.com/startup.rss"
 "art_url": {
-  "normal": "http://resources.brickcaster.com/images/startup_sequence.jpg",
-  "medium": "http://resources.brickcaster.com/images/startup_sequence_small.jpg",
-  "wide": "http://resources.brickcaster.com/images/startup_sequence_wide.jpg"
+  "normal": "http://resources.brickcaster.com/images/startup_sequence.png",
+  "medium": "http://resources.brickcaster.com/images/startup_sequence_small.png",
+  "wide": "http://resources.brickcaster.com/images/startup_sequence_wide.png"
 }
 "links": {
   "Subscribe by Email": "http://eepurl.com/bp3iOf",
