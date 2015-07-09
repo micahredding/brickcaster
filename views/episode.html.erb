@@ -14,8 +14,8 @@
     <%= episode.body %>
     <br /><br />
     <%= episode.title %><br />
-    <%= episode.media_artist %><br />
-    <%= episode.media_album %><br />
+    <%= episode.media_artist || episode.podcast.author %><br />
+    <%= episode.media_album  || episode.podcast.title %><br />
     <%= episode.format_date_human(episode.publish_date) %><br />
 
     Duration: <%= episode.format_length(episode.media_length) %><br />
