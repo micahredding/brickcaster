@@ -1,14 +1,14 @@
 ---
 "title": "The Christian Transhumanist Podcast"
-"podcast_id": "transhumanist"
+"podcast_id": "christiantranshumanist"
 "author": "Micah Redding, Amy Gaskin"
 "keywords": "christianity,transhumanism,transhumanist,singularity,technology,theology"
 "categories": ["Religion & Spirituality, Christianity", "Society & Culture, Philosophy", "Technology"]
 "description": "Micah Redding explores Christianity and Transhumanism, diving deep into the relationship between religion, technology, and the future of the human race."
-"url": "http://brickcaster.com/transhumanist"
-"itunes_url": "http://brickcaster.com/transhumanist.rss"
+"url": "http://brickcaster.com/christiantranshumanist"
+"itunes_url": "http://brickcaster.com/christiantranshumanist.rss"
 "feedburner_url": ""
-"rss_url": "http://brickcaster.com/transhumanist.rss"
+"rss_url": "http://brickcaster.com/christiantranshumanist.rss"
 "art_url": {
   "normal": "http://resources.brickcaster.com/images/startup_sequence.jpg",
   "medium": "http://resources.brickcaster.com/images/startup_sequence_small.jpg",
