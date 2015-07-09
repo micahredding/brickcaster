@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link href="http://brickcaster.com/christiantranshumanist.rss" rel="self" type="application/rss+xml"/>
+    <link>http://brickcaster.com/christiantranshumanist</link>
+    <itunes:new-feed-url>http://brickcaster.com/christiantranshumanist.rss</itunes:new-feed-url>
+    <title>The Christian Transhumanist Podcast</title>
+    <itunes:subtitle>Micah Redding explores Christianity and Transhumanism, diving deep into the relationship between religion, technology, and the future of the human race.</itunes:subtitle>
+    <itunes:summary>Micah Redding explores Christianity and Transhumanism, diving deep into the relationship between religion, technology, and the future of the human race.</itunes:summary>
+    <description>Micah Redding explores Christianity and Transhumanism, diving deep into the relationship between religion, technology, and the future of the human race.</description>
+    <itunes:image href="http://resources.brickcaster.com/images/startup_sequence.jpg"/>
+    <language>en-us</language>
+    <copyright>copyright 2012-2015 Micah Redding</copyright>
+    <itunes:author>Micah Redding, Amy Gaskin</itunes:author>
+    <itunes:owner>
+      <itunes:name>Micah Redding</itunes:name>
+      <itunes:email>micahtredding@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:keywords>christianity,transhumanism,transhumanist,singularity,technology,theology</itunes:keywords>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <itunes:category text="Society &amp; Culture">
+      <itunes:category text="Philosophy"/>
+    </itunes:category>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>no</itunes:explicit>
+    <item>
+      <guid>http://brickcaster.com/christiantranshumanist/1</guid>
+      <link>http://brickcaster.com/christiantranshumanist/1</link>
+      <title>Ep 1: What is Transhumanism?</title>
+      <itunes:subtitle>In this first episode, Micah Redding and Amy Gaskin ask the question 'What is Transhumanism?', and then go on to explore the landscape at the intersection of Christianity and Transhumanist thought.</itunes:subtitle>
+      <itunes:summary>In this first episode, Micah Redding and Amy Gaskin ask the question 'What is Transhumanism?', and then go on to explore the landscape at the intersection of Christianity and Transhumanist thought.</itunes:summary>
+      <description>In this first episode, Micah Redding and Amy Gaskin ask the question 'What is Transhumanism?', and then go on to explore the landscape at the intersection of Christianity and Transhumanist thought.</description>
+      <content:encoded>&lt;p&gt;In this first episode, Micah Redding and Amy Gaskin ask the question &amp;#39;What is Transhumanism?&amp;#39;, and then go on to explore the landscape at the intersection of Christianity and Transhumanist thought. &lt;a href="http://brickcaster.com/christiantranshumanist/1" target="_blank"&gt;Read our detailed notes here&lt;/a&gt;.&lt;/p&gt;
+</content:encoded>
+      <enclosure url="http://resources.brickcaster.com/christiantranshumanist/001_what_is_transhumanism.mp3" length="52786844" type="audio/mpeg"/>
+      <pubDate>Thu, 9 Jul 2015 00:00:01 +0000</pubDate>
+      <itunes:duration>01:49:58</itunes:duration>
+      <itunes:author>Micah Redding, Amy Gaskin</itunes:author>
+      <itunes:image href="http://resources.brickcaster.com/images/startup_sequence.jpg"/>
+      <itunes:keywords>christianity,transhumanism,transhumanist,singularity,technology,theology</itunes:keywords>
+    </item>
+  </channel>
+</rss>
