@@ -19,7 +19,7 @@
   "The Christian Transhumanist Association": "http://www.christiantranshumanism.org",
   "Essays by Micah": "http://micahredding.com/blog"
 }
-"episodes": [1]
+"episodes": [1,2,3,4]
 "additional_page_content": |
 
   <!-- Begin MailChimp Signup Form -->
