@@ -10,9 +10,9 @@
 "feedburner_url": ""
 "rss_url": "http://brickcaster.com/christiantranshumanist.rss"
 "art_url": {
-  "normal": "http://resources.brickcaster.com/images/christianity_and_transhumanism.jpg",
-  "medium": "http://resources.brickcaster.com/images/christianity_and_transhumanism_small.jpg",
-  "wide": "http://resources.brickcaster.com/images/christianity_and_transhumanism_wide.jpg"
+  "normal": "http://resources.brickcaster.com/images/christian_transhumanist_podcast.jpg",
+  "medium": "http://resources.brickcaster.com/images/christian_transhumanist_podcast_small.jpg",
+  "wide": "http://resources.brickcaster.com/images/christian_transhumanist_podcast_wide.jpg"
 }
 "links": {
   "Subscribe by Email": "http://eepurl.com/bqluFf",
