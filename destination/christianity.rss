@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
+    <itunes:block>yes</itunes:block>
     <atom:link href="http://brickcaster.com/christianity.rss" rel="self" type="application/rss+xml"/>
     <link>http://brickcaster.com/christianity</link>
     <itunes:new-feed-url>http://brickcaster.com/christianity.rss</itunes:new-feed-url>
