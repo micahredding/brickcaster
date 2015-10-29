@@ -19,7 +19,7 @@
   "The Christian Transhumanist Association": "http://www.christiantranshumanism.org",
   "Essays by Micah": "http://micahredding.com/blog"
 }
-"episodes": [1,2,3,4]
+"episodes": [1,2,3,4,5]
 "additional_page_content": |
 
   <!-- Begin MailChimp Signup Form -->
@@ -27,7 +27,7 @@
   <div id="mc_embed_signup">
   <form action="//micahredding.us4.list-manage.com/subscribe/post?u=c9e24ff2e309d9d4edb919a40&amp;id=61a457b26b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
       <div id="mc_embed_signup_scroll">
-    <label for="mce-EMAIL">Subscribe to our mailing list</label>
+    <label for="mce-EMAIL">Subscribe to our mailing list. Get notified when there are new episodes!</label>
     <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
       <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
       <div style="position: absolute; left: -5000px;"><input type="text" name="b_c9e24ff2e309d9d4edb919a40_61a457b26b" tabindex="-1" value=""></div>

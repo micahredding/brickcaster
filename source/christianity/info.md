@@ -1,10 +1,10 @@
 ---
-"title": "Christianity & Transhumanism"
+"title": "Christianity on the Curve"
 "podcast_id": "christianity"
 "author": "Micah Redding"
 "keywords": "theology,christianity,spirituality,transhumanism,singularity"
 "categories": ["Religion & Spirituality, Christianity", "Religion & Spirituality, Spirituality", "Society & Culture, Philosophy"]
-"description": "Micah Redding explores Christianity and Transhumanism, diving deep into the relationship between religion, technology, and the future of the human race."
+"description": "Micah Redding and Ryan Hogan explore Christianity on the curve of accelerating change."
 "url": "http://brickcaster.com/christianity"
 "itunes_url": "http://itunes.apple.com/us/podcast/christianity-on-the-curve/id495669260"
 "feedburner_url": "http://feeds.feedburner.com/ChristianityOnTheCurve"
