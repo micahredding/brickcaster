@@ -18,10 +18,13 @@ class Podcast < OpenStruct
 
   def write_html_file(path)
     output = StaticFile.render("podcast.html.erb", self, {
-      :podcast => self,
-      :art_url => self.art_url["wide"],
+      :podcast       => self,
+      :title         => self.title,
+      :site_name     => "brickcaster: small podcasts from the human edge",  
+      :description   => self.description,    
+      :art_url       => self.art_url["wide"],
       :podcast_links => true,
-      :absolute_url => "http://brickcaster.com/#{self.podcast_id}"
+      :absolute_url  => "http://brickcaster.com/#{self.podcast_id}"
     })
     StaticFile.write("#{self.podcast_id}/index.html", output)
   end

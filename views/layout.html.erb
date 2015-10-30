@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>
-    <% if defined? episode %>
-      <%= episode.title %> |
-    <% end %>
-    <% if defined? podcast %>
-      <%= podcast.title %>
-    <% else %>
-      brickcaster: small podcasts from the human edge
-    <% end %>
+  <title> 
+    <%= title %>
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/ico" href="/favicon.ico">
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
   <link href="https://plus.google.com/107355867909504468216" rel="publisher" />
   <link href="/assets/css/app.css" rel="stylesheet" />
+
+  <meta property="og:title" content="<%= title %>"/>
+  <meta property="og:image" content="<%= podcast.art_url['normal'] if defined?(podcast) %>"/>
+  <meta property="og:site_name" content="<%= site_name %>"/>
+  <meta property="og:description" content="<%= description %>"/>
+
 </head>
 <body>
   <header>
