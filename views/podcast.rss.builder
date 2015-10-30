@@ -52,7 +52,9 @@ xml.rss :version => "2.0", "xmlns:itunes" => "http://www.itunes.com/dtds/podcast
         # title, summary, content
         xml.title episode.title
         xml.itunes :subtitle, episode.summary || body_truncate
-        xml.itunes :summary, episode.summary || body_truncate
+        xml.itunes :summary do
+          xml.cdata! "#{(episode.summary || body_truncate)} <a href='#{episode.url}'>Read our detailed notes here</a>." 
+        end
         xml.description episode.summary || body_truncate
         xml.content :encoded, episode.body
 
