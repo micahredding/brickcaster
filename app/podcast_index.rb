@@ -7,12 +7,12 @@ class PodcastIndex < Array
     end
   end
 
-  def write(path)
-    write_html_file(path)
-    write_podcasts(path)
+  def write
+    write_html_file
+    write_podcasts
   end
 
-  def write_html_file(path)
+  def write_html_file
     variables = {
       :podcasts      => podcasts,
       :title         => "brickcaster: small podcasts from the human edge",
@@ -23,12 +23,12 @@ class PodcastIndex < Array
       :absolute_url  => "http://brickcaster.com"
     }
     output = StaticFile.render("podcast_index.html.erb", self, variables)
-    StaticFile.write("#{path}/index.html", output)
+    StaticFile.write("/index.html", output)
   end
 
-  def write_podcasts(path)
+  def write_podcasts
     self.podcasts.each do |podcast|
-      podcast.write("#{path}/#{podcast.id}")
+      podcast.write
     end
   end
 

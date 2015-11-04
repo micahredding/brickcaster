@@ -7,7 +7,15 @@ class Episode < OpenStruct
     @podcast ||= Podcast.read(self.podcast_id)
   end
 
-  def write(path)
+  def absolute_url
+    "http://brickcaster.com/#{podcast_id}/#{episode_number}"
+  end    
+
+  def local_url_index
+    "#{podcast_id}/#{episode_number}/index.html"    
+  end
+
+  def write
     output = StaticFile.render("episode.html.erb", self, {
       :episode       => self,
       :title         => "#{self.title} | #{self.podcast.title}",
@@ -15,9 +23,9 @@ class Episode < OpenStruct
       :description   => self.summary,
       :podcast       => self.podcast,
       :podcast_links => true,
-      :absolute_url  => "http://brickcaster.com/#{podcast_id}/#{episode_number}"
+      :absolute_url  => self.absolute_url,
     })
-    StaticFile.write("#{podcast_id}/#{episode_number}/index.html", output)
+    StaticFile.write(self.local_url_index, output)
   end
 
   def self.read(path, episode_number = 1)

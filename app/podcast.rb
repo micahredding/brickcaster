@@ -10,13 +10,25 @@ class Podcast < OpenStruct
     end
   end
 
-  def write(path)
-    write_html_file(path)
-    write_rss_file(path)
-    write_episodes(path)
+  def absolute_url
+    "http://brickcaster.com/#{self.podcast_id}"    
   end
 
-  def write_html_file(path)
+  def local_url_index
+    "#{self.podcast_id}/index.html"
+  end
+
+  def local_url_rss
+    "#{self.podcast_id}.rss"
+  end
+
+  def write
+    write_html_file
+    write_rss_file
+    write_episodes
+  end
+
+  def write_html_file
     output = StaticFile.render("podcast.html.erb", self, {
       :podcast       => self,
       :title         => self.title,
@@ -24,19 +36,19 @@ class Podcast < OpenStruct
       :description   => self.description,    
       :art_url       => self.art_url["wide"],
       :podcast_links => true,
-      :absolute_url  => "http://brickcaster.com/#{self.podcast_id}"
+      :absolute_url  => self.absolute_url
     })
-    StaticFile.write("#{self.podcast_id}/index.html", output)
+    StaticFile.write(self.local_url_index, output)
   end
 
-  def write_rss_file(path)
+  def write_rss_file
     output = StaticFile.render_file("podcast.rss.builder", self, {:podcast => self})
-    StaticFile.write("#{self.podcast_id}.rss", output)
+    StaticFile.write(self.local_url_rss, output)
   end
 
-  def write_episodes(path)
+  def write_episodes
     self.episodes.each do |episode|
-      episode.write(path)
+      episode.write
     end
   end
 
