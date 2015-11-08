@@ -15,6 +15,8 @@
   "wide": "http://resources.brickcaster.com/covers/singularity_wide.jpg"
 }
 "links": {
+  "<span class='optional'>Subscribe in </span>iTunes": "http://itunes.apple.com/us/podcast/broadcast-the-singularity/id495667410",
+  "<span class='optional'>Subscribe in </span>RSS": "http://brickcaster.com/singularity.rss",
   "Nashville Singularity Meetup": "http://www.meetup.com/Singularity-and-Beer/",
   "Micah's Essays": "http://micahredding.com/blog"
 }

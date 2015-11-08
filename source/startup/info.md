@@ -15,6 +15,8 @@
   "wide": "http://resources.brickcaster.com/images/startup_sequence_wide.png"
 }
 "links": {
+  "<span class='optional'>Subscribe in </span>iTunes": "http://brickcaster.com/startup.rss",
+  "<span class='optional'>Subscribe in </span>RSS": "http://brickcaster.com/startup.rss",
   "Subscribe by Email": "http://eepurl.com/bp3iOf",
   "Centresource Interactive Agency": "http://centresource.com",
   "Essays by Micah": "http://micahredding.com/blog"

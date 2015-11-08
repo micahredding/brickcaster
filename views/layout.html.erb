@@ -19,13 +19,24 @@
 <body>
   <header>
     <span class="site-name">
-      <a href="/">brickcaster<span>: small podcasts from the human edge</span></a>
+      <% if defined? podcast %>
+        <a href="/">BRICKCASTER</a>
+      <% else %>
+        <a href="/">BRICKCASTER<span class="optional">: small podcasts from the human edge</span></a>
+      <% end %>
     </span>
     <% if defined? podcast %>
-    <span class="podcast-links">
-      <a href="<%= podcast.itunes_url %>"><span>Subscribe in </span>iTunes</a>
-      <a href="<%= podcast.rss_url %>"><span>Subscribe in </span>RSS</a>
-    </span>
+      <span class="podcast-header-title optional">
+        &gt; <a href="<%= podcast.local_url %>"><%= podcast.title %></a>
+      </span>
+      <span class="podcast-links">
+        <% i = 0 %>
+        <% podcast.links.each do |text, href| %>
+          <% next if i > 1 %>
+          <a href="<%= href %>"><%= text %></a>
+          <% i = i + 1 %>
+        <% end %>
+      </span>
     <% end %>
     <span class="connect">
       <a href="http://twitter.com/brickcaster"><i class="icon-twitter"></i></a>

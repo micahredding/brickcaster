@@ -15,7 +15,9 @@
   "wide": "http://resources.brickcaster.com/images/christian_transhumanist_podcast_wide.jpg"
 }
 "links": {
-  "Subscribe by Email": "http://eepurl.com/bqluFf",
+  "<span class='optional'>Subscribe (and review!) in </span>iTunes": "https://itunes.apple.com/us/podcast/christian-transhumanist-podcast/id1053762042",
+  "<span class='optional'>Subscribe by </span>Email": "http://eepurl.com/bqluFf",
+  "Subscribe in RSS": "http://brickcaster.com/christiantranshumanist.rss",
   "The Christian Transhumanist Association": "http://www.christiantranshumanism.org",
   "Essays by Micah": "http://micahredding.com/blog"
 }

@@ -15,6 +15,8 @@
   "wide": "http://resources.brickcaster.com/images/christianity_and_transhumanism_wide.jpg"
 }
 "links": {
+  "Subscribe in iTunes": "http://itunes.apple.com/us/podcast/christianity-on-the-curve/id495669260",
+  "Subscribe in RSS": "http://brickcaster.com/christianity.rss",
   "Micah's Essays": "http://micahredding.com/blog",
   "Christian Transhumanist Association": "http://christiantranshumanism.org"
 }

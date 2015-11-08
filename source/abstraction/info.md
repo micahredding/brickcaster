@@ -15,6 +15,8 @@
   "wide": "http://resources.brickcaster.com/covers/abstraction_wide.jpg"
 }
 "links": {
+  "<span class='optional'>Subscribe in </span>iTunes": "https://itunes.apple.com/us/podcast/brickcaster-abstraction/id572915904",
+  "<span class='optional'>Subscribe in </span>RSS": "http://brickcaster.com/abstraction.rss",
   "Micah's Essays": "http://micahredding.com/blog"
 }
 "episode_numbers": [1,2,3,4,5,6,7,8,9,10,11,12, 13]
