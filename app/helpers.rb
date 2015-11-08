@@ -10,9 +10,9 @@ module BrickcasterHelpers
     )
   end
 
-  def local_url
-    url.gsub('http://brickcaster.com', '')
-  end
+  # def local_url
+  #   url.gsub('http://brickcaster.com', '')
+  # end
 
   def format_length(length)
     if length.nil?

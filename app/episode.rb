@@ -19,10 +19,6 @@ class Episode < OpenStruct
     "/#{podcast_id}/#{episode_number}"
   end
 
-  def local_url_index
-    "/#{podcast_id}/#{episode_number}/index.html"    
-  end
-
   def media_track
     episode_number
   end
@@ -37,10 +33,13 @@ class Episode < OpenStruct
       :podcast_links => true,
       :absolute_url  => self.absolute_url,
     })
-    StaticFile.write(self.local_url_index, output)
+    StaticFile.write("#{podcast_id}/#{episode_number}/index.html", output)
   end
 
-  def self.read(path, episode_number = 1)
-    self.new StaticFile.read("#{path}/#{episode_number}.md")
+  def self.read(podcast_id, episode_number)
+    args = StaticFile.read("#{podcast_id}/#{episode_number}.md")
+    args[:podcast_id] = podcast_id
+    args[:episode_number] = episode_number
+    self.new args
   end
 end
