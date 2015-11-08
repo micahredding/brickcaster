@@ -14,6 +14,10 @@ class Podcast < OpenStruct
     "http://brickcaster.com/#{self.podcast_id}"    
   end
 
+  def local_url
+    "/#{self.podcast_id}"    
+  end
+
   def local_url_index
     "#{self.podcast_id}/index.html"
   end

@@ -7,9 +7,17 @@ class Episode < OpenStruct
     @podcast ||= Podcast.read(self.podcast_id)
   end
 
+  def url
+    absolute_url
+  end
+
   def absolute_url
     "http://brickcaster.com/#{podcast_id}/#{episode_number}"
   end    
+
+  def local_url
+    "/#{podcast_id}/#{episode_number}"
+  end
 
   def local_url_index
     "#{podcast_id}/#{episode_number}/index.html"    
