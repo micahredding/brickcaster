@@ -20,7 +20,7 @@ class Episode < OpenStruct
   end
 
   def local_url_index
-    "#{podcast_id}/#{episode_number}/index.html"    
+    "/#{podcast_id}/#{episode_number}/index.html"    
   end
 
   def media_track

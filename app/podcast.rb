@@ -19,11 +19,11 @@ class Podcast < OpenStruct
   end
 
   def local_url_index
-    "#{self.podcast_id}/index.html"
+    "/#{self.podcast_id}/index.html"
   end
 
   def local_url_rss
-    "#{self.podcast_id}.rss"
+    "/#{self.podcast_id}.rss"
   end
 
   def write
