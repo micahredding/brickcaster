@@ -23,6 +23,10 @@ class Episode < OpenStruct
     "#{podcast_id}/#{episode_number}/index.html"    
   end
 
+  def media_track
+    episode_number
+  end
+
   def write
     output = StaticFile.render("episode.html.erb", self, {
       :episode       => self,
