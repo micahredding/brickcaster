@@ -11,7 +11,7 @@
     <itunes:image href="http://resources.brickcaster.com/images/startup_sequence.png"/>
     <language>en-us</language>
     <copyright>copyright 2012-2015 Micah Redding</copyright>
-    <itunes:author>Micah Redding, Ann Howard</itunes:author>
+    <itunes:author>Micah Redding &amp; Ann Howard</itunes:author>
     <itunes:owner>
       <itunes:name>Micah Redding</itunes:name>
       <itunes:email>micahtredding@gmail.com</itunes:email>
@@ -90,7 +90,7 @@
       <enclosure url="http://resources.brickcaster.com/startup/003_open_source.mp3" length="34830525" type="audio/mpeg"/>
       <pubDate>Wed, 25 Mar 2015 00:00:01 +0000</pubDate>
       <itunes:duration>00:23:48</itunes:duration>
-      <itunes:author>Micah Redding, Ann Howard</itunes:author>
+      <itunes:author>Micah Redding &amp; Ann Howard</itunes:author>
       <itunes:image href="http://resources.brickcaster.com/images/startup_sequence.png"/>
       <itunes:keywords>technology,startup,business,development</itunes:keywords>
     </item>
@@ -161,7 +161,7 @@
       <enclosure url="http://resources.brickcaster.com/startup/002_gardening.mp3" length="40254891" type="audio/mpeg"/>
       <pubDate>Wed, 25 Feb 2015 00:00:01 +0000</pubDate>
       <itunes:duration>00:20:40</itunes:duration>
-      <itunes:author>Micah Redding, Ann Howard</itunes:author>
+      <itunes:author>Micah Redding &amp; Ann Howard</itunes:author>
       <itunes:image href="http://resources.brickcaster.com/images/startup_sequence.png"/>
       <itunes:keywords>technology,startup,business,development</itunes:keywords>
     </item>
@@ -221,7 +221,7 @@
       <enclosure url="http://resources.brickcaster.com/startup/001_platform_vs_dev.mp3" length="58970244" type="audio/mpeg"/>
       <pubDate>Sun, 25 Jan 2015 00:00:01 +0000</pubDate>
       <itunes:duration>00:24:34</itunes:duration>
-      <itunes:author>Micah Redding, Ann Howard</itunes:author>
+      <itunes:author>Micah Redding &amp; Ann Howard</itunes:author>
       <itunes:image href="http://resources.brickcaster.com/images/startup_sequence.png"/>
       <itunes:keywords>technology,startup,business,development</itunes:keywords>
     </item>

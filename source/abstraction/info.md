@@ -1,7 +1,7 @@
 ---
 "title": "The Podcast of Unnecessary Abstraction(s)"
 "podcast_id": "abstraction"
-"author": "Micah Redding, Ryan Hogan"
+"author": "Micah Redding & Ryan Hogan"
 "keywords": "pedantic,irony,intellectual,pseudo,intellectual,Schrodinger,Epimenides,Paradox"
 "categories": ["Society & Culture, Philosophy", "Comedy"]
 "description": "An ascending rampage up the tower of abstraction(s). Obfuscation, paradox, and irony are the hallmarks of this pedantic exploration of intellectual pretension."

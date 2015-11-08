@@ -1,7 +1,7 @@
 ---
 "title": "Broadcast From The Singularity"
 "podcast_id": "singularity"
-"author": "Micah Redding, Ryan Hogan, John Yates"
+"author": "Micah Redding, Ryan Hogan & John Yates"
 "keywords": "singularity,technology,transhuman,transhumanism,kurzweil,artificial,intelligence,technium,kevin,kelly"
 "categories": ["Technology", "Society & Culture, Philosophy"]
 "description": "Micah, Ryan, John Yates, and friends discuss wild-eyed ideas about the future. With unique guests, they delve into life in the age of constantly accelerating change, and what that means for technology, culture, and the future of the world."
