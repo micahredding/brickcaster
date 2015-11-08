@@ -3,10 +3,9 @@ require 'ostruct'
 class Podcast < OpenStruct
   include BrickcasterHelpers
 
-  def initialize(args)
-    super
-    self.episodes = episodes.collect do |episode_number|
-      Episode.read(path, episode_number)
+  def episodes
+    self.episode_numbers.collect do |episode_number|
+      Episode.read(podcast_id, episode_number)
     end
   end
 

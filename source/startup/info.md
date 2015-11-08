@@ -19,7 +19,7 @@
   "Centresource Interactive Agency": "http://centresource.com",
   "Essays by Micah": "http://micahredding.com/blog"
 }
-"episodes": [1,2,3]
+"episode_numbers": [1,2,3]
 "additional_page_content": |
 
   <!-- Begin MailChimp Signup Form -->

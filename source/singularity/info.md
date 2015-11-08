@@ -18,5 +18,5 @@
   "Nashville Singularity Meetup": "http://www.meetup.com/Singularity-and-Beer/",
   "Micah's Essays": "http://micahredding.com/blog"
 }
-"episodes": [p1,p2,p3,1,2,3,4,5,6,7,8,9,10]
+"episode_numbers": [p1,p2,p3,1,2,3,4,5,6,7,8,9,10]
 ---
