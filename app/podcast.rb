@@ -4,7 +4,7 @@ class Podcast < OpenStruct
   include BrickcasterHelpers
 
   def episodes
-    self.episode_numbers.collect do |episode_number|
+    episode_numbers.collect do |episode_number|
       Episode.read(podcast_id, episode_number)
     end
   end
