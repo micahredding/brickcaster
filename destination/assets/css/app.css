@@ -297,6 +297,18 @@ a {
   a:hover, a:focus {
     color: #018fe2; }
 
+header .site-name + .podcast-header-title {
+  margin-left: -1em;
+  margin-right: 1em;
+}
+header .site-name + .podcast-header-title.optional {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  header .site-name + .podcast-header-title.optional {
+    display: inline-block;
+  }
+}
 header {
   background: #000000;
   font-size: 0.9em; }
@@ -323,15 +335,15 @@ header {
           padding: 10px 20px; } }
       header span.site-name a:hover, header span.podcast-links a:hover, header span.connect a:hover {
         color: #018fe2; }
-  header span.site-name span {
+  header span.site-name span.optional {
     display: none; }
     @media screen and (min-width: 1200px) {
-      header span.site-name span {
+      header span.site-name span.optional {
         display: inline; } }
-  header span.podcast-links span {
+  header span.podcast-links span.optional {
     display: none; }
     @media screen and (min-width: 1200px) {
-      header span.podcast-links span {
+      header span.podcast-links span.optional {
         display: inline; } }
   header span.connect {
     display: none;
