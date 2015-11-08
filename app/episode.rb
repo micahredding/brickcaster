@@ -23,6 +23,14 @@ class Episode < OpenStruct
     episode_number
   end
 
+  def media_artist
+    podcast.author
+  end
+
+  def media_album
+    podcast.title
+  end
+
   def write
     output = StaticFile.render("episode.html.erb", self, {
       :episode       => self,
