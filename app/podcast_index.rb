@@ -7,11 +7,6 @@ class PodcastIndex < Array
     end
   end
 
-  def write
-    write_html_file
-    write_podcasts
-  end
-
   def write_html_file
     variables = {
       :podcasts      => podcasts,
@@ -24,15 +19,5 @@ class PodcastIndex < Array
     }
     output = StaticFile.render("podcast_index.html.erb", self, variables)
     StaticFile.write("/index.html", output)
-  end
-
-  def write_podcasts
-    self.podcasts.each do |podcast|
-      podcast.write
-    end
-  end
-
-  def self.read(path)
-    self.new ["singularity"]
   end
 end

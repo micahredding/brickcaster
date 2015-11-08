@@ -17,12 +17,6 @@ class Podcast < OpenStruct
     "/#{self.podcast_id}"    
   end
 
-  def write
-    write_html_file
-    write_rss_file
-    write_episodes
-  end
-
   def write_html_file
     output = StaticFile.render("podcast.html.erb", self, {
       :podcast       => self,
