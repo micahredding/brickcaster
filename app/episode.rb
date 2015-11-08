@@ -4,7 +4,7 @@ class Episode < OpenStruct
   include BrickcasterHelpers
 
   def podcast
-    @podcast ||= Podcast.read(self.podcast_id)
+    @podcast ||= Podcast.read(podcast_id)
   end
 
   def url
