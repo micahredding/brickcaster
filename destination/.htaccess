@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+
+Redirect 301 /c+ /christiantranshumanist
+Redirect 301 /cplus /christiantranshumanist
+
+</IfModule>
