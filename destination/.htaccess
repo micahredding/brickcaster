@@ -2,5 +2,6 @@
 
 Redirect 301 /c+ /christiantranshumanist
 Redirect 301 /cplus /christiantranshumanist
-
+Redirect 301 /c+.rss /christiantranshumanist.rss
+Redirect 301 /cplus.rss /christiantranshumanist.rss
 </IfModule>
