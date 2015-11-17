@@ -11,7 +11,11 @@
   <link href="/assets/css/app.css" rel="stylesheet" />
 
   <meta property="og:title" content="<%= title %>"/>
-  <meta property="og:image" content="<%= podcast.art_url['normal'] if defined?(podcast) %>"/>
+  <% if defined?(episode) && defined?(episode.social_image) %>
+    <meta property="og:image" content="<%= episode.social_image %>"/>
+  <% elsif defined?(podcast) %>
+    <meta property="og:image" content="<%= podcast.art_url['normal']  %>"/>
+  <% end %>
   <meta property="og:site_name" content="<%= site_name %>"/>
   <meta property="og:description" content="<%= description %>"/>
 
