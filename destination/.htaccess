@@ -1,7 +1,11 @@
 <IfModule mod_rewrite.c>
 
-Redirect 301 /c+ /christiantranshumanist
-Redirect 301 /cplus /christiantranshumanist
-Redirect 301 /c+.rss /christiantranshumanist.rss
-Redirect 301 /cplus.rss /christiantranshumanist.rss
+Redirect 301 /c+                            /christiantranshumanist
+Redirect 301 /cplus                         /christiantranshumanist
+Redirect 301 /c+.rss                        /christiantranshumanist.rss
+Redirect 301 /cplus.rss                     /christiantranshumanist.rss
+Redirect 301 /christiantranshumanist/itunes https://itunes.apple.com/us/podcast/christian-transhumanist-podcast/id1053762042
+Redirect 301 /c+/itunes                     /christiantranshumanist/itunes
+Redirect 301 /cplus/itunes                  /christiantranshumanist/itunes
+
 </IfModule>
