@@ -1,0 +1,17 @@
+<h1 class="podcast-title">
+  <%= podcast.title %>
+</h1>
+
+<div class="podcast-wrapper">
+
+  <div class="podcast-body">
+    <%= podcast.description %>
+  </div>
+
+  <div class="podcast-episodes">
+    <% podcast.episodes.reverse.each do |episode| %>
+    <div class="episode"><a href="<%= episode.local_url %>"><%= episode.title %></a></div>
+    <% end %>
+  </div>
+
+</div>

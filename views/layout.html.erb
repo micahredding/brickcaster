@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> 
+    <%= title %>
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/ico" href="/favicon.ico">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link href="https://plus.google.com/107355867909504468216" rel="publisher" />
+  <link href="/assets/css/app.css" rel="stylesheet" />
+
+  <meta property="og:title" content="<%= title %>"/>
+  <% if defined?(episode) && defined?(episode.social_image) %>
+    <meta property="og:image" content="<%= episode.social_image %>"/>
+  <% elsif defined?(podcast) %>
+    <meta property="og:image" content="<%= podcast.art_url['normal']  %>"/>
+  <% end %>
+  <meta property="og:site_name" content="<%= site_name %>"/>
+  <meta property="og:description" content="<%= description %>"/>
+
+</head>
+<body>
+  <header>
+    <span class="site-name">
+      <% if defined? podcast %>
+        <a href="/">BRICKCASTER</a>
+      <% else %>
+        <a href="/">BRICKCASTER<span class="optional">: small podcasts from the human edge</span></a>
+      <% end %>
+    </span>
+    <% if defined? podcast %>
+      <span class="podcast-header-title optional">
+        &gt; <a href="<%= podcast.local_url %>"><%= podcast.title %></a>
+      </span>
+      <span class="podcast-links">
+        <% i = 0 %>
+        <% podcast.links.each do |text, href| %>
+          <% next if i > 1 %>
+          <a href="<%= href %>"><%= text %></a>
+          <% i = i + 1 %>
+        <% end %>
+      </span>
+    <% end %>
+    <span class="connect">
+      <a href="http://twitter.com/brickcaster"><i class="icon-twitter"></i></a>
+      <a href="http://facebook.com/brickcaster"><i class="icon-facebook"></i></a>
+      <a href="https://plus.google.com/107355867909504468216" rel="publisher"><i class="icon-google-plus"></i></a>
+    </span>
+  </header>
+  <div class="header-art">
+    <% if defined?(podcast) %>
+      <a href="<%= podcast.local_url %>"><img src="<%= podcast.art_url['wide'] %>" /></a>
+    <% end %>
+  </div>
+  <div class="page">
+    <%= yield %>
+  </div>
+  <% if defined? podcast %>
+    <% if podcast.additional_page_content %>
+      <div class="additional-page-content">
+        <div class="inner">
+          <%= podcast.additional_page_content %>
+        </div>
+      </div>
+    <% end %>
+  <% end %>
+  <div class="footer-links"><div class="footer-links-inner">
+    <% if podcast_links %>
+      <%= StaticFile.render_file("_podcast_links.html.erb", self, { :podcast => podcast } ) %>
+    <% end %>
+  </div></div>
+
+  <script type="text/javascript" src="/assets/bower_components/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="/assets/js/audioplayer.min.js"></script>
+  <script type="text/javascript" src="/assets/js/episodes.js"></script>
+  <script type="text/javascript" src="/assets/js/analytics.js"></script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52a760867d7af53a" async="async"></script>
+
+</body>
+</html>
