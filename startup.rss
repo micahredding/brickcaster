@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link href="http://brickcaster.com/startup.rss" rel="self" type="application/rss+xml"/>
+    <link>http://brickcaster.com/startup</link>
+    <itunes:new-feed-url>http://brickcaster.com/startup.rss</itunes:new-feed-url>
+    <title>Startup Sequence</title>
+    <itunes:subtitle>Demystifying tech decision-making! Two developers and a human being discuss the difficult world of technology, business, and building software that matters.</itunes:subtitle>
+    <itunes:summary>Demystifying tech decision-making! Two developers and a human being discuss the difficult world of technology, business, and building software that matters.</itunes:summary>
+    <description>Demystifying tech decision-making! Two developers and a human being discuss the difficult world of technology, business, and building software that matters.</description>
+    <itunes:image href="http://resources.brickcaster.com/images/startup_sequence.png"/>
+    <language>en-us</language>
+    <copyright>copyright 2012-2015 Micah Redding</copyright>
+    <itunes:author>Micah Redding &amp; Ann Howard</itunes:author>
+    <itunes:owner>
+      <itunes:name>Micah Redding</itunes:name>
+      <itunes:email>micahtredding@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:keywords>technology,startup,business,development</itunes:keywords>
+    <itunes:category text="Technology"/>
+    <itunes:category text="Business"/>
+    <itunes:explicit>no</itunes:explicit>
+    <item>
+      <guid>http://brickcaster.com/startup/3</guid>
+      <link>http://brickcaster.com/startup/3</link>
+      <title>Ep 3: Why Open Source?</title>
+      <itunes:subtitle>Is open source dangerous? Insecure? Unsafe? Or is it the best platform to build your next product on? What does 'open source' even mean? Why do software developers love it so much? Learn all this and more, on our newest episode!</itunes:subtitle>
+      <itunes:summary>Is open source dangerous? Insecure? Unsafe? Or is it the best platform to build your next product on? What does 'open source' even mean? Why do software developers love it so much? Learn all this and more, on our newest episode! Read our detailed notes: http://brickcaster.com/startup/3</itunes:summary>
+      <description>Is open source dangerous? Insecure? Unsafe? Or is it the best platform to build your next product on? What does 'open source' even mean? Why do software developers love it so much? Learn all this and more, on our newest episode!</description>
+      <content:encoded>&lt;p&gt;Is open source dangerous? Insecure? Unsafe? Or is it the best platform to build your next product on? What does &amp;#39;open source&amp;#39; even mean? Why do software developers love it so much? Learn all this and more, on our newest episode! &lt;a href="http://brickcaster.com/startup/3" target="_blank"&gt;Read our detailed notes here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;strong&gt;What is the Open in open source?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Open means that the source code of the software can be viewed by everybody. Which means it&amp;#39;s available for us to inspect.&lt;/p&gt;
+
+&lt;p&gt;Which means that when we use open source tools, we don&amp;#39;t have to build on a &amp;quot;black box&amp;quot;, but can build on something that is knowable and transparent.&lt;/p&gt;
+
+&lt;p&gt;In addition, open source tools are built by hundreds and thousands of contributors, and is constantly being tested and reviewed by them. This means we have confidence.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Is Open Source worth less because it is free?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;No! :) This is a common bias based on the psychology of pricing, but it&amp;#39;s very much not the case.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How do we get support for open source software?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Your developers! Rather than waiting for someone in an ivory tower at Microsoft (or somewhere else) to support your tools, something built on an open source platform can be supported by anyone who works in that platform.&lt;/p&gt;
+
+&lt;p&gt;And if you are having custom software built, then the best people to support that software are the people who built it. Don&amp;#39;t needlessly cut ties with the people who build your software -- expect them to be able to maintain it and support it over time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Speed of Trust: Trusting relationships is where the efficiency of business is found.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The advantage of Ruby on Rails is that it maximizes developer happiness and productivity.&lt;/p&gt;
+
+&lt;p&gt;It allows you to rapidly get working software into production. Way faster than building in many other systems.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Happy cows make better cheese: happy developers make better code.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;KLOCs (1000 lines of code) - the worst metric ever!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You don&amp;#39;t want to optimize for the amount of code written. You want to optimize for working features that model your problems and solve them elegantly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;When you scale to be as big as Twitter, you might need to refactor some of your early tools. That&amp;#39;s good news!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Don&amp;#39;t prematurely optimize. At a certain scale, Twitter needed to remake some of its core pieces to operate faster. But they did this at the right time.&lt;/p&gt;
+
+&lt;p&gt;Early on, they prioritized getting a working product out the door.&lt;/p&gt;
+
+&lt;p&gt;There&amp;#39;s a tradeoff between creating something that will scale to 10 million users, and creating something that will be able to be in production in a reasonable amount of time.&lt;/p&gt;
+
+&lt;p&gt;At no point in that transition will open source present a bottleneck. In fact, open source allows for that transition to happen more smoothly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q. What&amp;#39;s the alternative to open source? A: Propriety.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Is propriety more secure? No!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;There is no security through obscurity.&lt;/strong&gt; Just because the source code is kept secret does not mean it is invulnerable to attacks. It&amp;#39;s actually the opposite: when the source code is secret, it means developers don&amp;#39;t know the vulnerabilities that are there, and so can&amp;#39;t see the attacks coming.&lt;/p&gt;
+
+&lt;p&gt;In contrast, open source is available for developers to inspect and discover problems. And that means that when doing something particularly significant (logins, secure transactions, etc) we can all use code that has been verified to work, and stress-tested by thousands of developers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Don&amp;#39;t recreate the history of software development!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Build on the layers of software that have been built and proven before. Much of that is open source.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;An open source software project can&amp;#39;t just be unilaterally shut down. But proprietary software can.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We don&amp;#39;t want to build a house on someone else&amp;#39;s property. We want to build a house on a piece of land we can hold on to!&lt;/p&gt;
+</content:encoded>
+      <enclosure url="http://resources.brickcaster.com/startup/003_open_source.mp3" length="34830525" type="audio/mpeg"/>
+      <pubDate>Wed, 25 Mar 2015 00:00:01 +0000</pubDate>
+      <itunes:duration>00:23:48</itunes:duration>
+      <itunes:author>Micah Redding &amp; Ann Howard</itunes:author>
+      <itunes:image href="http://resources.brickcaster.com/images/startup_sequence.png"/>
+      <itunes:keywords>technology,startup,business,development</itunes:keywords>
+    </item>
+    <item>
+      <guid>http://brickcaster.com/startup/2</guid>
+      <link>http://brickcaster.com/startup/2</link>
+      <title>Ep 2: Programming as Gardening</title>
+      <itunes:subtitle>You're about to embark on a massive software project. What are you getting into? Are you building the pyramids or the botanical gardens? Is this a build-it-and-walk-away situation, or an ongoing endeavor requiring loving care and upkeep? Know what you're getting into, and learn how to think about the significance of your role in the project.</itunes:subtitle>
+      <itunes:summary>You're about to embark on a massive software project. What are you getting into? Are you building the pyramids or the botanical gardens? Is this a build-it-and-walk-away situation, or an ongoing endeavor requiring loving care and upkeep? Know what you're getting into, and learn how to think about the significance of your role in the project. Read our detailed notes: http://brickcaster.com/startup/2</itunes:summary>
+      <description>You're about to embark on a massive software project. What are you getting into? Are you building the pyramids or the botanical gardens? Is this a build-it-and-walk-away situation, or an ongoing endeavor requiring loving care and upkeep? Know what you're getting into, and learn how to think about the significance of your role in the project.</description>
+      <content:encoded>&lt;p&gt;You&amp;#39;re about to embark on a massive software project. What are you getting into? Are you building the pyramids or the botanical gardens? Is this a build-it-and-walk-away situation, or an ongoing endeavor requiring loving care and upkeep? Know what you&amp;#39;re getting into, and learn how to think about the significance of your role in the project. &lt;a href="http://brickcaster.com/startup/2" target="_blank"&gt;Read our detailed notes here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;strong&gt;Planning&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You do planning &amp;mdash; but you have to be open to change. Sometimes you have to move things around, sometimes things die, sometimes you have to replace them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A process of learning and discovery&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There&amp;#39;s an element of discovery. This tool isn&amp;#39;t quite what we thought it was &amp;mdash; this library needs to be replaced &amp;mdash; we aren&amp;#39;t building the same thing twice.&lt;/p&gt;
+
+&lt;p&gt;We&amp;#39;re learning about the tools, we&amp;#39;re learning about the problem space, we&amp;#39;re learning about the business.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We&amp;#39;re not building the same thing twice&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You could buy a ready-made garden off the shelf. But when you want to add something new, you need to start over.&lt;/p&gt;
+
+&lt;p&gt;When you&amp;#39;ve got well-defined problems (Wordpress blog, simple ecommerce) pre-packaged solutions make sense. But when you&amp;#39;re building something new, for a new business case, then you approach it as a learning experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The environment changes as well&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The environment (not just the tools) might be changing. The business need and business setting may be changing during the process of development.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Software is soft, buildings are not&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Boundaries around what you&amp;#39;re building tend to be much more ambiguous.&lt;/p&gt;
+
+&lt;p&gt;Plants have roots. Those roots can become entangled. That can create problems.&lt;/p&gt;
+
+&lt;p&gt;Developers deal with this problem: how to keep entanglements down. How to keep your software flexible. How to make sure that when you remove this one feature, other features down come with it.&lt;/p&gt;
+
+&lt;p&gt;This often depends on really understanding the way your business concepts actually interrelate at a deep level. Misunderstandings up front lead to unwanted entanglements.&lt;/p&gt;
+
+&lt;p&gt;Allowing for flexibility allows us to discover and work around potential entanglements.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The well maintained garden produces more&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A garden needs maintained over time.&lt;/li&gt;
+&lt;li&gt;Software has a life-cycle.&lt;/li&gt;
+&lt;li&gt;It will be a different thing six months out, a year out, two years out.&lt;/li&gt;
+&lt;li&gt;You need professional cultivators.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;You could cultivate:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Simple projects yourself.&lt;/li&gt;
+&lt;li&gt;Mid-tier projects can bring in professionals periodically.&lt;/li&gt;
+&lt;li&gt;Larger projects need full-time professional care.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It&amp;#39;s never done, never finished, always growing, always changing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Web development offers the ability to deploy more often&lt;/strong&gt;&lt;/p&gt;
+</content:encoded>
+      <enclosure url="http://resources.brickcaster.com/startup/002_gardening.mp3" length="40254891" type="audio/mpeg"/>
+      <pubDate>Wed, 25 Feb 2015 00:00:01 +0000</pubDate>
+      <itunes:duration>00:20:40</itunes:duration>
+      <itunes:author>Micah Redding &amp; Ann Howard</itunes:author>
+      <itunes:image href="http://resources.brickcaster.com/images/startup_sequence.png"/>
+      <itunes:keywords>technology,startup,business,development</itunes:keywords>
+    </item>
+    <item>
+      <guid>http://brickcaster.com/startup/1</guid>
+      <link>http://brickcaster.com/startup/1</link>
+      <title>Ep 1: Platforms vs Custom Development</title>
+      <itunes:subtitle>You've got deadlines, budget constraints, and incredible ambitions. Do you build your software on a platform that's already out there? Or do you develop everything from scratch? In this episode, we provide a framework to help you make your decision.</itunes:subtitle>
+      <itunes:summary>You've got deadlines, budget constraints, and incredible ambitions. Do you build your software on a platform that's already out there? Or do you develop everything from scratch? In this episode, we provide a framework to help you make your decision. Read our detailed notes: http://brickcaster.com/startup/1</itunes:summary>
+      <description>You've got deadlines, budget constraints, and incredible ambitions. Do you build your software on a platform that's already out there? Or do you develop everything from scratch? In this episode, we provide a framework to help you make your decision.</description>
+      <content:encoded>&lt;p&gt;You&amp;#39;ve got deadlines, budget constraints, and incredible ambitions. Do you build your software on a platform that&amp;#39;s already out there? Or do you develop everything from scratch? In this episode, we provide a framework to help you visualize your decision, as well as a list of questions to consider as you go through the process. &lt;a href="http://brickcaster.com/startup/1" target="_blank"&gt;Read our detailed notes here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;You&amp;#39;ve got deadlines, budget constraints, and incredible ambitions. Do you build your software on a platform that&amp;#39;s already out there? Or do you develop everything from scratch?&lt;/p&gt;
+
+&lt;p&gt;Well, it depends...&lt;/p&gt;
+
+&lt;p&gt;This decision is complex, and it helps to have a developer weigh in. We&amp;#39;ve learned a lot over the years, having seen many software products go through the lifecycle.&lt;/p&gt;
+
+&lt;p&gt;In this episode, we provide a framework to help you visualize your decision, as well as a list of questions to consider as you&amp;#39;re going through the process.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PHILOSOPHY/BACKGROUND&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Our overarching philosophy is to avoid reinventing the wheel:  it&amp;#39;s always worthwhile to explore what exists to see if there&amp;#39;s anything you can use. Open source tools typically offer more flexibility.&lt;/p&gt;
+
+&lt;p&gt;But unless you need an incredibly simple solution (like a blog), there will likely be a need to customize and &amp;quot;bend&amp;quot; the solution to suit your purpose.&lt;/p&gt;
+
+&lt;p&gt;Typically, those needs change over the development process, and over the longer life of the software. At a certain point, developers are spending more time fighting the framework than they are building what you need.  That point is where adding investment ceases to create value.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;At some point, it&amp;#39;s like trying to make a Mars rover out of a SeaDoo. We can probably do it, but man, it&amp;#39;s gonna be a nightmare.&amp;quot; - Jeremy Holland&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The name of the game is to be able to approximate that point in advance, before path dependency develops. Meaning, once you start down one path, it becomes harder and harder to change course.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FRAMEWORK&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This graph is a tool to help you visualize the decision.  The area under the curve represents your total cost of development.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;...&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(You may be thinking: what about a &amp;quot;hybrid&amp;quot; model, like adding custom components to a CMS?  We&amp;#39;ve tried that a few times too. In our experience, sometimes it works and sometimes it doesn&amp;#39;t.  It doesn&amp;#39;t work well when the custom component is expected to grow and do more and more.)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CONSIDERATIONS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Is this piece of software genuinely the core of your business?  If yes, you&amp;#39;re more likely to need a custom solution.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;How much do you want to (or are you realistically able to) maintain the software?  Are you expecting to invest on a continuous basis? Pre-built solutions typically offer more intrinsic support.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In terms of making the software product fit your dreams, how much are you willing to bend?  (You will probably have to, unless you have infinite time and infinite budget...)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;We typically know the most about what the software does today.  What about tomorrow and the next day?  You can&amp;#39;t (and probably shouldn&amp;#39;t) plan too far ahead, but you do need to decide how much flexibility you want to have in the future. Be as aware as possible of changes down the road.  (A strong need for flexibility makes the case for custom development.)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It&amp;#39;s cheaper and faster to start with a pre-built solution.  Are you willing to abandon your first prototype/MVP? It&amp;#39;s often stated by founders, but not often done. Killing your MVP requires intestinal fortitude.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+      <enclosure url="http://resources.brickcaster.com/startup/001_platform_vs_dev.mp3" length="58970244" type="audio/mpeg"/>
+      <pubDate>Sun, 25 Jan 2015 00:00:01 +0000</pubDate>
+      <itunes:duration>00:24:34</itunes:duration>
+      <itunes:author>Micah Redding &amp; Ann Howard</itunes:author>
+      <itunes:image href="http://resources.brickcaster.com/images/startup_sequence.png"/>
+      <itunes:keywords>technology,startup,business,development</itunes:keywords>
+    </item>
+  </channel>
+</rss>
